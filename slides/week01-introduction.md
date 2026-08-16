@@ -257,14 +257,26 @@ exist at all.
 
 <!-- Act 3 / BUILD -->
 
-# From an App Icon to the Physical Chip
+# From an App Icon to the Physical Chip (1/2)
 
-<div class="thread">One definition, six concrete layers. This is the map for the whole semester.</div>
+<div class="thread">One definition, six concrete layers. Here is the top half: the software side.</div>
 
 <div class="stack">
 <div class="layer view"><span class="h">Application Software</span> <span class="s">the video-call app, KakaoTalk, a game: Week 6</span></div>
 <div class="layer view"><span class="h">System Software / OS</span> <span class="s">shares the machine fairly between apps: Week 7</span></div>
 <div class="layer logical"><span class="h">Programs &amp; Instructions</span> <span class="s">written in a programming language: Week 10</span></div>
+</div>
+
+Every app you tap is a program, and every program depends on an
+operating system underneath it to actually run.
+
+---
+
+# From an App Icon to the Physical Chip (2/2)
+
+<div class="thread">The bottom half: the hardware those programs actually run on.</div>
+
+<div class="stack">
 <div class="layer logical"><span class="h">CPU</span> <span class="s">executes those instructions, one at a time, very fast: Week 4</span></div>
 <div class="layer physical"><span class="h">Memory &amp; Storage</span> <span class="s">holds data and programs, briefly or permanently: Week 5</span></div>
 <div class="layer physical"><span class="h">Logic Gates</span> <span class="s">tiny on/off switches, everything above is built from these: Week 3</span></div>
