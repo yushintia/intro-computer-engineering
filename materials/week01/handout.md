@@ -55,9 +55,10 @@ This course exists to answer questions exactly like these. A frozen
 screen can be caused by any of four different layers, and only one of
 them is usually the real problem:
 
-- **Hardware layer** — a chip got too hot, or ran out of working space.
+- **Hardware layer** — a chip got too hot or too busy.
 - **Software layer** — the video-call app itself crashed.
-- **Operating system layer** — the OS failed to share the device fairly between apps.
+- **Operating system layer** — the OS failed to share memory or
+  processing time fairly between apps.
 - **Network layer** — the internet connection dropped for a moment.
 
 Restarting a device resets all four layers at the same time. That is

@@ -403,13 +403,13 @@ The screen lights up the app. This is what happens when nothing breaks.
 
 <div class="thread">Back to the frozen call. Now you have the words.</div>
 
-Here are four real possible causes:
+Here are four real causes, one from each layer:
 
 <div class="chip-row">
-<span class="chip">CPU overloaded</span>
-<span class="chip">Memory ran out</span>
-<span class="chip">App crashed</span>
-<span class="chip">Network dropped</span>
+<span class="chip">Hardware: chip overloaded</span>
+<span class="chip">OS: failed to share memory</span>
+<span class="chip">Software: app crashed</span>
+<span class="chip">Network: connection dropped</span>
 </div>
 
 Restarting resets all four layers at once. That is why it often works.
@@ -466,7 +466,7 @@ Each job exists because a real device can break in many ways.
 # Answers
 
 1. Hardware: CPU, memory, storage, or screen. Software: the OS, or an app.
-2. Any two: CPU overloaded, memory full, app crashed, or network dropped.
+2. Any two: hardware overloaded, OS failed to share memory, app crashed, or network dropped.
 3. The **app developer**. The app itself is the problem, not the device.
 
 ---
