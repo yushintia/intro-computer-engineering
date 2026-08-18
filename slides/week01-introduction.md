@@ -249,7 +249,7 @@ Any one of these four can cause the exact same frozen screen.
 
 <div class="thread">Next, you will practice using these words.</div>
 
-- In **Worksheet Part A**, you label everyday problems by layer.
+- In **[Worksheet Part A](materials/week01/worksheet.html)**, you label everyday problems by layer.
 - Example: "My phone is hot." Which layer is that?
 - You will work with a partner. A guess is fine for now.
 
@@ -371,7 +371,7 @@ The screen lights up the app. This is what happens when nothing breaks.
 
 <div class="thread">Now you practice. Work with a partner.</div>
 
-- Open **Worksheet Part A**.
+- Open **[Worksheet Part A](materials/week01/worksheet.html)**.
 - Label each scenario: hardware, software, OS, or network.
 - You have about 15 minutes. Ask your partner before you ask me.
 
@@ -447,7 +447,7 @@ Each job exists because a real device can break in many ways.
 
 <div class="thread">More practice. New scenarios.</div>
 
-- Open **Worksheet Part B**.
+- Open **[Worksheet Part B](materials/week01/worksheet.html)**.
 - Label each scenario the same way: hardware, software, OS, or network.
 - You have about 15 minutes. Then we discuss answers together.
 
@@ -477,7 +477,7 @@ Each job exists because a real device can break in many ways.
 
 <div class="thread">One more check, on your own.</div>
 
-- Take the **Week 1 Quiz** (5-8 short questions).
+- Take the **[Week 1 Quiz](materials/week01/quiz.html)** (5-8 short questions).
 - This quiz is not graded. It just checks your understanding.
 - About 10 minutes. Check your own answers at the end.
 
@@ -515,6 +515,7 @@ behind them.
 - Six layers connect an app icon to a physical chip.
 - Every later week studies one of those six layers.
 - **Reading:** Harris & Harris, Preface and Chapter 1.
+- **Handout:** [materials/week01/handout.md](materials/week01/handout.html), glossary and the full layer walkthrough
 - **Prepare:** Think of one time your device confused you. Bring it to Week 2.
 
 ---
