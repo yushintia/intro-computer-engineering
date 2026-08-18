@@ -17,9 +17,9 @@ Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · �
 </div>
 
 <!--
-notes: Ask everyone to take out their phone or laptop. Ask: "can anyone
-explain, in one sentence, what actually happens inside this when you tap
-an app icon?" Let the silence be the hook.
+notes: Ask everyone to take out their phone or laptop. Ask out loud:
+"What happens inside this when you tap an app icon?" Wait for answers.
+It is OK if no one can answer yet. That is the point of today.
 -->
 
 ---
@@ -46,7 +46,33 @@ an app icon?" Let the silence be the hook.
 <div class="wk review"><div class="n">Wk 15</div><div class="t">Final Exam</div></div>
 </div>
 
-<!-- notes: Point out the arc: one device, opened layer by layer, all semester. -->
+<!-- notes: Point at the map. Say: "We open one device, layer by layer, all semester." -->
+
+---
+
+<!-- NEW: warm-up, right after slot 2 -->
+
+# Before We Start
+
+<div class="thread">Warm-up: 3 minutes. Work with the person next to you.</div>
+
+- Take out your phone or laptop.
+- Name three parts you already know. Example: screen, battery, app icon.
+- Write down what each part does, in your own words.
+
+<div class="why">
+You already know more than you think. This course gives names to
+things you already use every day.
+</div>
+
+<!--
+notes: Give students 2-3 minutes. Walk around the room. Then ask the
+whole class, one question at a time:
+1. "What is one part of your phone you wrote down?"
+2. "What does that part do?"
+3. "Can you touch that part, or not?"
+Do not correct answers yet. Just collect words on the board.
+-->
 
 ---
 
@@ -54,16 +80,14 @@ an app icon?" Let the silence be the hook.
 
 # What You Already Bring
 
-No formal prerequisite is required for this course, and that is by
-design:
+No prerequisite is needed for this course. Here is why:
 
-- **Years of using devices**: phones, laptops, game consoles. You are already an expert user, just not yet an expert in how they work
-- **Everyday troubleshooting instinct**: you already restart devices, close apps, check your signal bars. Those habits are early, informal versions of ideas this course makes precise
-- **Curiosity**: the only real requirement. Everything technical starts from zero this semester
+- **You already use devices.** Phones, laptops, game consoles. You are already an expert user.
+- **You already troubleshoot.** You restart devices. You close apps. You check your signal. These are early versions of ideas in this course.
+- **You are curious.** That is the only real requirement.
 
-This course does not assume you have ever written a line of code or
-opened a computer's case. By the end, you will have done both, at least
-conceptually.
+This course does not expect you to know how to code. By the end, you
+will understand hardware and software, at least the basics.
 
 ---
 
@@ -72,7 +96,7 @@ conceptually.
 <!-- _class: section -->
 
 # Course Logistics
-<div class="driving-q">Read once now, referenced all semester.</div>
+<div class="driving-q">Read once now. Use all semester.</div>
 
 ---
 
@@ -86,16 +110,16 @@ conceptually.
 | Assignments | 10% |
 | In-class items | 20% |
 
-<!-- notes: Assignment 1 due Week 4 (CPU & Instructions). Assignment 2 due Week 11 (Databases & Security). Quiz 1 Week 6 (Application Software), Quiz 2 Week 13 (AI). -->
+<!-- notes: Assignment 1 is due Week 4. Assignment 2 is due Week 11. Quiz 1 is Week 6. Quiz 2 is Week 13. -->
 
 ---
 
 # Textbook, Policy & Contact
 
-- **Textbook:** Harris & Harris, *Digital Design and Computer Architecture* (RISC-V ed.), Morgan Kaufmann, 2021
-- **Reference:** Tanenbaum & Austin, *Structured Computer Organization*, 6th ed., Pearson, 2012
-- **Policy:** attend and participate every class; late assignments are penalized; plagiarism and cheating lead to disciplinary action
-- **Contact:** yushintia@deu.ac.kr, office hours by email appointment
+- **Textbook:** Harris & Harris, *Digital Design and Computer Architecture* (RISC-V ed.), 2021
+- **Reference:** Tanenbaum & Austin, *Structured Computer Organization*, 6th ed.
+- **Policy:** Come to every class. Late work loses points. Cheating is not allowed.
+- **Contact:** yushintia@deu.ac.kr. Email me to book office hours.
 
 ---
 
@@ -105,73 +129,68 @@ conceptually.
 
 <div class="pain">
 
-Four students are mid-way through a group project video call, screen
-shared, everyone talking over each other about the slides. Without
-warning, one student's screen freezes. Her camera stops, her voice cuts
-out, and a small spinning circle appears where her face used to be.
+Four students are on a video call. They share a screen. They talk
+about their project.
 
-Everyone reacts the same way: "restart it." She does, and thirty seconds
-later she is back, apologizing, with no idea what actually happened.
-Nobody on the call, including her, can explain what just froze, why
-restarting fixed it, or what "it" even refers to: her phone, the app,
-the internet, or all three.
+Suddenly, one student's screen freezes. Her camera stops. Her voice
+stops too.
+
+"Just restart it," someone says. She does. Thirty seconds later, she
+is back. But no one knows what just happened.
 
 </div>
 
-<!-- notes: Do not use the word "computer engineering" yet. Let the shrug sit uncomfortably first. -->
+<!-- notes: Ask: "Has this happened to you?" Let two or three students answer. Do not explain the cause yet. -->
 
 ---
 
-# "Just Restart It" Is Not an Explanation
+# "Restart It" Is Not an Explanation
 
 <div class="barchart">
 <div class="bar-row">
   <div class="bar-label">What she can explain</div>
   <div class="bar-track"><div class="bar-fill short" style="width: 8%"></div></div>
-  <div class="bar-value">"it froze, then it didn't"</div>
+  <div class="bar-value">"it froze, then it worked"</div>
 </div>
 <div class="bar-row">
-  <div class="bar-label">What actually happened, layer by layer</div>
+  <div class="bar-label">What really happened</div>
   <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
-  <div class="bar-value">hardware, software, and network, all at once</div>
+  <div class="bar-value">many parts, working together</div>
 </div>
 </div>
 
-That gap between "it froze" and a real explanation is not a small one.
-Closing it, one layer at a time, is this entire course.
+This gap is big. This course closes it, step by step.
 
-<!-- notes: Let the size difference between the two bars sit for a second. -->
+<!-- notes: Point at the two bars. Say: "See the size difference? That gap is what this course teaches." -->
 
 ---
 
 <!-- SLOT 5: Cost of not knowing -->
 
-# What Else This Actually Costs
+# What This Costs You
 
-- A frozen device during an interview, a live demo, or an exam becomes a crisis instead of a two-minute fix, because nobody can diagnose it
-- A team choosing tools for a project (which app, which service, which device) makes an expensive guess instead of an informed decision
-- A graduate who cannot explain "what happens when you tap an icon" struggles in almost every later course in this major, which all assume this picture
+- A frozen device in an interview or exam becomes a real problem, fast.
+- A team picking the wrong tool wastes time and money.
+- Later courses in this major all assume you understand this picture.
 
 <div class="why">
-<strong>In industry:</strong> "walk me through what happens when you type
-a URL and press enter" is one of the most common opening interview
-questions in the entire tech industry, precisely because it tests this
-whole-system view, not any single narrow skill.
+<strong>In industry:</strong> "What happens when you tap an icon?" is a
+common interview question. It tests if you understand the whole
+system.
 </div>
 
 ---
 
-# One Small Freeze, Many Possible Layers
+# One Freeze, Many Possible Causes
 
 <div class="appgrid">
-<div class="app"><div class="name">Hardware layer</div><div class="desc">did a chip overheat, or run out of memory?</div></div>
-<div class="app"><div class="name">Software layer</div><div class="desc">did the video-call app itself crash?</div></div>
-<div class="app"><div class="name">Operating system layer</div><div class="desc">did the OS fail to share resources fairly?</div></div>
-<div class="app"><div class="name">Network layer</div><div class="desc">did the internet connection simply drop?</div></div>
+<div class="app"><div class="name">Hardware</div><div class="desc">Did a chip get too hot?</div></div>
+<div class="app"><div class="name">Software</div><div class="desc">Did the app itself crash?</div></div>
+<div class="app"><div class="name">Operating system</div><div class="desc">Did it fail to share resources?</div></div>
+<div class="app"><div class="name">Network</div><div class="desc">Did the internet connection drop?</div></div>
 </div>
 
-Any one of these four, alone, can cause the exact same frozen screen.
-Without a map of the layers, there is no way to even guess correctly.
+Any one of these four can cause the exact same frozen screen.
 
 ---
 
@@ -181,7 +200,7 @@ Without a map of the layers, there is no way to even guess correctly.
 
 # This Week's Question
 
-<div class="driving-q">"What's actually inside the device in your hand, and how do its pieces fit together?"</div>
+<div class="driving-q">"What is inside the device in your hand? How do its parts work together?"</div>
 
 ---
 
@@ -189,48 +208,88 @@ Without a map of the layers, there is no way to even guess correctly.
 
 # By the End of This Week, You Can
 
-1. Name the major hardware and software layers inside any modern computer
-2. Explain, in plain language, roughly what happens when you tap an app icon
-3. Describe how this semester's fourteen remaining topics map onto those layers
-4. State this course's five official teaching objectives and where each is covered
+1. Name the main hardware and software parts inside a computer.
+2. Explain, simply, what happens when you tap an app icon.
+3. Show how this semester's topics connect to those parts.
+4. State this course's five goals and where each is taught.
 
 ---
 
 # This Course's Five Objectives
 
-<div class="thread">Not just this week's goals. This is what the syllabus commits this whole course to.</div>
+<div class="thread">Not just this week's goals. This is the whole course's promise.</div>
 
 | # | Objective (from the syllabus) | Where |
 |---|---|---|
-| 1 | Explain the basic structure and operating principles of hardware and software | Previewed today, all semester |
-| 2 | Understand how data and instructions are represented and processed | Weeks 3-4 |
-| 3 | Describe the roles of system software, operating systems, and networks | Weeks 6-7, 9 |
-| 4 | Survey computing fields, including databases, security, and multimedia | Weeks 11-12 |
-| 5 | Introduce future technologies: AI, IoT, cloud, big data, mobile | Weeks 13-14 |
+| 1 | Explain basic hardware and software structure | All semester |
+| 2 | Understand how data and instructions work | Weeks 3-4 |
+| 3 | Describe system software, OS, and networks | Weeks 6-7, 9 |
+| 4 | Survey databases, security, and multimedia | Weeks 11-12 |
+| 5 | Introduce AI, IoT, cloud, and mobile tech | Weeks 13-14 |
+
+---
+
+<!-- NEW: Key Words Today, 차시 1 -->
+
+# Key Words Today
+
+- **Device** — a phone, laptop, or tablet you use.
+- **Hardware** — the physical parts you can touch.
+- **Software** — the instructions that tell hardware what to do.
+- **App** — a software program you open, like a game.
+- **Network** — the connection that lets devices talk to each other.
+
+<!-- notes: Read each word aloud. Ask students to repeat it once. Ask: "Which of your warm-up words match these?" -->
+
+---
+
+<!-- NEW: Try-It preview, closes 차시 1 -->
+
+# Coming Up: Worksheet Part A
+
+<div class="thread">Next, you will practice using these words.</div>
+
+- In **Worksheet Part A**, you label everyday problems by layer.
+- Example: "My phone is hot." Which layer is that?
+- You will work with a partner. A guess is fine for now.
+
+<!-- notes: Tell students to sit next to a partner for the next part. No prep needed. -->
 
 ---
 
 <!-- _class: section -->
 
 # End of 차시 1
-<div class="driving-q">Short break. 차시 2 starts with: what a "computer," precisely, even is.</div>
+<div class="driving-q">Short break. 차시 2: what a computer system really is.</div>
+
+---
+
+<!-- NEW: Key Words Today, 차시 2 -->
+
+# Key Words Today
+
+- **Computer system** — hardware and software working together.
+- **Operating system (OS)** — software that manages all apps and hardware.
+- **CPU** — the chip that runs instructions. The "brain" of the device.
+- **Memory** — space that holds data while an app is running.
+- **Layer** — one level in a stack of parts working together.
+
+<!-- notes: Read each word aloud. Ask: "Which word did you not know before today?" -->
 
 ---
 
 <!-- SLOT 8: Origin -->
 
-# This Field Is Younger Than You Might Think
+# This Field Is Younger Than You Think
 
-<div class="thread">You just felt the pain. Now: where did the idea of studying this, as its own field, come from?</div>
+<div class="thread">You just felt the pain. Where did this field come from?</div>
 
-- **Through the 1960s:** building computers was electrical engineering, and writing programs for them was an entirely separate discipline, computer science, with little formal overlap between the two
-- **1970s onward:** as computers became something every engineer needed to understand from both the hardware and the software side, "computer engineering" emerged as its own field, deliberately built at the seam between the two
+- **Before the 1970s:** building computers and writing programs were two separate fields.
+- **1970s onward:** computers needed people who understood both sides. "Computer engineering" was born.
 
 <div class="why">
-This course exists because of that same seam. A frozen video call cannot
-be explained by hardware knowledge alone, or software knowledge alone.
-It takes both, together, which is exactly this major's reason for
-existing.
+This course exists for that reason. A frozen call needs both hardware
+and software knowledge to explain. That is this major's whole point.
 </div>
 
 ---
@@ -239,195 +298,228 @@ existing.
 
 # Computer System: Definition
 
-<div class="thread">One seam, one precise definition of what actually sits on top of it.</div>
+<div class="thread">One field, one clear definition.</div>
 
-> A **computer system** is the combination of **hardware** (the physical
-> components that store and process information) and **software** (the
-> instructions that tell hardware what to do), working together to
-> process information.
+> A **computer system** is **hardware** (the physical parts) and
+> **software** (the instructions), working together.
 
-- **Hardware:** the CPU, memory, storage, and input/output devices, the physical device you can hold
-- **Software:** everything from the operating system to the video-call app itself, none of it physical, all of it stored as data on the hardware
+- **Hardware:** CPU, memory, storage, and screen. Parts you can touch.
+- **Software:** the OS and apps. You cannot touch it. It is stored data.
 
-Neither half does anything useful alone. A phone with no software is an
-expensive paperweight; software with no hardware to run on does not
-exist at all.
+A phone with no software does nothing. Software with no hardware
+cannot run at all. Both are needed.
 
 ---
 
 <!-- Act 3 / BUILD -->
 
-# From an App Icon to the Physical Chip (1/2)
+# From an App Icon to the Chip (1/2)
 
-<div class="thread">One definition, six concrete layers. Here is the top half: the software side.</div>
+<div class="thread">Six layers. Here is the top half: software.</div>
 
 <div class="stack">
-<div class="layer view"><span class="h">Application Software</span> <span class="s">the video-call app, KakaoTalk, a game: Week 6</span></div>
-<div class="layer view"><span class="h">System Software / OS</span> <span class="s">shares the machine fairly between apps: Week 7</span></div>
+<div class="layer view"><span class="h">Application Software</span> <span class="s">the app you tap, like a game: Week 6</span></div>
+<div class="layer view"><span class="h">System Software / OS</span> <span class="s">shares the device between apps: Week 7</span></div>
 <div class="layer logical"><span class="h">Programs &amp; Instructions</span> <span class="s">written in a programming language: Week 10</span></div>
 </div>
 
-Every app you tap is a program, and every program depends on an
-operating system underneath it to actually run.
+Every app is a program. Every program needs an OS to run.
 
 ---
 
-# From an App Icon to the Physical Chip (2/2)
+# From an App Icon to the Chip (2/2)
 
-<div class="thread">The bottom half: the hardware those programs actually run on.</div>
+<div class="thread">The bottom half: hardware.</div>
 
 <div class="stack">
-<div class="layer logical"><span class="h">CPU</span> <span class="s">executes those instructions, one at a time, very fast: Week 4</span></div>
-<div class="layer physical"><span class="h">Memory &amp; Storage</span> <span class="s">holds data and programs, briefly or permanently: Week 5</span></div>
-<div class="layer physical"><span class="h">Logic Gates</span> <span class="s">tiny on/off switches, everything above is built from these: Week 3</span></div>
+<div class="layer logical"><span class="h">CPU</span> <span class="s">runs instructions, very fast: Week 4</span></div>
+<div class="layer physical"><span class="h">Memory &amp; Storage</span> <span class="s">holds data, short or long term: Week 5</span></div>
+<div class="layer physical"><span class="h">Logic Gates</span> <span class="s">tiny on/off switches. Everything is built from these: Week 3</span></div>
 </div>
 
-Every remaining week of this course zooms into exactly one of these six
-layers, one at a time, from the bottom up.
+This course studies each layer, one at a time, from the bottom up.
 
 ---
 
-# Demo, Step by Step: Tracing One Tap
+# Tracing One Tap (1/2)
 
-<div class="thread">Six layers is abstract. Here is one real tap, walked through, layer by layer.</div>
+<div class="thread">Six layers is abstract. Here is one real tap.</div>
 
-**Step 1 of 4: You tap the video-call app's icon.**
+**Step 1: You tap the app icon.**
+The screen (hardware) senses your finger. It sends a signal to the OS.
 
-The touchscreen (hardware, an input device) senses your finger and
-sends a signal toward the operating system.
-
----
-
-# Demo, Step by Step: Tracing One Tap
-
-**Step 2 of 4: The operating system responds.**
-
-The OS (Week 7) recognizes the tap, finds the app's program on storage,
-and asks memory (Week 5) to make room for it while it runs.
+**Step 2: The OS responds.**
+The OS finds the app on storage. It asks memory to make room.
 
 ---
 
-# Demo, Step by Step: Tracing One Tap
+# Tracing One Tap (2/2)
 
-**Step 3 of 4: The CPU takes over.**
+**Step 3: The CPU takes over.**
+The CPU reads the app's instructions. It runs them, one at a time.
 
-The CPU (Week 4) reads the app's instructions from memory, one at a
-time, executing each one: draw a button, check the camera, connect to
-the network (Week 9).
+**Step 4: You see the result.**
+The screen lights up the app. This is what happens when nothing breaks.
 
----
-
-# Demo, Step by Step: Tracing One Tap
-
-**Step 4 of 4: You see the result.**
-
-The screen (hardware, an output device) lights up the app's interface.
-Everything in the frozen-call story two slides ago is one of these
-exact four steps, going wrong somewhere in the chain.
+<!-- notes: Ask: "Which step do you think broke, in the frozen-call story?" -->
 
 ---
 
-# Case Study: Where the Freeze Actually Was
+<!-- NEW: Try-It hand-off, Worksheet Part A -->
 
-<div class="thread">The demo above is generic. Here is the frozen-call story, resolved with the vocabulary you just learned.</div>
+# Try It: Worksheet Part A
 
-Reframed with this week's layers, the original mystery has real,
-answerable candidates instead of a shrug:
+<div class="thread">Now you practice. Work with a partner.</div>
+
+- Open **Worksheet Part A**.
+- Label each scenario: hardware, software, OS, or network.
+- You have about 15 minutes. Ask your partner before you ask me.
+
+<!-- notes: Hand out Worksheet Part A. Walk around and help pairs. After 15 minutes, ask 2-3 pairs to share one answer. -->
+
+---
+
+<!-- _class: section -->
+
+# End of 차시 2
+<div class="driving-q">Short break. 차시 3: more practice, then a short quiz.</div>
+
+---
+
+<!-- NEW: Key Words Today, 차시 3 -->
+
+# Key Words Today
+
+- **Overheat** — a device gets too hot.
+- **Crash** — an app suddenly stops working.
+- **Wifi drop** — the network connection cuts out.
+- **Diagnose** — figure out what is wrong.
+
+<!-- notes: Read each word aloud. Say: "You will see these words in Worksheet Part B." -->
+
+---
+
+# Case Study: What Really Froze
+
+<div class="thread">Back to the frozen call. Now you have the words.</div>
+
+Here are four real possible causes:
 
 <div class="chip-row">
-<span class="chip">CPU overloaded (Week 4)</span>
-<span class="chip">Memory ran out (Week 5)</span>
-<span class="chip">App itself crashed (Week 6)</span>
-<span class="chip">Network connection dropped (Week 9)</span>
+<span class="chip">CPU overloaded</span>
+<span class="chip">Memory ran out</span>
+<span class="chip">App crashed</span>
+<span class="chip">Network dropped</span>
 </div>
 
-Restarting the device resets all four layers at once, which is exactly
-why it so often "just works," without anyone needing to know which
-layer actually failed.
+Restarting resets all four layers at once. That is why it often works.
 
 ---
 
-# Who Actually Works at Each Layer
+# Who Works at Each Layer
 
-<div class="thread">Six layers, six kinds of jobs. This major touches all of them.</div>
+<div class="thread">Six layers, six kinds of jobs.</div>
 
 <div class="appgrid">
-<div class="app"><div class="name">Hardware engineer</div><div class="desc">designs the CPU, memory, and physical chips: bottom of the stack</div></div>
-<div class="app"><div class="name">Systems / OS engineer</div><div class="desc">builds the software that shares one machine fairly</div></div>
-<div class="app"><div class="name">Network engineer</div><div class="desc">keeps machines talking to each other reliably</div></div>
-<div class="app"><div class="name">Application developer</div><div class="desc">builds the apps you actually tap and use</div></div>
-<div class="app"><div class="name">Security analyst</div><div class="desc">protects every layer above from being misused</div></div>
-<div class="app"><div class="name">AI / data engineer</div><div class="desc">builds the newest layer, Weeks 13-14's subject</div></div>
+<div class="app"><div class="name">Hardware engineer</div><div class="desc">Designs chips and memory.</div></div>
+<div class="app"><div class="name">OS engineer</div><div class="desc">Builds software that shares the device.</div></div>
+<div class="app"><div class="name">Network engineer</div><div class="desc">Keeps devices talking to each other.</div></div>
+<div class="app"><div class="name">App developer</div><div class="desc">Builds the apps you use.</div></div>
+<div class="app"><div class="name">Security analyst</div><div class="desc">Protects every layer from misuse.</div></div>
+<div class="app"><div class="name">AI / data engineer</div><div class="desc">Builds the newest layer: Weeks 13-14.</div></div>
 </div>
 
-Every one of these roles exists because a real device, like the one that
-froze on the call, has that many independent places something can go
-wrong, and that many specialists trained to fix exactly one of them.
+Each job exists because a real device can break in many ways.
 
 ---
 
 # Common Mistakes
 
-- **"Hardware and software are unrelated fields":** neither does anything without the other, as the stack diagram just showed
-- **"Computer engineering is just coding":** programming is one layer out of six; this course covers all of them
-- **"You need to already know programming to start this major":** this course assumes zero prior experience, and Week 10 is where programming itself is introduced from scratch
+- **"Hardware and software are unrelated":** Wrong. Neither works without the other.
+- **"Computer engineering is just coding":** Wrong. Coding is one layer of six.
+- **"You must already know programming":** Wrong. This course starts from zero.
+
+---
+
+<!-- NEW: Try-It hand-off, Worksheet Part B -->
+
+# Try It: Worksheet Part B
+
+<div class="thread">More practice. New scenarios.</div>
+
+- Open **Worksheet Part B**.
+- Label each scenario the same way: hardware, software, OS, or network.
+- You have about 15 minutes. Then we discuss answers together.
+
+<!-- notes: Hand out Worksheet Part B. After 15 minutes, go through the answer key as a class. Ask for volunteers first. -->
 
 ---
 
 # Check Yourself
 
-1. Name one layer from today's stack that is hardware, and one that is software.
-2. A friend's laptop is frozen. Using today's vocabulary, name two different layers that could each independently explain it.
-3. Which role from the previous slide would you go to first if a video-call app itself, specifically, kept crashing, not the whole device?
+1. Name one hardware part and one software part.
+2. Your friend's laptop freezes. Name two layers that could cause it.
+3. An app keeps crashing, not the whole device. Who do you ask first?
 
 ---
 
 # Answers
 
-1. Hardware: CPU, memory, storage, or an input/output device. Software: the operating system, or any application.
-2. Any two of: **CPU** overloaded, **memory** exhausted, the **application software** itself crashed, or the **network** connection dropped.
-3. The **application developer**: the app itself is the layer at fault, not the hardware, OS, or network beneath it.
+1. Hardware: CPU, memory, storage, or screen. Software: the OS, or an app.
+2. Any two: CPU overloaded, memory full, app crashed, or network dropped.
+3. The **app developer**. The app itself is the problem, not the device.
 
 ---
 
-<!-- SLOT 14: Limits (Act 4 / CLOSE), becomes Week 2 slot 4 -->
+<!-- NEW: Self-check quiz hand-off -->
+
+# Self-Check Quiz
+
+<div class="thread">One more check, on your own.</div>
+
+- Take the **Week 1 Quiz** (5-8 short questions).
+- This quiz is not graded. It just checks your understanding.
+- About 10 minutes. Check your own answers at the end.
+
+<!-- notes: Hand out the quiz. Give students 10 minutes. Then read the answer key aloud, or let students self-check. -->
+
+---
+
+<!-- SLOT 17: Limits (Act 4 / CLOSE), becomes Week 2 slot 4 -->
 
 # What Today's Map Cannot Do Yet
 
 <div class="limits">
-We now have a six-layer map of any computer system, and the vocabulary
-to reason about it. But we still have no idea where any of this
-actually started: who built the first computer, why, and how the field
-grew from room-sized machines into the phone in your pocket. The map
-exists; its history does not, yet.
+We now have a map of computer layers, and some words for them. But we
+do not know where any of this started. Who built the first computer?
+Why? We have the map. We do not have its history yet.
 </div>
 
 ---
 
-<!-- SLOT 15: Bridge -->
+<!-- SLOT 18: Bridge -->
 
 # Next Week
 
-Week 1 leaves **where all of this actually came from** unsolved. **Week
-2, Computer History**, addresses it: the generations of computing
-machines, how computers are classified, and the number systems that
-make the whole stack from today possible.
+Week 1 leaves **where this all started** unsolved. **Week 2, Computer
+History**, answers it: how computers evolved, and the number systems
+behind them.
 
 ---
 
-<!-- SLOT 16: Summary -->
+<!-- SLOT 19: Summary -->
 
 # Summary
 
-- A computer system is hardware and software working together; neither does anything useful alone
-- Six layers connect an app icon to a physical chip: application software, OS, programs, CPU, memory/storage, logic gates
-- Every remaining week of this course studies exactly one of those six layers, from the bottom up
-- **Reading:** Harris & Harris, Preface and Chapter 1
-- **Prepare:** think of one moment your own device confused you, and bring it to Week 2
+- A computer system is hardware and software, working together.
+- Six layers connect an app icon to a physical chip.
+- Every later week studies one of those six layers.
+- **Reading:** Harris & Harris, Preface and Chapter 1.
+- **Prepare:** Think of one time your device confused you. Bring it to Week 2.
 
 ---
 
-<!-- SLOT 17: Thank You -->
+<!-- SLOT 20: Thank You -->
 <!-- _class: end -->
 
 # Thank You

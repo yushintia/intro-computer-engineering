@@ -23,6 +23,7 @@ slides/
   _shared/roadmap.md      Act-0 roadmap table, paste into slot 2
   week01-introduction.md
   ...(weeks 2-15 not yet drafted)
+materials/week01/          handout, worksheet, and quiz for Week 1
 ```
 
 ## Setup
