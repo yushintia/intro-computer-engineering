@@ -131,10 +131,12 @@ checks if you understand the whole field, not just code.
 
 # By the End of This Week, You Can
 
-1. List key events in computer history, in order.
-2. Explain what changed between computer generations.
-3. Convert a small number from decimal to binary.
-4. Explain why computers use binary, not decimal, numbers.
+<div class="cardlist">
+<div class="card"><div class="h">Key Events</div><div class="d">List key events in computer history, in order.</div></div>
+<div class="card"><div class="h">Generations</div><div class="d">Explain what changed between computer generations.</div></div>
+<div class="card"><div class="h">Decimal to Binary</div><div class="d">Convert a small number from decimal to binary.</div></div>
+<div class="card"><div class="h">Why Binary</div><div class="d">Explain why computers use binary, not decimal, numbers.</div></div>
+</div>
 
 ---
 

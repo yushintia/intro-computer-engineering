@@ -113,10 +113,12 @@ what application software does, and does not, do.
 
 # By the End of This Week, You Can
 
-1. Define application software and tell it apart from system software.
-2. Name common categories of application software you use daily.
-3. Explain how an app turns stored data into something useful.
-4. Explain why every app still depends on the operating system.
+<div class="cardlist">
+<div class="card"><div class="h">Application vs. System</div><div class="d">Define application software and tell it apart from system software.</div></div>
+<div class="card"><div class="h">App Categories</div><div class="d">Name common categories of application software you use daily.</div></div>
+<div class="card"><div class="h">Data to Usefulness</div><div class="d">Explain how an app turns stored data into something useful.</div></div>
+<div class="card"><div class="h">Dependence on the OS</div><div class="d">Explain why every app still depends on the operating system.</div></div>
+</div>
 
 ---
 

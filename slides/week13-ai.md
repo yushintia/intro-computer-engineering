@@ -124,10 +124,12 @@ You already use AI every day, whether you noticed it or not.
 
 # By the End of This Week, You Can
 
-1. Explain what AI and machine learning mean, in plain words.
-2. Describe how a computer learns from many examples.
-3. Name AI tools you already use on your own phone.
-4. List common mistakes AI still makes today.
+<div class="cardlist">
+<div class="card"><div class="h">AI &amp; Machine Learning</div><div class="d">Explain what AI and machine learning mean, in plain words.</div></div>
+<div class="card"><div class="h">Learning from Examples</div><div class="d">Describe how a computer learns from many examples.</div></div>
+<div class="card"><div class="h">AI Tools You Use</div><div class="d">Name AI tools you already use on your own phone.</div></div>
+<div class="card"><div class="h">Common Mistakes</div><div class="d">List common mistakes AI still makes today.</div></div>
+</div>
 
 ---
 

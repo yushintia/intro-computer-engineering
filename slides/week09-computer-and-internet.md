@@ -121,10 +121,12 @@ Every one of these needs the exact same thing: a working network.
 
 # By the End of This Week, You Can
 
-1. Explain what a network is, in plain words.
-2. Describe how an address helps one machine find another.
-3. Trace what happens, step by step, when a webpage loads.
-4. Name the difference between a local network and the internet.
+<div class="cardlist">
+<div class="card"><div class="h">What a Network Is</div><div class="d">Explain what a network is, in plain words.</div></div>
+<div class="card"><div class="h">Addresses</div><div class="d">Describe how an address helps one machine find another.</div></div>
+<div class="card"><div class="h">Tracing a Webpage</div><div class="d">Trace what happens, step by step, when a webpage loads.</div></div>
+<div class="card"><div class="h">Local Network vs. Internet</div><div class="d">Name the difference between a local network and the internet.</div></div>
+</div>
 
 ---
 

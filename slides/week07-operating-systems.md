@@ -109,10 +109,12 @@ common interview question for systems and mobile engineering jobs.
 
 # By the End of This Week, You Can
 
-1. Explain what an operating system does, in plain words.
-2. Describe how the OS shares CPU time between many apps.
-3. Explain why each app gets its own private memory space.
-4. Trace one app's request to the OS, and back.
+<div class="cardlist">
+<div class="card"><div class="h">What an OS Does</div><div class="d">Explain what an operating system does, in plain words.</div></div>
+<div class="card"><div class="h">Sharing CPU Time</div><div class="d">Describe how the OS shares CPU time between many apps.</div></div>
+<div class="card"><div class="h">Private Memory</div><div class="d">Explain why each app gets its own private memory space.</div></div>
+<div class="card"><div class="h">Tracing a Request</div><div class="d">Trace one app's request to the OS, and back.</div></div>
+</div>
 
 ---
 

@@ -120,10 +120,12 @@ Restarting clears one kind of space, but not the other.
 
 # By the End of This Week, You Can
 
-1. Explain the difference between memory (RAM) and storage.
-2. Say why unsaved work disappears when the power stops.
-3. Name common kinds of storage, like SSD and HDD.
-4. Trace what happens inside a laptop when you click Save.
+<div class="cardlist">
+<div class="card"><div class="h">Memory vs. Storage</div><div class="d">Explain the difference between memory (RAM) and storage.</div></div>
+<div class="card"><div class="h">Unsaved Work</div><div class="d">Say why unsaved work disappears when the power stops.</div></div>
+<div class="card"><div class="h">Storage Types</div><div class="d">Name common kinds of storage, like SSD and HDD.</div></div>
+<div class="card"><div class="h">Tracing Save</div><div class="d">Trace what happens inside a laptop when you click Save.</div></div>
+</div>
 
 ---
 

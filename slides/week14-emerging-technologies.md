@@ -108,11 +108,13 @@ software, and networks together. This week's ideas connect all three.
 
 # By the End of This Week, You Can
 
-1. Explain IoT, cloud computing, big data, and mobile computing in plain words.
-2. Give one everyday example of each idea.
-3. Connect each new idea back to the six layers from Week 1.
-4. Name one benefit and one tradeoff of each idea.
-5. Summarize this semester's topics, to prepare for the final exam.
+<div class="cardlist">
+<div class="card"><div class="h">Core Ideas</div><div class="d">Explain IoT, cloud computing, big data, and mobile computing in plain words.</div></div>
+<div class="card"><div class="h">Everyday Examples</div><div class="d">Give one everyday example of each idea.</div></div>
+<div class="card"><div class="h">Connecting to Layers</div><div class="d">Connect each new idea back to the six layers from Week 1.</div></div>
+<div class="card"><div class="h">Benefits &amp; Tradeoffs</div><div class="d">Name one benefit and one tradeoff of each idea.</div></div>
+<div class="card"><div class="h">Semester Summary</div><div class="d">Summarize this semester's topics, to prepare for the final exam.</div></div>
+</div>
 
 ---
 

@@ -113,10 +113,12 @@ one programming language. Coding interviews test this exact skill.
 
 # By the End of This Week, You Can
 
-1. Explain what a programming language is, in plain words.
-2. Explain why computers need exact steps, not plain English.
-3. Name the three basic building blocks of any program.
-4. Turn one everyday task into a short list of steps.
+<div class="cardlist">
+<div class="card"><div class="h">What a Language Is</div><div class="d">Explain what a programming language is, in plain words.</div></div>
+<div class="card"><div class="h">Exact Steps</div><div class="d">Explain why computers need exact steps, not plain English.</div></div>
+<div class="card"><div class="h">Building Blocks</div><div class="d">Name the three basic building blocks of any program.</div></div>
+<div class="card"><div class="h">Task to Steps</div><div class="d">Turn one everyday task into a short list of steps.</div></div>
+</div>
 
 ---
 

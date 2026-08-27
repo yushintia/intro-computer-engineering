@@ -112,10 +112,12 @@ not just general "computer skills."
 
 # By the End of This Week, You Can
 
-1. Name several real-world fields that depend on computers.
-2. Explain why one device can do many different jobs.
-3. Connect each field to hardware and software layers from this semester.
-4. Give one real example of a computer application in each field.
+<div class="cardlist">
+<div class="card"><div class="h">Real-World Fields</div><div class="d">Name several real-world fields that depend on computers.</div></div>
+<div class="card"><div class="h">One Device, Many Jobs</div><div class="d">Explain why one device can do many different jobs.</div></div>
+<div class="card"><div class="h">Connecting to Layers</div><div class="d">Connect each field to hardware and software layers from this semester.</div></div>
+<div class="card"><div class="h">Real Examples</div><div class="d">Give one real example of a computer application in each field.</div></div>
+</div>
 
 ---
 

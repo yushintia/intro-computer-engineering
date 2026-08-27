@@ -110,10 +110,12 @@ skill. Data breaches make daily news, and cost companies millions.
 
 # By the End of This Week, You Can
 
-1. Explain what a database is, in plain words.
-2. Name the parts of a simple database table.
-3. Explain why stored data needs protection.
-4. Name two basic ways to keep data safe.
+<div class="cardlist">
+<div class="card"><div class="h">What a Database Is</div><div class="d">Explain what a database is, in plain words.</div></div>
+<div class="card"><div class="h">Table Parts</div><div class="d">Name the parts of a simple database table.</div></div>
+<div class="card"><div class="h">Data Protection</div><div class="d">Explain why stored data needs protection.</div></div>
+<div class="card"><div class="h">Keeping Data Safe</div><div class="d">Name two basic ways to keep data safe.</div></div>
+</div>
 
 ---
 

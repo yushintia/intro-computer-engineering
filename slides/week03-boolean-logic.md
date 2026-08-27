@@ -128,10 +128,12 @@ every computer engineering graduate to read one on sight.
 
 # By the End of This Week, You Can
 
-1. Explain what a Boolean value is, and why computers use only two.
-2. Read the truth table for an AND, OR, or NOT gate.
-3. Combine gates to model a simple everyday decision.
-4. Trace one decision inside a real device back to logic gates.
+<div class="cardlist">
+<div class="card"><div class="h">Boolean Values</div><div class="d">Explain what a Boolean value is, and why computers use only two.</div></div>
+<div class="card"><div class="h">Truth Tables</div><div class="d">Read the truth table for an AND, OR, or NOT gate.</div></div>
+<div class="card"><div class="h">Combining Gates</div><div class="d">Combine gates to model a simple everyday decision.</div></div>
+<div class="card"><div class="h">Tracing Decisions</div><div class="d">Trace one decision inside a real device back to logic gates.</div></div>
+</div>
 
 ---
 

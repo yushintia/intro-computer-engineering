@@ -114,10 +114,12 @@ if you understand the whole chip, not just one part.
 
 # By the End of This Week, You Can
 
-1. Explain what a CPU does, in plain words.
-2. Describe the fetch-decode-execute cycle, step by step.
-3. Name the three main parts inside a CPU.
-4. Trace one instruction through your laptop's CPU.
+<div class="cardlist">
+<div class="card"><div class="h">What a CPU Does</div><div class="d">Explain what a CPU does, in plain words.</div></div>
+<div class="card"><div class="h">Fetch-Decode-Execute</div><div class="d">Describe the fetch-decode-execute cycle, step by step.</div></div>
+<div class="card"><div class="h">CPU Parts</div><div class="d">Name the three main parts inside a CPU.</div></div>
+<div class="card"><div class="h">Tracing Instructions</div><div class="d">Trace one instruction through your laptop's CPU.</div></div>
+</div>
 
 ---
 

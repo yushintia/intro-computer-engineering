@@ -172,12 +172,20 @@ use.
 
 By the end of this course, you can:
 
-1. Explain the basic structure of computer hardware and software.
-2. Describe how a CPU processes data and instructions.
-3. Explain how operating systems, networks, and the internet connect
-   devices.
-4. Describe the basics of databases, security, and multimedia.
-5. Recognize the basics of AI, IoT, cloud, and mobile technology.
+<style scoped>
+.cardlist { gap: 10px; margin-top: 6px; }
+.cardlist .card { padding: 8px 18px; }
+.cardlist .card .h { font-size: 17px; margin-bottom: 2px; }
+.cardlist .card .d { font-size: 15px; line-height: 1.25; }
+</style>
+
+<div class="cardlist">
+<div class="card"><div class="h">Hardware &amp; Software</div><div class="d">Explain the basic structure of computer hardware and software.</div></div>
+<div class="card"><div class="h">CPU Processing</div><div class="d">Describe how a CPU processes data and instructions.</div></div>
+<div class="card"><div class="h">OS, Networks &amp; Internet</div><div class="d">Explain how operating systems, networks, and the internet connect devices.</div></div>
+<div class="card"><div class="h">Databases &amp; Multimedia</div><div class="d">Describe the basics of databases, security, and multimedia.</div></div>
+<div class="card"><div class="h">AI, IoT &amp; Mobile</div><div class="d">Recognize the basics of AI, IoT, cloud, and mobile technology.</div></div>
+</div>
 
 ---
 
@@ -310,16 +318,12 @@ is always available, and clears up more than a rubric alone can.
 
 <div class="thread">Concrete rules, stated once, so nobody is surprised later.</div>
 
-- **Attendance** is 10% of your grade and is recorded every session.
-- **Late arrival:** arriving within 15 minutes of the start is
-  on-time; after that, you're marked late. Three lates equal one
-  absence.
-- **Can't attend?** Email the instructor *before* the session to be
-  marked excused - unexcused absences aren't eligible for makeup
-  credit.
-- **Late work:** loses 10% of that assignment's grade per day late, up
-  to 3 days. No credit after 3 days, unless arranged with the
-  instructor in advance.
+<div class="cardlist">
+<div class="card"><div class="h">Attendance</div><div class="d">is 10% of your grade and is recorded every session.</div></div>
+<div class="card"><div class="h">Late arrival</div><div class="d">arriving within 15 minutes of the start is on-time; after that, you're marked late. Three lates equal one absence.</div></div>
+<div class="card"><div class="h">Can't attend?</div><div class="d">Email the instructor <em>before</em> the session to be marked excused - unexcused absences aren't eligible for makeup credit.</div></div>
+<div class="card"><div class="h">Late work</div><div class="d">loses 10% of that assignment's grade per day late, up to 3 days. No credit after 3 days, unless arranged with the instructor in advance.</div></div>
+</div>
 
 ---
 
