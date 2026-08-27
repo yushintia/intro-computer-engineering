@@ -218,13 +218,12 @@ will understand hardware and software, at least the basics.
 
 Each week has three class periods (차시), about 50 minutes each:
 
-- **A short lecture** - new words and ideas, explained simply, always
-  starting from a real device you already own
-- **A recap** - what last week delivered, and what it left unsolved
-- **In-class activities** - worksheets, discussion, and pair work,
-  with answers discussed right after
-- **Some weeks, a short quiz** - Week 6 and Week 13, to check your
-  understanding before the midterm and final
+<div class="cardlist">
+<div class="card"><div class="h">A short lecture</div><div class="d">New words and ideas, explained simply, always starting from a real device you already own.</div></div>
+<div class="card"><div class="h">A recap</div><div class="d">What last week delivered, and what it left unsolved.</div></div>
+<div class="card"><div class="h">In-class activities</div><div class="d">Worksheets, discussion, and pair work, with answers discussed right after.</div></div>
+<div class="card"><div class="h">Some weeks, a short quiz</div><div class="d">Week 6 and Week 13, to check your understanding before the midterm and final.</div></div>
+</div>
 
 You will talk in this class, not just listen.
 

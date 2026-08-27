@@ -234,11 +234,13 @@ Between Weeks 7 and 9, the midterm checked Weeks 1-7. It is not on today's final
 
 <div class="limits">
 
-- **Databases (Week 11):** practice naming rows, columns, and one query.
-- **Networking (Week 9):** review IP address, packet, and client vs. server.
-- **AI (Week 13):** review why training data matters for a model.
-- **Programming (Week 10):** say sequence, loop, decision, from memory.
-- **Boolean logic (Week 3):** a quick refresher on AND/OR/NOT tables.
+<div class="cardlist">
+<div class="card"><div class="h">Databases (Week 11)</div><div class="d">Practice naming rows, columns, and one query.</div></div>
+<div class="card"><div class="h">Networking (Week 9)</div><div class="d">Review IP address, packet, and client vs. server.</div></div>
+<div class="card"><div class="h">AI (Week 13)</div><div class="d">Review why training data matters for a model.</div></div>
+<div class="card"><div class="h">Programming (Week 10)</div><div class="d">Say sequence, loop, decision, from memory.</div></div>
+<div class="card"><div class="h">Boolean logic (Week 3)</div><div class="d">A quick refresher on AND/OR/NOT tables.</div></div>
+</div>
 
 </div>
 

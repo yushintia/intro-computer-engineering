@@ -222,10 +222,12 @@ questions before you start.
 
 <div class="limits">
 
-- **Boolean logic (Week 3):** practice more AND/OR/NOT truth tables.
-- **CPU cycle (Week 4):** say fetch, decode, execute, in order, from memory.
-- **Memory vs. storage (Week 5):** know which one needs power to keep data.
-- **The six layers (Week 1):** review app icon → OS → CPU → gates.
+<div class="cardlist">
+<div class="card"><div class="h">Boolean logic (Week 3)</div><div class="d">Practice more AND/OR/NOT truth tables.</div></div>
+<div class="card"><div class="h">CPU cycle (Week 4)</div><div class="d">Say fetch, decode, execute, in order, from memory.</div></div>
+<div class="card"><div class="h">Memory vs. storage (Week 5)</div><div class="d">Know which one needs power to keep data.</div></div>
+<div class="card"><div class="h">The six layers (Week 1)</div><div class="d">Review app icon → OS → CPU → gates.</div></div>
+</div>
 
 </div>
 

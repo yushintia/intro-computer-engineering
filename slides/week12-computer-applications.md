@@ -455,10 +455,12 @@ Same six layers. Different amounts of CPU, memory, and storage.
 
 <div class="thread">Back to Mia's laptop. It already does more than she thought.</div>
 
-- **Office:** the essay she wrote for class, saved safely.
-- **Creative:** a photo she cropped, before posting it online.
-- **Entertainment:** a game she played, or a show she streamed.
-- **Mobile:** she carried her laptop between home, class, and a café.
+<div class="cardlist">
+<div class="card"><div class="h">Office</div><div class="d">The essay she wrote for class, saved safely.</div></div>
+<div class="card"><div class="h">Creative</div><div class="d">A photo she cropped, before posting it online.</div></div>
+<div class="card"><div class="h">Entertainment</div><div class="d">A game she played, or a show she streamed.</div></div>
+<div class="card"><div class="h">Mobile</div><div class="d">She carried her laptop between home, class, and a café.</div></div>
+</div>
 
 One laptop. Four fields already, without Mia noticing.
 

@@ -444,10 +444,12 @@ Every job here still needs hardware, software, and network skills, together.
 
 # Common Mistakes
 
-- **"The cloud is a real cloud, in the sky":** Wrong. It is just someone else's computer.
-- **"IoT devices have no real computer inside":** Wrong. Even a tiny sensor has a chip.
-- **"Big data just means a lot of files":** Wrong. It means data too large for one computer.
-- **"A phone is just a small, weak computer":** Wrong. Modern phones are surprisingly powerful.
+<div class="cardlist">
+<div class="card"><div class="h">"The cloud is a real cloud, in the sky"</div><div class="d">Wrong. It is just someone else's computer.</div></div>
+<div class="card"><div class="h">"IoT devices have no real computer inside"</div><div class="d">Wrong. Even a tiny sensor has a chip.</div></div>
+<div class="card"><div class="h">"Big data just means a lot of files"</div><div class="d">Wrong. It means data too large for one computer.</div></div>
+<div class="card"><div class="h">"A phone is just a small, weak computer"</div><div class="d">Wrong. Modern phones are surprisingly powerful.</div></div>
+</div>
 
 ---
 

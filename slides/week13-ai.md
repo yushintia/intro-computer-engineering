@@ -137,10 +137,12 @@ You already use AI every day, whether you noticed it or not.
 
 <div class="thread">You just felt the pain. Where did the answer come from?</div>
 
-- **1950:** Alan Turing asked a simple question: "Can a machine think?"
-- **1956:** A small workshop at Dartmouth first used the words "artificial intelligence."
-- **For decades after:** computers were too slow, with too little data, to do much.
-- **2010s onward:** far more data and much faster chips made today's AI possible.
+<div class="cardlist">
+<div class="card"><div class="h">1950</div><div class="d">Alan Turing asked a simple question: "Can a machine think?"</div></div>
+<div class="card"><div class="h">1956</div><div class="d">A small workshop at Dartmouth first used the words "artificial intelligence."</div></div>
+<div class="card"><div class="h">For decades after</div><div class="d">Computers were too slow, with too little data, to do much.</div></div>
+<div class="card"><div class="h">2010s onward</div><div class="d">Far more data and much faster chips made today's AI possible.</div></div>
+</div>
 
 <div class="why">
 AI is an old idea. It only recently became powerful enough to use every day.
@@ -388,10 +390,12 @@ Here is what likely happened, back in slot 4.
 
 # Common Mistakes
 
-- **"AI always tells the truth":** wrong. It gives its best guess, not a fact.
-- **"AI understands like a person does":** wrong. It only matches learned patterns.
-- **"More data always means a fair model":** wrong. Unfair data still teaches unfair patterns.
-- **"AI mistakes are random":** wrong. They usually trace back to the training data.
+<div class="cardlist">
+<div class="card"><div class="h">"AI always tells the truth"</div><div class="d">Wrong. It gives its best guess, not a fact.</div></div>
+<div class="card"><div class="h">"AI understands like a person does"</div><div class="d">Wrong. It only matches learned patterns.</div></div>
+<div class="card"><div class="h">"More data always means a fair model"</div><div class="d">Wrong. Unfair data still teaches unfair patterns.</div></div>
+<div class="card"><div class="h">"AI mistakes are random"</div><div class="d">Wrong. They usually trace back to the training data.</div></div>
+</div>
 
 ---
 

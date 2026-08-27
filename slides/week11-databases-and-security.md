@@ -472,10 +472,12 @@ Together, these ideas let Mia store, find, and protect her 200 photos.
 
 # Common Mistakes
 
-- **"A database is just a file, like a folder":** Wrong. It also lets you search and ask questions.
-- **"A short, simple password is fine":** Wrong. Short passwords are the easiest to guess.
-- **"Only companies need to worry about data safety":** Wrong. Anyone with an account is a target.
-- **"One backup copy is enough forever":** Wrong. Backups can fail too; keep more than one.
+<div class="cardlist">
+<div class="card"><div class="h">"A database is just a file, like a folder"</div><div class="d">Wrong. It also lets you search and ask questions.</div></div>
+<div class="card"><div class="h">"A short, simple password is fine"</div><div class="d">Wrong. Short passwords are the easiest to guess.</div></div>
+<div class="card"><div class="h">"Only companies need to worry about data safety"</div><div class="d">Wrong. Anyone with an account is a target.</div></div>
+<div class="card"><div class="h">"One backup copy is enough forever"</div><div class="d">Wrong. Backups can fail too; keep more than one.</div></div>
+</div>
 
 ---
 
