@@ -222,14 +222,11 @@ Each week has three class periods (차시), about 50 minutes each:
   starting from a real device you already own
 - **A recap** - what last week delivered, and what it left unsolved
 - **In-class activities** - worksheets, discussion, and pair work,
-  with answers discussed right after, so you find out immediately if
-  your reasoning was right
-- **Some weeks, a short quiz** - Week 6 and Week 13, not graded for
-  most points, just to check your understanding before the midterm
-  and final
+  with answers discussed right after
+- **Some weeks, a short quiz** - Week 6 and Week 13, to check your
+  understanding before the midterm and final
 
-You will talk in this class, not just listen. If a word or idea does
-not make sense, say so.
+You will talk in this class, not just listen.
 
 ---
 
