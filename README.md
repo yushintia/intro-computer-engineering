@@ -23,7 +23,7 @@ slides/
   _shared/roadmap.md      Act-0 roadmap table, paste into slot 2
   week01-introduction.md
   ...(weeks 2-15 not yet drafted)
-materials/week01/          handout, worksheet, and quiz for Week 1
+materials/week01/          handbook only (Week 1 is the orientation/contract week)
 ```
 
 ## Setup

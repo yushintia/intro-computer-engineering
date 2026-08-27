@@ -70,7 +70,7 @@ the pain slide (4) is too abstract, so fix it instead of breaking the rule.
 
 | Wk | Topic | Limit (leads to next pain) |
 |---|---|---|
-| 1 | Introduction | We have a map of hardware and software layers, but no idea where any of this history actually started -> **W2** |
+| 1 | Introduction | We know how this course runs, how we're graded, and what's expected of us, but we still don't know what's actually inside the device that just froze, or where any of this technology came from -> **W2** |
 | 2 | Computer History | We know how computers evolved, but not yet how they represent anything as simply as on and off -> **W3** |
 | 3 | Boolean Logic | Gates can decide true or false, but not yet follow a sequence of steps, a program -> **W4** |
 | 4 | CPU & Instructions | The CPU executes instructions perfectly, but has nowhere permanent to keep anything once the power goes off -> **W5** |
@@ -91,6 +91,18 @@ slot "Check yourself" (expanded into full review questions) + Act 4 (slots
 N+1..N+4, "Limits" replaced by "What to focus on next"). No Pain or Ground
 acts: there is no new concept to motivate. Weeks 6 and 13 carry an embedded
 quiz but keep the full spine: new content is still taught that day.
+
+Week 1 uses the **orientation variant**: Act 0 (slots 1-2, no recap since
+there is no prior week) + a short, non-technical tease of the running
+pain scenario + the course-level driving question + the full course
+contract (description, objectives, prerequisites, textbook, schedule,
+grading, policies, contact) in place of Act 2/3 + Act 4 (slots N+1..N+4).
+It carries **near-zero technical content** - the six-layer hardware/
+software map and the "tracing one tap" walkthrough live in later weeks
+instead. Week 1 is **handout-only**: `materials/week01/handout.md` is a
+Course Handbook mirroring the contract (grading, policies, schedule,
+textbook, contact). There is no Week 1 worksheet or quiz - the first
+in-class worksheet/quiz activities start in Week 2.
 
 ## Enforcement
 

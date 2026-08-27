@@ -1,164 +1,154 @@
-# Week 1 Handout: Introduction to Computer Engineering
+# Week 1 Handout: Course Handbook
 
 Introduction to Computer Engineering (400507-001) · Week 1
-This handout goes with the Week 1 slides. Keep it for the whole semester.
+This handbook goes with the Week 1 slides. It is the written version of
+the course contract - keep it for the whole semester and check back
+whenever a grading, schedule, or policy question comes up.
 
 ---
 
-## 1. Glossary: Key Words
+## 1. Course Description
 
-Simple, plain definitions. Read these before or after class.
+This course introduces the fundamentals of computer engineering: how
+hardware and software work, separately and together, and how they
+connect to networks, data, and modern applications like AI. You do not
+need to write code for this course. By the end, you will be able to
+explain, in plain terms, what is happening inside every device you use.
 
-| Word | Plain definition |
+## 2. Learning Objectives
+
+By the end of this course, you can:
+
+1. Explain the basic structure of computer hardware and software.
+2. Describe how a CPU processes data and instructions.
+3. Explain how operating systems, networks, and the internet connect
+   devices.
+4. Describe the basics of databases, security, and multimedia.
+5. Recognize the basics of AI, IoT, cloud, and mobile technology.
+
+## 3. Prerequisites
+
+No prerequisite course is needed. You already use devices (phones,
+laptops, game consoles), and you already troubleshoot them - restarting,
+closing apps, checking your signal. This course starts from that
+everyday experience and does not expect any prior coding knowledge.
+
+## 4. Textbooks
+
+| Role | Text |
 |---|---|
-| **Device** | A phone, laptop, or tablet you use every day. |
-| **Hardware** | The physical parts of a device. You can touch them. Example: screen, chip, battery. |
-| **Software** | The instructions that tell hardware what to do. You cannot touch it. |
-| **App** | A software program you open. Example: a game, a camera app, a video-call app. |
-| **Computer system** | Hardware and software working together. Neither works alone. |
-| **Operating system (OS)** | Special software that manages all apps and hardware together. Example: Windows, Android, iOS. |
-| **CPU** | The chip that runs instructions. People call it the "brain" of the device. |
-| **Memory (RAM)** | Space that holds data only while an app is running. It empties when power turns off. |
-| **Storage** | Space that keeps data even when the power is off. Example: a hard drive, a phone's storage. |
-| **Network** | The connection that lets devices talk to each other. Example: wifi, mobile data. |
-| **Layer** | One level in a stack of parts. Each layer depends on the layer below it. |
-| **Logic gate** | A tiny on/off switch inside a chip. Everything in a computer is built from these. |
-| **Crash** | When an app suddenly stops working. |
-| **Freeze** | When a screen or app stops responding, but does not fully close. |
-| **Overheat** | When a device or chip gets too hot to work normally. |
-| **Diagnose** | To figure out what is wrong, and why. |
+| Primary | Harris & Harris, *Digital Design and Computer Architecture* (RISC-V ed.), 2021 |
+| Reference | Tanenbaum & Austin, *Structured Computer Organization*, 6th ed. |
+| Also | These lecture slides are a listed course reference |
 
 ---
 
-## 2. The Frozen Call, Step by Step
+## 5. Weekly Schedule
 
-This is the full version of the story from class. The slide version was
-shortened. Read this at home if you want more detail.
+| Wk | Topic | Wk | Topic |
+|---|---|---|---|
+| 1 | Introduction | 9 | Computer & Internet |
+| 2 | Computer History | 10 | Programming Language |
+| 3 | Boolean Logic | 11 | Databases & Security — **Assignment 2** |
+| 4 | CPU & Instructions — **Assignment 1** | 12 | Computer Applications |
+| 5 | Memory & Storage | 13 | AI — **Quiz 2** |
+| 6 | Application Software — **Quiz 1** | 14 | Emerging Technologies |
+| 7 | Operating Systems | 15 | **Final Exam** (Wks 9-14) |
+| 8 | **Midterm Exam** (Wks 1-7) | | |
 
-Four students are in a group project video call. They share one
-screen. Everyone is talking about the slides at the same time.
-
-Suddenly, one student's screen freezes. Her camera stops. Her voice
-cuts out. A small spinning circle appears where her face used to be.
-
-Everyone says the same thing: "Just restart it." She restarts her
-laptop. Thirty seconds later, she is back on the call. She apologizes,
-but she has no idea what actually happened.
-
-Nobody on the call can answer three simple questions:
-
-1. What froze — her phone, the app, the internet, or all three?
-2. Why did restarting fix it?
-3. Could this happen again, and how would she know why?
-
-This course exists to answer questions exactly like these. A frozen
-screen can be caused by any of four different layers, and only one of
-them is usually the real problem:
-
-- **Hardware layer** — a chip got too hot or too busy.
-- **Software layer** — the video-call app itself crashed.
-- **Operating system layer** — the OS failed to share memory or
-  processing time fairly between apps.
-- **Network layer** — the internet connection dropped for a moment.
-
-Restarting a device resets all four layers at the same time. That is
-why "just restart it" often works, even when nobody knows which layer
-actually failed. Over this semester, you will learn to look at each
-layer separately, instead of guessing.
+Each week has three class periods (차시), about 50 minutes each: a
+short lecture, a recap of the previous week, in-class activities
+(worksheets, discussion, pair work), and, in Weeks 6 and 13, a short
+self-check quiz.
 
 ---
 
-## 3. The Six Layers: App Icon to Chip
+## 6. Grading
 
-When you tap an app icon, six layers work together, from the top
-(what you see) to the bottom (the physical chip):
+| Component | Weight |
+|---|---|
+| Attendance | 10% |
+| Midterm (Wk 8) | 30% |
+| Final (Wk 15) | 30% |
+| Assignments (×2) | 10% |
+| In-class items | 20% |
 
-1. **Application software** — the app itself, like a game or a video-call app.
-2. **System software / OS** — shares the device fairly between all open apps.
-3. **Programs & instructions** — the code the app is built from.
-4. **CPU** — reads and runs those instructions, very fast, one at a time.
-5. **Memory & storage** — holds the data and the program while it runs.
-6. **Logic gates** — tiny on/off switches. Everything above is built from these.
+**Grade distribution guideline:** A ≤30%, B ≤40%, C-F ≤30% of the
+class. This may shift after the add/drop period, based on final
+enrollment.
 
-Each remaining week of this course studies one of these six layers in
-detail, starting from the bottom (logic gates, Week 3) and working
-back up toward the top (application software, Week 6) and outward to
-networks (Week 9) and programming (Week 10).
+## 7. Assignments
 
----
+| Item | When | Counts toward |
+|---|---|---|
+| Assignment 1 | Due Week 4 | Assignments (10%) |
+| Quiz 1 | Week 6 | In-class items (20%) |
+| Assignment 2 | Due Week 11 | Assignments (10%) |
+| Quiz 2 | Week 13 | In-class items (20%) |
+| Midterm Exam | Week 8 | Midterm (30%) |
+| Final Exam | Week 15 | Final (30%) |
 
-## 4. Optional Reading: More Detail
+## 8. Feedback Policy
 
-This section holds extra detail that was trimmed from the slides. It
-is optional, but useful if you want to go deeper.
+> Assignments graded within one week with rubric and model answers;
+> exam item-analysis shared with weak-topic guidance and individual
+> review on request.
 
-**Why "computer engineering" is its own field.** Before the 1970s,
-building the physical computer (electrical engineering) and writing
-programs for it (computer science) were separate, disconnected fields.
-As computers became something every engineer needed to understand
-from both sides, "computer engineering" formed as its own field, at
-the seam between hardware and software. A frozen video call is a good
-example of why that seam matters: explaining it needs both hardware
-knowledge and software knowledge, not just one.
-
-**Who works at each layer.** Real engineering jobs map onto the six
-layers above:
-
-- **Hardware engineer** — designs the CPU, memory, and physical chips.
-- **Systems / OS engineer** — builds the software that shares one machine fairly.
-- **Network engineer** — keeps machines talking to each other reliably.
-- **Application developer** — builds the apps people actually use.
-- **Security analyst** — protects every layer above from misuse.
-- **AI / data engineer** — builds one of the newest layers, covered in Weeks 13-14.
-
-**Why this matters in industry.** "Walk me through what happens when
-you type a URL and press enter" is a very common interview question
-in the tech industry. It is popular because it tests whether a
-candidate understands the whole system, not just one narrow skill.
-The same idea applies to "what happens when you tap an app icon" —
-this course's whole first week.
+In plain terms: you will know what you got wrong, and why, quickly
+enough for it to still matter for the next assignment or exam.
 
 ---
 
-## 5. Practice Problems (with Answers)
+## 9. Attendance & Late Work
 
-Try each problem yourself before checking the answer.
+- **Attendance** is 10% of your grade and is recorded every session.
+- **Late arrival:** arriving within 15 minutes of the start is
+  on-time; after that, you're marked late. Three lates equal one
+  absence.
+- **Can't attend?** Email the instructor *before* the session to be
+  marked excused - unexcused absences aren't eligible for makeup
+  credit.
+- **Late work:** loses 10% of that assignment's grade per day late,
+  up to 3 days. No credit after 3 days, unless arranged with the
+  instructor in advance.
 
-**Problem 1.** Name two things you can touch on your phone, and two
-things you cannot touch.
+## 10. Academic Integrity
 
-> **Answer:** Touchable (hardware): screen, chip, battery, camera.
-> Not touchable (software): the OS, an app, a photo file.
+- Submit your own work. Copying another student's work, having
+  someone else complete it for you, or submitting unattributed
+  AI-generated work as your own is a violation.
+- **First violation:** zero credit on that assignment or exam, plus a
+  formal report. **Repeat violation:** may result in failing the
+  course, per university policy.
+- If anything here is unclear, ask - now is the cheapest time to ask.
 
-**Problem 2.** A friend says: "My laptop is just slow, I don't know
-why." Name three different layers that could each explain this alone.
+## 11. Support for Students with Disabilities
 
-> **Answer:** Any three of: CPU overloaded, memory full, storage
-> almost full, too many apps running, network connection is slow.
+- **Hearing-impaired:** front-row seating, lecture material files
+  provided where possible, urgent notices given in writing.
+- **Mobility-impaired:** extended exam time.
+- **Other documented conditions:** extended exam time, materials
+  provided in advance, enlarged exam copies, or other reasonable
+  accommodation based on need.
 
-**Problem 3.** True or false: "A phone with no software installed can
-still run apps." Explain your answer in one sentence.
+Contact the instructor early, and the Disability Student Support
+Center or Academic Affairs Team, so accommodations are ready before
+you need them.
 
-> **Answer:** False. Hardware with no software cannot do anything
-> useful; software is required to make hardware work.
+## 12. Contact
 
-**Problem 4.** Put these four layers in order, from what you see
-first (top) to the physical chip (bottom): CPU, application software,
-operating system, logic gates.
+- **Email:** yushintia@deu.ac.kr
+- **Office hours:** by email appointment
+- Email is the fastest way to reach the instructor outside of class.
+  Please allow 1-2 business days for a reply, and put the course code
+  or your name in the subject line.
 
-> **Answer:** Application software → operating system → CPU → logic
-> gates.
+---
 
-**Problem 5.** A video-call app crashes, but the rest of the laptop
-still works fine (other apps still run). Which single layer is most
-likely responsible?
+## 13. What's Next
 
-> **Answer:** The application software layer — the app itself, not
-> the OS, CPU, or network.
-
-**Problem 6.** Explain, in your own words and in two sentences or
-less, why restarting a frozen device often fixes the problem.
-
-> **Answer (sample):** Restarting resets every layer of the device at
-> once. Whichever layer had the problem — hardware, software, OS, or
-> a temporary network issue — starts fresh.
+Week 1 is the only week without in-class worksheets or a quiz - it is
+the course contract only. Starting Week 2, each week includes hands-on
+practice tied to that week's topic. Before Week 2, think of one time
+your own device confused you (froze, crashed, or acted strangely). You
+do not need to explain it yet - just bring the memory to class.

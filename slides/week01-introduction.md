@@ -17,9 +17,9 @@ Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · �
 </div>
 
 <!--
-notes: Ask everyone to take out their phone or laptop. Ask out loud:
-"What happens inside this when you tap an app icon?" Wait for answers.
-It is OK if no one can answer yet. That is the point of today.
+notes: Welcome the class. This session is the course contract: what this
+course covers, how it's graded, what's expected of you, and how the
+semester runs. No technical content yet - that starts next week.
 -->
 
 ---
@@ -46,84 +46,35 @@ It is OK if no one can answer yet. That is the point of today.
 <div class="wk review"><div class="n">Wk 15</div><div class="t">Final Exam</div></div>
 </div>
 
-<!-- notes: Point at the map. Say: "We open one device, layer by layer, all semester." -->
+<!-- notes: Point at the row. Say: "Fifteen weeks. Today's the odd one out
+- it's about how this course works, not a topic. Weeks 8 and 15 are
+exams; the other twelve each open one more part of the device in your
+hand." -->
 
 ---
 
-<!-- NEW: warm-up, right after slot 2 -->
+<!-- Course intro: why this course, briefly, before the contract -->
 
-# Before We Start
+# Why This Course
 
-<div class="thread">Warm-up: 3 minutes. Work with the person next to you.</div>
+<div class="thread">One idea, plain and simple.</div>
 
-- Take out your phone or laptop.
-- Name three parts you already know. Example: screen, battery, app icon.
-- Write down what each part does, in your own words.
+> Every phone, laptop, and game console you own is a computer system.
+> This course explains what is inside it, and how the parts work
+> together.
 
-<div class="why">
-You already know more than you think. This course gives names to
-things you already use every day.
-</div>
+That is not a sales pitch. It is the whole point of this major. Later
+courses, and many jobs in this field, assume you already understand
+the basic shape of a computer system - hardware and software,
+together. This is the course where you first learn to see what is
+really happening inside the device in your hand.
 
-<!--
-notes: Give students 2-3 minutes. Walk around the room. Then ask the
-whole class, one question at a time:
-1. "What is one part of your phone you wrote down?"
-2. "What does that part do?"
-3. "Can you touch that part, or not?"
-Do not correct answers yet. Just collect words on the board.
--->
+"What happens when you tap an icon?" is a common interview question.
+After this course, it stops being a mystery.
 
 ---
 
-<!-- SLOT 3: What you already bring -->
-
-# What You Already Bring
-
-No prerequisite is needed for this course. Here is why:
-
-- **You already use devices.** Phones, laptops, game consoles. You are already an expert user.
-- **You already troubleshoot.** You restart devices. You close apps. You check your signal. These are early versions of ideas in this course.
-- **You are curious.** That is the only real requirement.
-
-This course does not expect you to know how to code. By the end, you
-will understand hardware and software, at least the basics.
-
----
-
-<!-- Course logistics appendix -->
-
-<!-- _class: section -->
-
-# Course Logistics
-<div class="driving-q">Read once now. Use all semester.</div>
-
----
-
-# Grading & Materials
-
-| Item | Weight |
-|---|---|
-| Attendance | 10% |
-| Midterm | 30% |
-| Final | 30% |
-| Assignments | 10% |
-| In-class items | 20% |
-
-<!-- notes: Assignment 1 is due Week 4. Assignment 2 is due Week 11. Quiz 1 is Week 6. Quiz 2 is Week 13. -->
-
----
-
-# Textbook, Policy & Contact
-
-- **Textbook:** Harris & Harris, *Digital Design and Computer Architecture* (RISC-V ed.), 2021
-- **Reference:** Tanenbaum & Austin, *Structured Computer Organization*, 6th ed.
-- **Policy:** Come to every class. Late work loses points. Cheating is not allowed.
-- **Contact:** yushintia@deu.ac.kr. Email me to book office hours.
-
----
-
-<!-- SLOT 4: The pain (Act 1 / MOTIVATE), zero jargon -->
+<!-- Running-example tease: premise only, no numbers, no teaching -->
 
 # The Call That Froze
 
@@ -136,61 +87,35 @@ Suddenly, one student's screen freezes. Her camera stops. Her voice
 stops too.
 
 "Just restart it," someone says. She does. Thirty seconds later, she
-is back. But no one knows what just happened.
+is back. But no one on the call can explain what just happened.
 
 </div>
 
-<!-- notes: Ask: "Has this happened to you?" Let two or three students answer. Do not explain the cause yet. -->
+<!-- notes: Ask: "Has this happened to you?" Let two or three students
+answer. Do not explain the cause yet. This is a premise, not a lesson -
+just let it sit. -->
 
 ---
 
-# "Restart It" Is Not an Explanation
+<!-- Teaser / discussion prompt, framed as a question not answered today -->
 
-<div class="barchart">
-<div class="bar-row">
-  <div class="bar-label">What she can explain</div>
-  <div class="bar-track"><div class="bar-fill short" style="width: 8%"></div></div>
-  <div class="bar-value">"it froze, then it worked"</div>
-</div>
-<div class="bar-row">
-  <div class="bar-label">What really happened</div>
-  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
-  <div class="bar-value">many parts, working together</div>
-</div>
-</div>
+# A Question We Will Not Answer Today
 
-This gap is big. This course closes it, step by step.
+<div class="thread">Sit with this question. Week 2 starts to answer it.</div>
 
-<!-- notes: Point at the two bars. Say: "See the size difference? That gap is what this course teaches." -->
+"Restart it" is not really an explanation. Something inside that
+device caused the freeze, and something inside it fixed itself when
+it restarted.
 
----
+- What is actually inside the device that just froze?
+- Is it one part, or many parts working together?
 
-<!-- SLOT 5: Cost of not knowing -->
-
-# What This Costs You
-
-- A frozen device in an interview or exam becomes a real problem, fast.
-- A team picking the wrong tool wastes time and money.
-- Later courses in this major all assume you understand this picture.
-
-<div class="why">
-<strong>In industry:</strong> "What happens when you tap an icon?" is a
-common interview question. It tests if you understand the whole
-system.
-</div>
-
----
-
-# One Freeze, Many Possible Causes
-
-<div class="appgrid">
-<div class="app"><div class="name">Hardware</div><div class="desc">Did a chip get too hot?</div></div>
-<div class="app"><div class="name">Software</div><div class="desc">Did the app itself crash?</div></div>
-<div class="app"><div class="name">Operating system</div><div class="desc">Did it fail to share resources?</div></div>
-<div class="app"><div class="name">Network</div><div class="desc">Did the internet connection drop?</div></div>
-</div>
-
-Any one of these four can cause the exact same frozen screen.
+<!--
+notes: A discussion prompt, not a lesson - do not answer it today. Let
+the class sit with the question. This course spends the rest of the
+semester answering it, one piece at a time, starting with where
+computers came from in Week 2.
+-->
 
 ---
 
@@ -198,28 +123,17 @@ Any one of these four can cause the exact same frozen screen.
 
 <!-- _class: section -->
 
-# This Week's Question
+# This Course's Question
 
-<div class="driving-q">"What is inside the device in your hand? How do its parts work together?"</div>
-
----
-
-<!-- SLOT 7: Learning outcomes -->
-
-# By the End of This Week, You Can
-
-1. Name the main hardware and software parts inside a computer.
-2. Explain, simply, what happens when you tap an app icon.
-3. Show how this semester's topics connect to those parts.
-4. State this course's five goals and where each is taught.
+<div class="driving-q">"What is actually inside the device in your hand, and how do all of its parts work together?"</div>
 
 ---
 
-# This Course's Five Objectives
+# This Course's Five Goals
 
-<div class="thread">Not just this week's goals. This is the whole course's promise.</div>
+<div class="thread">Not just today's goals. This is the whole course, in five lines.</div>
 
-| # | Objective (from the syllabus) | Where |
+| # | Goal (from the syllabus) | Where |
 |---|---|---|
 | 1 | Explain basic hardware and software structure | All semester |
 | 2 | Understand how data and instructions work | Weeks 3-4 |
@@ -227,300 +141,285 @@ Any one of these four can cause the exact same frozen screen.
 | 4 | Survey databases, security, and multimedia | Weeks 11-12 |
 | 5 | Introduce AI, IoT, cloud, and mobile tech | Weeks 13-14 |
 
----
-
-<!-- NEW: Key Words Today, 차시 1 -->
-
-# Key Words Today
-
-- **Device** — a phone, laptop, or tablet you use.
-- **Hardware** — the physical parts you can touch.
-- **Software** — the instructions that tell hardware what to do.
-- **App** — a software program you open, like a game.
-- **Network** — the connection that lets devices talk to each other.
-
-<!-- notes: Read each word aloud. Ask students to repeat it once. Ask: "Which of your warm-up words match these?" -->
-
----
-
-<!-- NEW: Try-It preview, closes 차시 1 -->
-
-# Coming Up: Worksheet Part A
-
-<div class="thread">Next, you will practice using these words.</div>
-
-- In **[Worksheet Part A](materials/week01/worksheet.html)**, you label everyday problems by layer.
-- Example: "My phone is hot." Which layer is that?
-- You will work with a partner. A guess is fine for now.
-
-<!-- notes: Tell students to sit next to a partner for the next part. No prep needed. -->
+Every one of these five goals is built, piece by piece, starting from
+the frozen call you just heard about.
 
 ---
 
 <!-- _class: section -->
 
 # End of 차시 1
-<div class="driving-q">Short break. 차시 2: what a computer system really is.</div>
+<div class="driving-q">Short break. Next: the course contract - what's covered, how you're graded, and what's expected of you.</div>
 
 ---
 
-<!-- NEW: Key Words Today, 차시 2 -->
+# Course Description
 
-# Key Words Today
+<div class="thread">From the official syllabus.</div>
 
-- **Computer system** — hardware and software working together.
-- **Operating system (OS)** — software that manages all apps and hardware.
-- **CPU** — the chip that runs instructions. The "brain" of the device.
-- **Memory** — space that holds data while an app is running.
-- **Layer** — one level in a stack of parts working together.
-
-<!-- notes: Read each word aloud. Ask: "Which word did you not know before today?" -->
-
----
-
-<!-- SLOT 8: Origin -->
-
-# This Field Is Younger Than You Think
-
-<div class="thread">You just felt the pain. Where did this field come from?</div>
-
-- **Before the 1970s:** building computers and writing programs were two separate fields.
-- **1970s onward:** computers needed people who understood both sides. "Computer engineering" was born.
-
-<div class="why">
-This course exists for that reason. A frozen call needs both hardware
-and software knowledge to explain. That is this major's whole point.
-</div>
+This course introduces the fundamentals of computer engineering: how
+hardware and software work, separately and together, and how they
+connect to networks, data, and modern applications like AI. You do
+not need to write code for this course. By the end, you will be able
+to explain, in plain terms, what is happening inside every device you
+use.
 
 ---
 
-<!-- SLOT 9: Core concept -->
+# Learning Objectives
 
-# Computer System: Definition
+<div class="thread">The official course objectives, from the syllabus - what you'll be able to do by Week 15.</div>
 
-<div class="thread">One field, one clear definition.</div>
+By the end of this course, you can:
 
-> A **computer system** is **hardware** (the physical parts) and
-> **software** (the instructions), working together.
-
-- **Hardware:** CPU, memory, storage, and screen. Parts you can touch.
-- **Software:** the OS and apps. You cannot touch it. It is stored data.
-
-A phone with no software does nothing. Software with no hardware
-cannot run at all. Both are needed.
+1. Explain the basic structure of computer hardware and software.
+2. Describe how a CPU processes data and instructions.
+3. Explain how operating systems, networks, and the internet connect
+   devices.
+4. Describe the basics of databases, security, and multimedia.
+5. Recognize the basics of AI, IoT, cloud, and mobile technology.
 
 ---
 
-<!-- Act 3 / BUILD -->
+# Prerequisites
 
-# From an App Icon to the Chip (1/2)
+<div class="thread">What this course assumes you already have.</div>
 
-<div class="thread">Six layers. Here is the top half: software.</div>
+No prerequisite course is needed. Here is why:
 
-<div class="stack">
-<div class="layer view"><span class="h">Application Software</span> <span class="s">the app you tap, like a game: Week 6</span></div>
-<div class="layer view"><span class="h">System Software / OS</span> <span class="s">shares the device between apps: Week 7</span></div>
-<div class="layer logical"><span class="h">Programs &amp; Instructions</span> <span class="s">written in a programming language: Week 10</span></div>
-</div>
+- **You already use devices.** Phones, laptops, game consoles. You are
+  already an expert user.
+- **You already troubleshoot.** You restart devices. You close apps.
+  You check your signal. These are early versions of ideas in this
+  course.
+- **You are curious.** That is the only real requirement.
 
-Every app is a program. Every program needs an OS to run.
-
----
-
-# From an App Icon to the Chip (2/2)
-
-<div class="thread">The bottom half: hardware.</div>
-
-<div class="stack">
-<div class="layer logical"><span class="h">CPU</span> <span class="s">runs instructions, very fast: Week 4</span></div>
-<div class="layer physical"><span class="h">Memory &amp; Storage</span> <span class="s">holds data, short or long term: Week 5</span></div>
-<div class="layer physical"><span class="h">Logic Gates</span> <span class="s">tiny on/off switches. Everything is built from these: Week 3</span></div>
-</div>
-
-This course studies each layer, one at a time, from the bottom up.
+This course does not expect you to know how to code. By the end, you
+will understand hardware and software, at least the basics.
 
 ---
 
-# Tracing One Tap (1/2)
+# Textbooks
 
-<div class="thread">Six layers is abstract. Here is one real tap.</div>
+<div class="thread">One primary text. One optional reference.</div>
 
-**Step 1: You tap the app icon.**
-The screen (hardware) senses your finger. It sends a signal to the OS.
-
-**Step 2: The OS responds.**
-The OS finds the app on storage. It asks memory to make room.
-
----
-
-# Tracing One Tap (2/2)
-
-**Step 3: The CPU takes over.**
-The CPU reads the app's instructions. It runs them, one at a time.
-
-**Step 4: You see the result.**
-The screen lights up the app. This is what happens when nothing breaks.
-
-<!-- notes: Ask: "Which step do you think broke, in the frozen-call story?" -->
+- **Primary:** Harris & Harris, *Digital Design and Computer
+  Architecture* (RISC-V ed.), 2021
+- **Reference:** Tanenbaum & Austin, *Structured Computer
+  Organization*, 6th ed.
+- **Also:** these lecture slides themselves are a listed course
+  reference
 
 ---
 
-<!-- NEW: Try-It hand-off, Worksheet Part A -->
+# How This Course Runs
 
-# Try It: Worksheet Part A
+<div class="thread">What to expect from a 3-period block, every week.</div>
 
-<div class="thread">Now you practice. Work with a partner.</div>
+Each week has three class periods (차시), about 50 minutes each:
 
-- Open **[Worksheet Part A](materials/week01/worksheet.html)**.
-- Label each scenario: hardware, software, OS, or network.
-- You have about 15 minutes. Ask your partner before you ask me.
+- **A short lecture** - new words and ideas, explained simply, always
+  starting from a real device you already own
+- **A recap** - what last week delivered, and what it left unsolved
+- **In-class activities** - worksheets, discussion, and pair work,
+  with answers discussed right after, so you find out immediately if
+  your reasoning was right
+- **Some weeks, a short quiz** - Week 6 and Week 13, not graded for
+  most points, just to check your understanding before the midterm
+  and final
 
-<!-- notes: Hand out Worksheet Part A. Walk around and help pairs. After 15 minutes, ask 2-3 pairs to share one answer. -->
+You will talk in this class, not just listen. If a word or idea does
+not make sense, say so.
+
+---
+
+# Weekly Schedule
+
+<div class="thread">One line per week - the full walkthrough.</div>
+
+| Wk | Topic | Wk | Topic |
+|---|---|---|---|
+| 1 | Introduction (today) | 9 | Computer & Internet |
+| 2 | Computer History | 10 | Programming Language |
+| 3 | Boolean Logic | 11 | Databases & Security - **Assignment 2** |
+| 4 | CPU & Instructions - **Assignment 1** | 12 | Computer Applications |
+| 5 | Memory & Storage | 13 | AI - **Quiz 2** |
+| 6 | Application Software - **Quiz 1** | 14 | Emerging Technologies |
+| 7 | Operating Systems | 15 | **Final Exam** (Wks 9-14) |
+| 8 | **Midterm Exam** (Wks 1-7) | | |
 
 ---
 
 <!-- _class: section -->
 
 # End of 차시 2
-<div class="driving-q">Short break. 차시 3: more practice, then a short quiz.</div>
+<div class="driving-q">Short break. Next: grading, assignments, and policy.</div>
 
 ---
 
-<!-- NEW: Key Words Today, 차시 3 -->
+# Grading
 
-# Key Words Today
+<div class="thread">Five components, 100% total.</div>
 
-- **Overheat** — a device gets too hot.
-- **Crash** — an app suddenly stops working.
-- **Wifi drop** — the network connection cuts out.
-- **Diagnose** — figure out what is wrong.
+| Component | Weight |
+|---|---|
+| Attendance | 10% |
+| Midterm (Wk 8) | 30% |
+| Final (Wk 15) | 30% |
+| Assignments (×2) | 10% |
+| In-class items | 20% |
 
-<!-- notes: Read each word aloud. Say: "You will see these words in Worksheet Part B." -->
-
----
-
-# Case Study: What Really Froze
-
-<div class="thread">Back to the frozen call. Now you have the words.</div>
-
-Here are four real causes, one from each layer:
-
-<div class="chip-row">
-<span class="chip">Hardware: chip overloaded</span>
-<span class="chip">OS: failed to share memory</span>
-<span class="chip">Software: app crashed</span>
-<span class="chip">Network: connection dropped</span>
+<div class="why">
+<strong>Grade distribution guideline:</strong> A ≤30%, B ≤40%, C-F ≤30%
+of the class. This may shift after the add/drop period, based on final
+enrollment.
 </div>
 
-Restarting resets all four layers at once. That is why it often works.
+<!-- notes: Assignment 1 is due Week 4. Assignment 2 is due Week 11.
+Quiz 1 is Week 6. Quiz 2 is Week 13. -->
 
 ---
 
-# Who Works at Each Layer
+# Assignments
 
-<div class="thread">Six layers, six kinds of jobs.</div>
+<div class="thread">Two assignments and two quizzes, spaced across the semester.</div>
 
-<div class="appgrid">
-<div class="app"><div class="name">Hardware engineer</div><div class="desc">Designs chips and memory.</div></div>
-<div class="app"><div class="name">OS engineer</div><div class="desc">Builds software that shares the device.</div></div>
-<div class="app"><div class="name">Network engineer</div><div class="desc">Keeps devices talking to each other.</div></div>
-<div class="app"><div class="name">App developer</div><div class="desc">Builds the apps you use.</div></div>
-<div class="app"><div class="name">Security analyst</div><div class="desc">Protects every layer from misuse.</div></div>
-<div class="app"><div class="name">AI / data engineer</div><div class="desc">Builds the newest layer: Weeks 13-14.</div></div>
-</div>
-
-Each job exists because a real device can break in many ways.
+| Item | When | Counts toward |
+|---|---|---|
+| Assignment 1 | Due Week 4 | Assignments (10%) |
+| Quiz 1 | Week 6 | In-class items (20%) |
+| Assignment 2 | Due Week 11 | Assignments (10%) |
+| Quiz 2 | Week 13 | In-class items (20%) |
+| Midterm Exam | Week 8 | Midterm (30%) |
+| Final Exam | Week 15 | Final (30%) |
 
 ---
 
-# Common Mistakes
+# Feedback Policy
 
-- **"Hardware and software are unrelated":** Wrong. Neither works without the other.
-- **"Computer engineering is just coding":** Wrong. Coding is one layer of six.
-- **"You must already know programming":** Wrong. This course starts from zero.
+<div class="thread">From the syllabus, verbatim.</div>
 
----
+> Assignments graded within one week with rubric and model answers;
+> exam item-analysis shared with weak-topic guidance and individual
+> review on request.
 
-<!-- NEW: Try-It hand-off, Worksheet Part B -->
-
-# Try It: Worksheet Part B
-
-<div class="thread">More practice. New scenarios.</div>
-
-- Open **[Worksheet Part B](materials/week01/worksheet.html)**.
-- Label each scenario the same way: hardware, software, OS, or network.
-- You have about 15 minutes. Then we discuss answers together.
-
-<!-- notes: Hand out Worksheet Part B. After 15 minutes, go through the answer key as a class. Ask for volunteers first. -->
+In plain terms: you will know what you got wrong, and why, quickly
+enough for it to still matter for the next assignment or exam. If a
+grade surprises you, email the instructor - a short one-on-one review
+is always available, and clears up more than a rubric alone can.
 
 ---
 
-# Check Yourself
+# Attendance & Late Work
 
-1. Name one hardware part and one software part.
-2. Your friend's laptop freezes. Name two layers that could cause it.
-3. An app keeps crashing, not the whole device. Who do you ask first?
+<div class="thread">Concrete rules, stated once, so nobody is surprised later.</div>
 
----
-
-# Answers
-
-1. Hardware: CPU, memory, storage, or screen. Software: the OS, or an app.
-2. Any two: hardware overloaded, OS failed to share memory, app crashed, or network dropped.
-3. The **app developer**. The app itself is the problem, not the device.
-
----
-
-<!-- NEW: Self-check quiz hand-off -->
-
-# Self-Check Quiz
-
-<div class="thread">One more check, on your own.</div>
-
-- Take the **[Week 1 Quiz](materials/week01/quiz.html)** (5-8 short questions).
-- This quiz is not graded. It just checks your understanding.
-- About 10 minutes. Check your own answers at the end.
-
-<!-- notes: Hand out the quiz. Give students 10 minutes. Then read the answer key aloud, or let students self-check. -->
+- **Attendance** is 10% of your grade and is recorded every session.
+- **Late arrival:** arriving within 15 minutes of the start is
+  on-time; after that, you're marked late. Three lates equal one
+  absence.
+- **Can't attend?** Email the instructor *before* the session to be
+  marked excused - unexcused absences aren't eligible for makeup
+  credit.
+- **Late work:** loses 10% of that assignment's grade per day late, up
+  to 3 days. No credit after 3 days, unless arranged with the
+  instructor in advance.
 
 ---
 
-<!-- SLOT 17: Limits (Act 4 / CLOSE), becomes Week 2 slot 4 -->
+# Academic Integrity
 
-# What Today's Map Cannot Do Yet
+<div class="thread">Same principle as attendance: stated once, plainly.</div>
+
+- **Academic integrity:** submit your own work. Copying another
+  student's work, having someone else complete it for you, or
+  submitting unattributed AI-generated work as your own is a
+  violation.
+- **First violation:** zero credit on that assignment or exam, plus a
+  formal report. **Repeat violation:** may result in failing the
+  course, per university policy.
+- If anything here is unclear, ask - now is the cheapest time to ask.
+
+---
+
+# Support for Students with Disabilities
+
+<div class="thread">From the syllabus's accommodations section.</div>
+
+- **Hearing-impaired:** front-row seating, lecture material files
+  provided where possible, urgent notices given in writing
+- **Mobility-impaired:** extended exam time
+- **Other documented conditions:** extended exam time, materials
+  provided in advance, enlarged exam copies, or other reasonable
+  accommodation based on need
+
+Contact the instructor early, and the Disability Student Support
+Center or Academic Affairs Team, so accommodations are ready before
+you need them.
+
+---
+
+# Contact
+
+<div class="thread">How to reach the instructor.</div>
+
+- **Email:** yushintia@deu.ac.kr
+- **Office hours:** by email appointment
+- Email is the fastest way to reach the instructor outside of class.
+  Please allow 1-2 business days for a reply, and put the course code
+  or your name in the subject line so nothing gets lost.
+- Questions about grading, accommodations, or anything confusing in
+  this contract are always welcome - it's easier to ask early than to
+  untangle a problem in Week 14.
+
+---
+
+<!-- SLOT N+1: Limits (Act 4 / CLOSE), reused verbatim in Week 2's slot 3
+recap and echoed in its slot 4 pain slide - see SPINE.md's
+orientation-variant note -->
+
+# What Today Doesn't Give You Yet
 
 <div class="limits">
-We now have a map of computer layers, and some words for them. But we
-do not know where any of this started. Who built the first computer?
-Why? We have the map. We do not have its history yet.
+You now know how this course runs, how you're graded, and what's
+expected of you. You still do not know what is actually inside the
+device that just froze on that call, or how it works. Knowing the
+rules of the course is not the same as understanding what's inside
+your own phone.
 </div>
 
 ---
 
-<!-- SLOT 18: Bridge -->
+<!-- SLOT N+2: Bridge -->
 
 # Next Week
 
-Week 1 leaves **where this all started** unsolved. **Week 2, Computer
-History**, answers it: how computers evolved, and the number systems
-behind them.
+Week 1 leaves **what's actually inside your device** unanswered.
+**Week 2, Computer History**, begins to answer it: who built the
+first computer, why, and how computing grew from room-sized machines
+into the device now in your hand.
 
 ---
 
-<!-- SLOT 19: Summary -->
+<!-- SLOT N+3: Summary -->
 
 # Summary
 
-- A computer system is hardware and software, working together.
-- Six layers connect an app icon to a physical chip.
-- Every later week studies one of those six layers.
-- **Reading:** Harris & Harris, Preface and Chapter 1.
-- **Handout:** [materials/week01/handout.md](materials/week01/handout.html), glossary and the full layer walkthrough
-- **Prepare:** Think of one time your device confused you. Bring it to Week 2.
+- This course: how hardware and software work, separately and
+  together, so you can explain what's happening inside your own
+  device.
+- Grading: Attendance 10%, Midterm 30%, Final 30%, Assignments 10%,
+  In-class items 20%.
+- Assignment 1 due Week 4, Assignment 2 due Week 11. Quiz 1 in Week 6,
+  Quiz 2 in Week 13.
+- Primary text: Harris & Harris (RISC-V ed., 2021). Contact:
+  yushintia@deu.ac.kr.
+- **Prepare:** think of one time your device confused you. Bring it to
+  Week 2.
 
 ---
 
-<!-- SLOT 20: Thank You -->
+<!-- SLOT N+4: Thank You -->
 <!-- _class: end -->
 
 # Thank You

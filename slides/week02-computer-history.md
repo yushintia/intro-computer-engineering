@@ -54,8 +54,11 @@ Any guess is fine. That is what today answers.
 
 # Last Week, This Week
 
-- **Last week delivered:** a map of the six layers inside every device.
-- **Last week left broken:** we do not know where any of this history started.
+- **Last week delivered:** the course contract - how this course runs,
+  how you're graded, and what's expected of you.
+- **Last week left broken:** we still don't know what's actually
+  inside the device that just froze, or where any of this technology
+  came from.
 
 ---
 
@@ -65,9 +68,9 @@ Any guess is fine. That is what today answers.
 
 <div class="pain">
 
-We now have a map of computer layers, and some words for them. But
-we do not know where any of this started. Who built the first
-computer? Why? We have the map. We do not have its history yet.
+We now know how this course runs. But we still do not know what is
+actually inside the device that just froze. Who built the first
+computer? Why? We know the course. We do not have the history yet.
 
 </div>
 
