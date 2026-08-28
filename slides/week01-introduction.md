@@ -309,7 +309,7 @@ Quiz 1 is Week 6. Quiz 2 is Week 13. -->
 
 In plain terms: you will know what you got wrong, and why, quickly
 enough for it to still matter for the next assignment or exam. If a
-grade surprises you, email the instructor - a short one-on-one review
+grade surprises you, email the professor - a short one-on-one review
 is always available, and clears up more than a rubric alone can.
 
 ---
@@ -321,8 +321,8 @@ is always available, and clears up more than a rubric alone can.
 <div class="cardlist">
 <div class="card"><div class="h">Attendance</div><div class="d">is 10% of your grade and is recorded every session.</div></div>
 <div class="card"><div class="h">Late arrival</div><div class="d">arriving within 15 minutes of the start is on-time; after that, you're marked late. Three lates equal one absence.</div></div>
-<div class="card"><div class="h">Can't attend?</div><div class="d">Email the instructor <em>before</em> the session to be marked excused - unexcused absences aren't eligible for makeup credit.</div></div>
-<div class="card"><div class="h">Late work</div><div class="d">loses 10% of that assignment's grade per day late, up to 3 days. No credit after 3 days, unless arranged with the instructor in advance.</div></div>
+<div class="card"><div class="h">Can't attend?</div><div class="d">Email the professor <em>before</em> the session to be marked excused - unexcused absences aren't eligible for makeup credit.</div></div>
+<div class="card"><div class="h">Late work</div><div class="d">loses 10% of that assignment's grade per day late, up to 3 days. No credit after 3 days, unless arranged with the professor in advance.</div></div>
 </div>
 
 ---
@@ -353,7 +353,7 @@ is always available, and clears up more than a rubric alone can.
   provided in advance, enlarged exam copies, or other reasonable
   accommodation based on need
 
-Contact the instructor early, and the Disability Student Support
+Contact the professor early, and the Disability Student Support
 Center or Academic Affairs Team, so accommodations are ready before
 you need them.
 
@@ -361,11 +361,11 @@ you need them.
 
 # Contact
 
-<div class="thread">How to reach the instructor.</div>
+<div class="thread">How to reach the professor.</div>
 
 - **Email:** yushintia@deu.ac.kr
 - **Office hours:** by email appointment
-- Email is the fastest way to reach the instructor outside of class.
+- Email is the fastest way to reach the professor outside of class.
   Please allow 1-2 business days for a reply, and put the course code
   or your name in the subject line so nothing gets lost.
 - Questions about grading, accommodations, or anything confusing in

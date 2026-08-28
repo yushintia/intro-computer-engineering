@@ -1,7 +1,7 @@
 # Outline: Introduction to Computer Engineering (400507-001)
 
 DEU 2026-2, Thu 1-3교시 (3x50 min), 성파 701, 1st-year, 지능형컴퓨팅학과,
-전공필수 (required). Instructor: Yushintia Pramitarini. No formal
+전공필수 (required). Professor: Yushintia Pramitarini. No formal
 prerequisite. Texts: Harris & Harris; Tanenbaum & Austin.
 
 Full pedagogical rules (chain-linking, slot structure) live in

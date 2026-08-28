@@ -84,7 +84,7 @@ ______________________________________________
 ---
 ---
 
-## Instructor Answer Key — do not hand out this section
+## Professor Answer Key — do not hand out this section
 
 Accept any reasonable, well-explained answer. The goal is reasoning
 about tables, queries, and password strength, not one fixed wording.

@@ -87,7 +87,7 @@ ______________________________________________
 ---
 ---
 
-## Instructor Answer Key — do not hand out this section
+## Professor Answer Key — do not hand out this section
 
 ### Part A
 

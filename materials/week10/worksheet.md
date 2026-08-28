@@ -89,7 +89,7 @@ ______________________________________________
 ---
 ---
 
-## Instructor Answer Key — do not hand out this section
+## Professor Answer Key — do not hand out this section
 
 Accept any reasonable, well-explained answer. The goal is correct
 ordering and reasoning, not one exact wording.

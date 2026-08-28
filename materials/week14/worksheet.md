@@ -78,7 +78,7 @@ ______________________________________________
 ---
 ---
 
-## Instructor Answer Key — do not hand out this section
+## Professor Answer Key — do not hand out this section
 
 Accept any reasonable, well-explained answer. Multiple ideas are often
 defensible at once; the goal is reasoning, not a single "correct" pick.
