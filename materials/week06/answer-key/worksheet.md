@@ -26,3 +26,29 @@ not only a single "correct" pick.
 4. **Photo editor.** Viewing and editing pictures.
 5. **Messaging app.** Sending texts, photos, or calls.
 6. **Game.** Entertainment the user directly controls.
+
+### Part C
+
+1. a. **Spreadsheet.** Organizing numbers into rows, columns, and formulas.
+   b. **Navigation.** Maps and route-finding.
+   c. **Educational.** Studying, practicing, and taking quizzes.
+   d. **Communication.** Messaging, calling, and video chatting.
+   e. **Entertainment.** Streaming apps built purely to entertain.
+   f. **Productivity.** Calendars and to-do lists.
+2. **Utility software.** It keeps the machine healthy (scanning for
+   threats) without being the OS itself, and usually runs only when
+   the user chooses to run it.
+3. **A programmer writes source code → a compiler or interpreter
+   translates it → a running program is produced.**
+4. a. **Compiled.**
+   b. **Interpreted.**
+5. a. **Proprietary.**
+   b. **Open-source.**
+   c. **Freeware.**
+6. **False.** Freeware means no cost to use, but the source code
+   stays private. Open-source means the source code is public and
+   modifiable; it may or may not also be free. "Free" describes a
+   price, "open-source" describes access to the code.
+7. **True.** An update repeats the install process with newer files,
+   so it needs the same network connection and free storage space as
+   a first-time install.

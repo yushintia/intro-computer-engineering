@@ -45,3 +45,29 @@ without your notes. About 10 minutes.
 
 8. **Short answer.** In two sentences or less, explain why the same
    laptop can do office work, and also play games.
+
+9. Which one best describes **ubiquitous computing**?
+   a) One giant computer used by an entire company
+   b) Small computers built into ordinary objects, working quietly in the background
+   c) A computer that can only run one program
+   d) A computer used only for video games
+
+10. A shopping app shows a virtual sofa sitting in your real living
+    room, seen through your phone's camera. Which is this?
+    a) Virtual reality (VR)
+    b) Augmented reality (AR)
+    c) Mixed reality (MR)
+    d) A digital twin
+
+11. True or false: "Virtual reality (VR) still lets you see your real
+    room while you use it."
+
+12. What is the main reason photos and videos are usually compressed,
+    using formats like JPEG or MPEG?
+    a) Compression makes a photo look more colorful
+    b) Compression shrinks a file's size, so it takes less storage and less time to send
+    c) Compression is required by law
+    d) Compression deletes the original photo completely
+
+13. **Short answer.** In one or two sentences, explain the difference
+    between a service robot and a digital twin.

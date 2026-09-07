@@ -47,3 +47,58 @@ without your notes. About 10 minutes.
 
 8. **Short answer.** In two sentences or less, explain why Mia's
    photo app needs both a database and a password, not just one.
+
+9. What does this query return: `SELECT Name FROM Students WHERE
+   Major = 'Business';`?
+   a) Every student in the table
+   b) Only the names of students whose Major is Business
+   c) Only the students whose Name is "Business"
+   d) It deletes all Business students
+
+10. Which action adds a brand new row to a table?
+    a) Insert
+    b) Update
+    c) Delete
+    d) Query
+
+11. What is **data redundancy**?
+    a) A backup copy stored safely in the cloud
+    b) The same fact, stored in more than one place
+    c) A password that is too short
+    d) A table with no primary key
+
+12. Who proposed the relational model, storing data in linked
+    tables, in 1970?
+    a) Tim Berners-Lee
+    b) Edgar Codd
+    c) ARPANET researchers
+    d) A hacker
+
+13. A hacker doesn't steal Mia's photos, but secretly changes her
+    captions without her knowing. Which part of the CIA triad is
+    broken?
+    a) Confidentiality
+    b) Integrity
+    c) Availability
+    d) Authentication
+
+14. Which type of malware disguises itself as useful software, then
+    does something harmful?
+    a) Virus
+    b) Worm
+    c) Trojan
+    d) Ransomware
+
+15. A message says: "Your account will be deleted in 1 hour — click
+    here and enter your password now!" This is most likely an
+    example of:
+    a) A firewall
+    b) Two-step login
+    c) Phishing
+    d) A backup
+
+16. What does a **firewall** do?
+    a) Scrambles data so only the right person can read it
+    b) Watches traffic between two networks, and blocks anything that does not match its allowed rules
+    c) Proves that a user really is who they claim to be
+    d) Stores an extra copy of data in case the first is lost

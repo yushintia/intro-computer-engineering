@@ -35,3 +35,33 @@ Scenario with more than one answer (for the discussion question):
 scenario 5 (hospital scans) reasonably depends on both storage and a
 protected database; scenario 1 (gaming) could also depend on memory
 for loading the game world. Accept any well-reasoned combination.
+
+### Part C
+
+**C1. AR, VR, or MR?**
+
+1. **VR.** Nothing real stays visible; the real room is fully
+   replaced by the digital cockpit.
+2. **AR.** The real room stays visible, through the phone's camera,
+   with a digital sofa added on top.
+3. **MR.** The digital character reacts to the real desk's position,
+   not just painted over the video.
+
+Discussion: AR keeps the most of the real world visible (you still
+see the real room). VR keeps the least (nothing real stays visible).
+
+**C2. Name That Idea**
+
+1. Digital twin
+2. Wearable device
+3. Service robot
+4. Home networking
+5. Ubiquitous computing
+6. Metaverse
+
+**C3. One Photo, Two File Sizes**
+
+1. The uncompressed 24 MB file. Larger files always take longer to
+   send over any network, home or otherwise.
+2. A JPEG compresses an **image**. **MPEG** compresses a moving video
+   instead.

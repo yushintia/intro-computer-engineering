@@ -47,3 +47,34 @@ without your notes. About 10 minutes.
 
 8. **Short answer.** In two sentences or less, explain the difference
    between an AND gate and an OR gate.
+
+9. Convert binary `1010` to hexadecimal.
+   a) 9
+   b) A
+   c) F
+   d) 10
+
+10. What is the **sign bit** used for in an integer representation?
+    a) To mark whether the number is even or odd
+    b) To mark whether the number is positive or negative
+    c) To count how many bits are in the number
+    d) To store the ASCII code
+
+11. Which standard was created because ASCII did not have enough room
+    for the world's languages?
+    a) Binary
+    b) Hexadecimal
+    c) Unicode
+    d) Two's complement
+
+12. Using Boolean algebra notation, how is "NOT A" usually written?
+    a) A · B
+    b) A + B
+    c) Ā
+    d) A²
+
+13. According to De Morgan's law, NOT(A AND B) is the same as:
+    a) A AND B
+    b) (NOT A) OR (NOT B)
+    c) (NOT A) AND (NOT B)
+    d) A OR B

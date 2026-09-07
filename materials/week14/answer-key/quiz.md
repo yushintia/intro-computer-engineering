@@ -8,3 +8,8 @@
 6. **False.** Each idea reuses the same six layers from Week 1; none of them needed a new layer.
 7. **Kilobyte → gigabyte → terabyte → petabyte.**
 8. **Sample answer:** Storing data on someone else's server is convenient, but it means trusting that company to keep it private and safe.
+9. **b) Volume, variety, and velocity.** These are big data's three signs.
+10. **b) Builds an object by adding material, layer by layer.** That is additive manufacturing.
+11. **b) So one sensor's weakness, like camera glare, does not make the car fail alone.** That is sensor fusion.
+12. **False.** Cryptocurrency is interchangeable digital money; an NFT is a unique ownership record for one specific item. Both sit on a blockchain, but they are different kinds of record.
+13. **b) A wave of change where physical machines, digital computing, and living systems increasingly work together.** That is the Fourth Industrial Revolution.

@@ -25,6 +25,13 @@ Simple, plain definitions. Read these before or after class.
 | **Error** | A case when a model's best guess is wrong. |
 | **Deepfake** | A fake photo or video, made by AI, that looks real. |
 | **Privacy** | Keeping your personal data safe from misuse. |
+| **Neural network** | A machine-learning model built from layers of small, simple units, each passing its result to the next layer. |
+| **Automation** | A machine repeating a fixed set of steps, with no person doing each one. Not always AI. |
+| **Image recognition** | An AI domain: identifying what is in a photo or video frame. |
+| **Recommendation system** | An AI domain: guessing what a person will want next. |
+| **Voice & language processing** | An AI domain: turning speech or text into an understood request. |
+| **Fraud & anomaly detection** | An AI domain: flagging activity that looks unlike the normal pattern. |
+| **Generative AI** | A model trained to produce new content, such as text or images, instead of only labeling existing content. |
 
 ---
 
@@ -114,6 +121,46 @@ this week's ideas:
 - **Product manager** — decides where AI should help users.
 - **Security analyst** — guards the data used for training.
 
+**Neural networks: learning in layers.** Machine learning is not one
+single technique. Today, most modern AI tools are powered by **neural
+networks**, a layered kind of machine learning built from layers of
+small, simple units, each passing its result to the next layer. The
+first layer looks at raw input, like a photo's individual pixels.
+Each next layer combines the layer before it into a slightly bigger
+pattern: edges, then shapes, then a whole face. The last layer turns
+those combined patterns into one final guess. No single layer
+"understands" a face; the pattern only appears once all the layers
+work together. A simple rule-based example, like an if-then
+thermostat ("if room temperature is below 18°C, turn on the heater"),
+shows the older approach by contrast: the rule never changes unless a
+person edits the code by hand, and no example was ever learned.
+
+**The four AI application domains.** Beyond the photo-sorting example
+from class, AI shows up in four named domains: **image recognition**
+(a hospital's scan-reading tool highlights an area matching past,
+confirmed cases, though a doctor still makes the final call),
+**recommendation systems** (a streaming app finds viewers with a
+similar pattern to yours, and suggests what they liked),
+**voice & language** (a voice assistant converts spoken words into
+text, then matches that text to the closest known request), and
+**fraud & anomaly detection** (a bank flags a charge that does not
+match your usual pattern, without ever "knowing" for certain it is
+fraud).
+
+**AI and automation are not the same thing.** **Automation** means a
+machine repeats a fixed set of steps, with no person doing each one.
+Not all automation is AI: a dishwasher automates cleaning using one
+fixed cycle, with no learning at all. AI is one way to build smarter
+automation, when the fixed steps are not known in advance.
+
+**Generative AI.** **Generative AI** is a model trained to produce
+new content, such as text or images, instead of only labeling
+existing content. It is trained on huge amounts of existing text or
+images, learns the patterns behind them, and then predicts a
+plausible new result from a short prompt, one piece at a time. The
+result is a new pattern-based guess, not a fact retrieved from a
+database.
+
 ---
 
 ## 5. Practice Problems (with Answers)
@@ -159,3 +206,15 @@ accurate.
 > **Answer (sample):** AI only matches patterns it learned from
 > training examples. It does not understand meaning the way a person
 > does; a totally new situation can still confuse it.
+
+**Problem 7.** A dishwasher runs one fixed cleaning cycle every time.
+Is this AI? Explain in one sentence.
+
+> **Answer:** No, it is plain automation. It repeats one fixed set of
+> steps, with no learning from examples involved.
+
+**Problem 8.** Name one of the four AI application domains covered
+this week, and give one example.
+
+> **Answer (sample):** Fraud & anomaly detection — a bank flagging a
+> purchase that does not match your usual spending pattern.

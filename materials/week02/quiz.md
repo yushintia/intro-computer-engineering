@@ -45,3 +45,35 @@ without your notes. About 10 minutes.
 8. **Short answer.** In two sentences or less, explain why computer
    history still matters, even though today's laptops look nothing
    like ENIAC.
+
+9. Which generation of computers is defined by many cores solving
+   separate parts of a problem at the exact same instant?
+   a) 1st generation
+   b) 3rd generation
+   c) 4th generation
+   d) 5th generation
+
+10. Who is credited with writing the first computer program, in the
+    1840s, for a machine that had not yet been built?
+    a) Alan Turing
+    b) Ada Lovelace
+    c) Grace Hopper
+    d) John von Neumann
+
+11. A washing machine's controller only ever times and heats clothes.
+    By **purpose**, what type of computer is this?
+    a) General-purpose
+    b) Special-purpose
+    c) Analog
+    d) Mainframe
+
+12. A classic mercury thermometer rises and falls smoothly, with no
+    fixed jumps in between. By **data representation**, what type of
+    computer or device is this?
+    a) Digital
+    b) Analog
+    c) Hybrid
+    d) Mainframe
+
+13. True or false: "Punch cards were first used to control computers,
+    and only later adapted for weaving looms."

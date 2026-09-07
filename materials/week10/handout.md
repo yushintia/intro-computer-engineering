@@ -25,6 +25,22 @@ Simple, plain definitions. Read these before or after class.
 | **Compiler** | A translator that changes all the code at once, before running. |
 | **Interpreter** | A translator that changes code one line at a time, while running. |
 | **Bug** | A mistake in code that makes a program act wrong. |
+| **Machine code** | The raw pattern of 0s and 1s a CPU's circuits can directly read and execute. |
+| **Assembly language** | Short, readable mnemonics, one per machine instruction, close to the chip. |
+| **High-level language** | Words and structure close to human thought, far from the chip's own instructions. |
+| **4GL (fourth-generation language)** | Lets a person describe *what* result they want, without spelling out *how* to compute it. |
+| **Object-oriented programming (OOP)** | Organizes a program around objects: bundles of data and the actions that work on it. |
+| **Class** | The blueprint describing what an object of that kind will contain. |
+| **Object** | One actual instance built from a class. |
+| **Method** | An action defined inside a class, that an object of that class can perform. |
+| **Unix** | An operating system family, built with the help of the C language. |
+| **Shell script** | A short program made of ordinary command-line commands, run as one automated sequence. |
+| **HTML** | Defines a webpage's structure and content. |
+| **CSS** | Defines a webpage's appearance: colors, fonts, layout. |
+| **JavaScript** | Defines a webpage's behavior: what happens when you click or type. |
+| **.NET / C#** | Microsoft's language-and-tools ecosystem; C# is its flagship language. |
+| **Syntax error** | A mistake that breaks the language's own exact rules; a translator refuses to proceed. |
+| **Logic error** | A mistake where every rule is followed, but the program still does the wrong thing. |
 
 ---
 
@@ -76,7 +92,90 @@ it, 200 times, correctly.
 
 ---
 
-## 3. Optional Reading: More Detail
+## 3. From Code to Chip: Levels, Translators, and Errors
+
+**Three levels, one task.** A single instruction can be written for
+three very different readers. Take "add 5 to a number":
+
+| Level | What it looks like |
+|---|---|
+| High-level | `total = total + 5` |
+| Assembly | `ADD A, 5` |
+| Machine code | `10110000 00000101` |
+
+**Machine code** is the raw pattern of 0s and 1s a CPU's circuits can
+directly read and execute, with no translation needed. No one writes
+large programs directly in machine code today — it is far too
+tedious. **Assembly language** replaces those raw binary patterns with
+short, readable mnemonics, one per machine instruction; a translator
+called an **assembler** turns assembly back into machine code. A
+**high-level language** lets a programmer describe a task using words
+and structure close to human thought, far from the chip's own
+instructions, and is not tied to one specific chip design.
+
+**Compiler vs. interpreter, precisely.** Both are translators, named
+in this week's key words, but they do their work at different times.
+A **compiler** reads all of a program's code at once, translates the
+whole thing into machine code, and only then lets it run — it can
+catch many mistakes before the program ever runs, and the finished
+program usually runs fast (C is usually compiled). An **interpreter**
+reads and translates a program one line at a time, running each line
+immediately — there is no separate "compile now, run later" step, so
+testing a small change is quick, but mistakes on a later line are not
+caught until the program actually reaches that line (Python is
+usually interpreted). In Mia's script: the compiled version refuses to
+finish and reports a typo before any photo is touched; the interpreted
+version may already rename 149 photos before it crashes on the same
+typo.
+
+**4GL: an even higher level.** A **fourth-generation language**, like
+SQL (Week 11), lets a person describe *what* result they want without
+spelling out *how* to compute it. Compare finding "Mia's photos taken
+in Seoul" as a 3GL (`FOR EACH ... IF ... END FOR`) versus a 4GL
+(`SELECT * FROM Photos WHERE Place = 'Seoul';`) — the 4GL version
+never mentions a loop at all.
+
+**Object-oriented programming.** OOP organizes a program around
+**objects**: bundles that hold both data and the actions that work on
+that data, together. A **class** is the blueprint (e.g. `Photo`, with
+fields `name`, `date`, `place`); an **object** is one actual instance
+built from that blueprint (`photo1`, `photo2` — Mia's 200 photos are
+200 objects, all built from one class). A **method** is an action
+defined inside a class that an object can perform, such as
+`photo1.rename("IMG_seoul_01")`.
+
+**C, Unix, and the command line.** C was created in the early 1970s to
+help build the Unix operating system; because C compiles into fast,
+hardware-close code, it remains the natural choice for operating
+systems (Linux, Unix's best-known descendant, is still written mostly
+in C). A **shell script** is a short program made of ordinary
+command-line commands, saved together to run as one automated
+sequence — common on Unix and Linux systems.
+
+**HTML, CSS, and JavaScript.** A single webpage is written in three
+separate languages, none replacing another: **HTML** defines
+structure and content (headings, paragraphs, images); **CSS** defines
+appearance (colors, fonts, spacing, layout); **JavaScript** defines
+behavior (what happens when you click or type). Remove the JavaScript
+from a page, and it still shows the same content — it just cannot
+respond to a click.
+
+**.NET and C#.** **.NET** is a language-and-tools ecosystem built by
+Microsoft; **C#**, its flagship language, borrows much of its
+structure from Java, including strong support for OOP, and is common
+in large organizations maintaining software for many years.
+
+**Syntax error vs. logic error.** A **syntax error** breaks the
+language's own exact rules, like a missing `END FOR` — a translator
+refuses to proceed at all. A **logic error** follows every rule
+perfectly, but still does the wrong thing, like renaming photos in the
+wrong order. A compiler or interpreter catches a syntax error
+automatically; only a person, checking results, tends to catch a
+logic error.
+
+---
+
+## 4. Optional Reading: More Detail
 
 This section holds extra detail that was trimmed from the slides. It
 is optional, but useful if you want to go deeper.
@@ -109,7 +208,7 @@ the same way Mia's photo plan does.
 
 ---
 
-## 4. Practice Problems (with Answers)
+## 5. Practice Problems (with Answers)
 
 Try each problem yourself before checking the answer.
 

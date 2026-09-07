@@ -32,3 +32,45 @@ reasoning, not a single memorized phrasing.
 5. **Open-ended.** Accept any answer that correctly names at least one
    gate and matches its own stated logic. Ask students to explain
    their gate choice out loud if time allows.
+
+### Part C
+
+**Section 1:**
+1. **44 → `2C`.** 44 ÷ 16 = 2, remainder 12 (C); 2 ÷ 16 = 0, remainder
+   2. Read last to first: 2, C.
+2. **`10110100` → `B4`.** Split into `1011` (11 = B) and `0100` (4).
+
+**Section 2:**
+3. **0110 + 0101 = `1011`** (6 + 5 = 11). Column 1: 0+1=1. Column 2:
+   1+0=1. Column 3: 1+1=0, carry 1. Column 4: 0+0+1=1.
+4. **1001 + 0111 = `10000`** (9 + 7 = 16). Every column carries,
+   producing a new leading digit.
+
+**Section 3:**
+5. **−6 = `11111010`.** Positive 6 = `00000110`. Flip: `11111001`.
+   Add 1: `11111010`.
+6. **−4 = `11111100`.** Positive 4 = `00000100`. Flip: `11111011`.
+   Add 1: `11111100`.
+
+**Section 4:**
+7. **97 → `01100001`.** 64? Yes (97−64=33). 32? Yes (33−32=1). 16? No.
+   8? No. 4? No. 2? No. 1? Yes (1−1=0).
+8. **True.** ASCII only had room for 128 characters. Unicode assigns
+   a unique number to characters from nearly every written language,
+   plus symbols and emoji.
+
+### Part D
+
+**Section 1:**
+1. **C · W**
+2. **Ḡ**
+3. **R + S**
+
+**Section 2:**
+4. **Yes, they agree.** Raining=Yes, Cold=No means AND needs every
+   input true; one input is false either way, so both orders give
+   **No**. Order never changes an AND's output.
+5. **(NOT Sunny) OR (NOT Warm).**
+
+**Section 3:**
+6. **About 8 transistors** (2 for the NOT gate + 6 for the AND gate).

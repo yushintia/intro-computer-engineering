@@ -17,6 +17,9 @@ often defensible; the goal is reasoning, not a single "correct" pick.
    (each tab uses its own memory space). Both are defensible.
 6. **Memory.** Private memory spaces stop one app from reading
    another app's data, which protects saved passwords too.
+7. **File management.** The OS tracks exactly which spot in storage
+   holds the file, so it can be found again by name, not by memory
+   address.
 
 ### Part B
 
@@ -34,3 +37,25 @@ often defensible; the goal is reasoning, not a single "correct" pick.
    Both are defensible.
 6. **CPU time.** The scheduler gives idle processes very little time,
    since they are not asking to do anything.
+7. **File management.** The OS locates exactly which bytes on the SSD
+   belong to that photo before the photo app can display anything.
+
+### Part C
+
+1. a. **Resource management.**
+   b. **User interface.**
+   c. **Program execution.**
+2. a. **Batch.**
+   b. **Time-sharing.**
+   c. **Real-time.**
+   d. **Distributed.**
+3. **DOS era → GUI era → Modern era.**
+4. a. **Linux/UNIX.** Its open-source lineage quietly powers most
+      servers and cloud data centers.
+   b. **Windows.** Built for broad hardware compatibility across many
+      manufacturers.
+   c. **Android or iOS.** Built around touch input and a single home
+      screen.
+   d. **Embedded OS.** Built to run just one dedicated job forever.
+5. **Music.** The rotation is Browser (0-10), Music (10-20), Video
+   call (20-30), Browser (30-40), Music (40-50).

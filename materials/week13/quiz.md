@@ -44,3 +44,23 @@ without your notes. About 10 minutes. This is not Quiz 2.
 
 8. **Short answer.** In two sentences or less, explain why an AI
    model can still guess wrong on a photo it has never seen before.
+
+9. What is a **neural network**?
+   a) A network of physical computers connected by cables
+   b) A machine-learning model built from layers of simple units, each passing its result to the next layer
+   c) A rule a programmer writes by hand
+   d) The internet connecting AI companies together
+
+10. True or false: "Every automated device, like a dishwasher, is
+    also an example of AI."
+
+11. Name one of the four AI application domains covered this week
+    (image recognition, recommendation systems, voice & language, or
+    fraud & anomaly detection), and give one example.
+
+12. What does **generative AI** do that a simple photo-sorting model
+    does not?
+    a) It only labels existing photos, faster
+    b) It produces brand-new content, like text or images, based on learned patterns
+    c) It deletes bad training data automatically
+    d) It replaces the need for any training data at all

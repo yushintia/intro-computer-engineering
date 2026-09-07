@@ -22,6 +22,20 @@ Simple, plain definitions. Read these before or after class.
 | **Cloud storage** | Storage space kept on someone else's computer, reached over the internet. |
 | **Byte** | A small unit that measures how much data fits in memory or storage. |
 | **Speed** | How fast a part can read or write data. |
+| **Memory hierarchy** | The stack of memory types, from registers down to secondary storage, trading speed for size. |
+| **Register** | Tiny storage built directly into the CPU chip; holds the exact value the CPU is using this instant. |
+| **Cache** | A small, very fast memory next to the CPU that holds copies of recently used data. |
+| **Secondary storage** | The formal name for HDD/SSD-type storage: permanent, and the biggest, slowest rung of the hierarchy. |
+| **Cache hit** | The CPU asks for data, and it is already sitting in cache. |
+| **Cache miss** | The CPU asks for data that is not in cache, and must wait for slower RAM instead. |
+| **ROM (Read-Only Memory)** | Non-volatile memory that holds fixed instructions written once, at the factory, and rarely rewritten. |
+| **Firmware** | The tiny startup program, stored in ROM, that runs the instant a device is powered on. |
+| **Bit** | A single `1` or `0`; the smallest possible unit of data. |
+| **Kilobyte (KB), Megabyte (MB), Gigabyte (GB), Terabyte (TB)** | Increasingly large groups of bytes, each roughly a thousand times bigger than the last. |
+| **Powers of 2 vs. powers of 10** | Two different counting systems for the same unit names: memory sizes are technically powers of 2 (1 KB = 1,024 bytes); storage is usually advertised in powers of 10 (1 KB = 1,000 bytes). |
+| **Access time** | How long a memory or storage device takes to locate a requested piece of data, and begin delivering it. |
+| **Throughput** | How much data a device can transfer per second, once the transfer has already started. |
+| **Clock speed** | Measured in GHz; how many basic timing cycles the CPU can execute every second. It says nothing about memory or storage speed. |
 | **Crash** | When a program or device suddenly stops working. |
 | **Auto-save** | A feature that saves your work automatically, again and again. |
 | **Backup** | A second copy of a file, kept somewhere safe in case the first is lost. |
@@ -98,7 +112,140 @@ these trade-offs.
 
 ---
 
-## 4. Optional Reading: More Detail
+## 4. The Memory Hierarchy: Four Rungs
+
+No single memory technology can be fast, huge, cheap, and permanent
+all at once. Real computers solve this by stacking several kinds of
+memory together, fastest and smallest closest to the CPU, slowest and
+biggest farthest away. This stack is called the **memory hierarchy**:
+
+1. **Registers** — tiny storage built directly into the CPU chip;
+   holds the exact value the CPU is using this instant. Fastest, but
+   only a few bytes.
+2. **Cache** — a small, very fast memory next to the CPU; holds
+   copies of data the CPU used recently. Very fast, a few MB.
+3. **RAM (Memory)** — holds the whole running program and its data.
+   Fast, several GB.
+4. **Secondary storage** — keeps everything permanently, even
+   powered off. Slowest, but TB-scale and cheapest per byte.
+
+Each step down trades speed for size: bigger and cheaper, but slower
+to reach. On one ordinary laptop, all four rungs are active at the
+same moment: a loop counter sits in a register, a just-reloaded
+webpage appears from cache, an open unsaved essay sits in RAM, and
+last weekend's photos sit on the SSD (secondary storage).
+
+---
+
+## 5. Cache: Why It Exists, and Hits vs. Misses
+
+The CPU can execute billions of instructions every second, but RAM
+cannot supply new data anywhere near that fast. **Cache memory** is a
+small, very fast memory placed between the CPU and RAM to close that
+gap, storing copies of the data the CPU is most likely to need again
+soon. Cache does not replace RAM; it catches the CPU's most common
+requests before they ever reach it.
+
+Every request to cache ends one of two ways:
+
+- **Cache hit:** the requested data is already sitting in cache. The
+  CPU gets it almost instantly.
+- **Cache miss:** the data is not in cache. The CPU must wait for the
+  much slower RAM, and a copy is then stored in cache for next time.
+
+**Worked example.** Suppose a cache hit takes about 1 nanosecond, and
+a cache miss takes about 100 nanoseconds. If 9 out of every 10
+requests are hits:
+
+(9 × 1 ns + 1 × 100 ns) ÷ 10 requests ≈ **10.9 ns average**
+
+That average sits far closer to the hit speed than the miss speed,
+which is exactly why designers work hard to keep the hit rate high. A
+high hit rate is what actually makes a computer feel fast.
+
+---
+
+## 6. RAM vs. ROM: Two Different Jobs
+
+Both RAM and ROM live inside a laptop, and both hold data, but they do
+opposite jobs:
+
+- **RAM (Random Access Memory)** — fast, volatile working memory. It
+  holds the operating system in use, every open app, and your
+  document's in-progress data. It changes every second you use your
+  laptop.
+- **ROM (Read-Only Memory)** — non-volatile memory. It holds the tiny
+  startup program, called **firmware**, written once at the factory
+  and rarely or never rewritten afterward. Without ROM's firmware, a
+  laptop would not even know how to start loading anything.
+
+ROM is not the same thing as secondary storage (HDD/SSD): both are
+non-volatile, but ROM is small, fixed at the factory, and almost never
+rewritten by a user, while secondary storage is large and meant to be
+rewritten constantly, every time you save a file.
+
+---
+
+## 7. Measuring Data: Bits, Bytes, and Units
+
+- **Bit** — a single `1` or `0`. The smallest possible unit of data
+  (recall Week 3's Boolean logic).
+- **Byte** — a group of 8 bits. The basic unit computers use to
+  measure most everyday data. One typed letter of text takes up
+  roughly one byte.
+
+| Unit | Roughly Holds |
+|---|---|
+| Kilobyte (KB) | A short paragraph of text |
+| Megabyte (MB) | One photo |
+| Gigabyte (GB) | A short movie |
+| Terabyte (TB) | Thousands of movies |
+
+Each step up is about a thousand times bigger than the step before.
+
+**Powers of 2 vs. powers of 10.** Computers naturally count in
+binary, so memory sizes are technically powers of 2 (1 KB = 1,024
+bytes). Storage is usually advertised using powers of 10, since it
+produces bigger, rounder-looking numbers (1 KB = 1,000 bytes).
+Neither convention is "wrong"; they are just two different counting
+systems, used in two different places.
+
+**Why your "256GB" drive shows less than 256GB.** A manufacturer's
+256 GB uses powers of 10: 256 × 10⁹ = 256,000,000,000 bytes. Your
+operating system reports storage using powers of 2 (1 "GB" = 2³⁰
+bytes), so that exact same drive shows as roughly **238 GB** in your
+file explorer. No data is missing — it is the same bytes, counted two
+different ways.
+
+---
+
+## 8. Speed Beyond Clock Speed: Access Time and Throughput
+
+Week 4 introduced **clock speed**, measured in gigahertz (GHz): how
+many basic timing cycles the CPU can execute every second. A higher
+clock speed lets the CPU do more work per second, but it says nothing
+about how fast memory or storage can keep up with it.
+
+Two other numbers describe that separately:
+
+- **Access time** — how long a memory or storage device takes to
+  locate a requested piece of data, and begin delivering it. Ranges
+  from a fraction of a nanosecond for registers, up to several
+  milliseconds for a spinning hard disk drive.
+- **Throughput** — how much data a device can transfer per second,
+  once the transfer has already started, usually measured in MB/s or
+  GB/s.
+
+Access time is how long you wait to merge onto a highway. Throughput
+is how fast traffic moves once you are already on it. A device can be
+slow to start (poor access time) but fast once moving (good
+throughput), or the reverse. A higher-GHz laptop is not automatically
+faster overall: slow storage or too little RAM can still bottleneck
+even a fast CPU.
+
+---
+
+## 9. Optional Reading: More Detail
 
 This section holds extra detail that was trimmed from the slides. It
 is optional, but useful if you want to go deeper.
@@ -133,7 +280,7 @@ deleting a file is not considered a safe way to protect private data.
 
 ---
 
-## 5. Practice Problems (with Answers)
+## 10. Practice Problems (with Answers)
 
 Try each problem yourself before checking the answer.
 
@@ -178,3 +325,37 @@ but saved files do not.
 > **Answer (sample):** Unsaved work lives only in memory, which needs
 > constant power to keep its data. Saved files live in storage, which
 > keeps its data even with no power at all.
+
+**Problem 7.** Put these four rungs of the memory hierarchy in order,
+from fastest to slowest: RAM, Registers, Secondary storage, Cache.
+
+> **Answer:** Registers → Cache → RAM → Secondary storage.
+
+**Problem 8.** A cache hit takes about 1 ns, and a cache miss takes
+about 100 ns. If 9 out of 10 requests are hits, what is the
+approximate average request time?
+
+> **Answer:** (9 × 1 ns + 1 × 100 ns) ÷ 10 ≈ 10.9 ns.
+
+**Problem 9.** True or false: "ROM is just another name for storage,
+like an SSD." Explain your answer in one sentence.
+
+> **Answer:** False. ROM is small, fixed at the factory, and almost
+> never rewritten, while secondary storage (SSD/HDD) is large and
+> meant to be rewritten constantly.
+
+**Problem 10.** A drive is advertised as 256GB but shows as about
+238GB in the file explorer. Explain why in one or two sentences.
+
+> **Answer:** The manufacturer counts using powers of 10 (1 GB =
+> 1,000,000,000 bytes), while the operating system counts using
+> powers of 2 (1 GB = 2³⁰ bytes). No data is missing; it is the same
+> bytes counted two different ways.
+
+**Problem 11.** Explain the difference between access time and
+throughput, in one or two sentences.
+
+> **Answer:** Access time is how long a device takes to locate data
+> and begin delivering it. Throughput is how much data flows per
+> second once the transfer has already started. They measure
+> different things.

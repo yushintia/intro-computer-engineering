@@ -16,3 +16,12 @@
 8. **Sample answer:** Unsaved work lives only in memory, which needs
    constant power to keep its data. Saved files live in storage,
    which keeps its data even when the power is off.
+9. **Registers → Cache → RAM → Secondary storage.**
+10. **b) 11 ns** (closest rounded value; the exact calculation is
+    about 10.9 ns).
+11. **b) It is non-volatile and holds fixed firmware, rarely
+    rewritten.**
+12. **b) The manufacturer uses powers of 10, but the OS reports using
+    powers of 2.**
+13. **b) Access time is how long you wait for data to start arriving;
+    throughput is how much data flows per second once it's moving.**

@@ -29,6 +29,16 @@ Simple, plain definitions. Read these before or after class.
 | **Battery life** | How long a device can run before it needs power again. |
 | **Bandwidth** | How much data a network connection can send at once. |
 | **Portable** | Small and light enough to carry and use anywhere. |
+| **Fourth Industrial Revolution (4IR)** | Today's wave of change, where physical machines, digital computing, and living systems increasingly work together. |
+| **Volume, variety, velocity** | Big data's three signs: huge amount, many kinds of data mixed together, and fast, continuous arrival. |
+| **3D printing (additive manufacturing)** | Building an object by adding material, layer by layer, instead of cutting it from a larger block. |
+| **Autonomous vehicle** | A vehicle that uses sensors and software to sense the road and make its own driving decisions. |
+| **Sensor fusion** | Combining readings from several different sensors, so their weaknesses do not all fail at once. |
+| **Drone** | A small, uncrewed flying vehicle, controlled remotely or partly by its own software. |
+| **Airspace rules** | Rules limiting where and how high a drone may fly, to keep it away from crewed aircraft. |
+| **Blockchain** | A shared record of transactions, copied across many computers, where each new entry links back to the one before it. |
+| **Cryptocurrency** | Digital money whose transactions are recorded on a blockchain, instead of by one central bank. |
+| **NFT (non-fungible token)** | A blockchain record proving one person owns one specific, unique digital item. |
 
 ---
 
@@ -146,6 +156,74 @@ onto this week's ideas:
 - **Network engineer** — keeps every connected device talking reliably. Week 9's field.
 - **Security analyst** — protects data sitting on someone else's server. Week 11's field.
 
+**The Fourth Industrial Revolution (4IR).** The **Fourth Industrial
+Revolution (4IR)** describes today's wave of change, where physical
+machines, digital computing, and living systems increasingly work
+together: a sensor (physical) sends data to software (digital) that
+helps a doctor treat a patient (biological). Earlier waves added
+steam power, then electricity, then computers; this wave blends all
+three areas at once. IoT, big data, 3D printing, autonomous vehicles,
+drones, and blockchain are all pieces of this same wave.
+
+**Big data's three Vs.** Big data is more precisely described by
+three signs together: huge **volume** (far more data than one
+computer can hold alone), many **varieties** (photos, text, video,
+and sensor readings, all mixed together), and fast **velocity** (new
+data keeps arriving every second, not all at once). A streaming app's
+recommendations show all three: millions of users' viewing histories
+(volume), what they watched, paused, and searched for (variety), and
+an updated guess the moment you finish an episode (velocity).
+
+**3D printing (additive manufacturing).** Traditional manufacturing
+often cuts, drills, or molds material away from a bigger piece. A
+**3D printer** instead builds an object by adding only the material
+it actually needs, layer by layer, guided by a digital file that
+describes the object's shape. Slicing software splits that shape into
+thin, flat layers before the printer lays down material one layer at
+a time. Two real uses already exist: rapid prototyping (an engineer
+prints a rough part overnight, instead of waiting weeks for a factory
+order) and custom medical models (a hospital prints a patient-specific
+model, sized from that patient's own scan).
+
+**Autonomous vehicles and sensor fusion.** An **autonomous vehicle**
+uses sensors and software to sense the road and make its own driving
+decisions, without a person steering; cameras, radar, and other
+sensors constantly scan the road, and software combines those
+readings into one decision, many times every second. This combining
+is called **sensor fusion**: since a camera can be fooled by bright
+glare or heavy fog, but radar still detects a nearby car's shape even
+then, combining both readings gives a safer answer than trusting
+either sensor alone.
+
+**Drones and airspace rules.** A **drone** is a small, uncrewed flying
+vehicle, controlled remotely or partly by its own software; sensors
+keep it stable in the air and help it avoid obstacles, and drones
+already deliver small packages, inspect power lines, and capture
+aerial video. Unlike a car, a drone shares open airspace with planes
+and helicopters, so **airspace rules** exist: airspace near an airport
+is tightly restricted, and many regions require a drone to stay
+within the operator's sight and below a set height, because one
+careless drone can risk a much larger, crewed aircraft.
+
+**Blockchain, cryptocurrency, and NFTs.** A **blockchain** is a shared
+record of transactions, copied across many computers, where each new
+entry links back to the one before it; no single company or person
+holds the only copy, and changing one old entry would break its link
+to every entry after it, which is what makes quietly altering old
+entries so difficult. One recorded transfer traces through three
+steps: a transaction is proposed, many computers verify it is valid,
+and the accepted record joins the chain as a new block, linked to the
+last one. **Cryptocurrency** is one well-known use of a blockchain:
+digital money whose transactions are recorded there instead of by one
+central bank, with interchangeable units built to be spent or
+exchanged. An **NFT (non-fungible token)** is a different use of the
+same underlying technology: a blockchain record proving one person
+owns one specific, unique digital item, not interchangeable like a
+coin; owning the NFT record does not stop other people from viewing,
+or even copying, the underlying file. Both sit on a blockchain, but
+they answer different questions: "how much do I have?" versus "who
+owns this one thing?"
+
 ---
 
 ## 5. Practice Problems (with Answers)
@@ -191,3 +269,20 @@ accurate.
 > **Answer (sample):** Smart devices are convenient, but many quietly
 > collect data about their users, which raises real privacy
 > questions alongside their benefits.
+
+**Problem 7.** A friend says, "Cryptocurrency and an NFT are really
+the same thing." Explain, in one or two sentences, why this is not
+accurate.
+
+> **Answer:** Both sit on a blockchain, but cryptocurrency is
+> interchangeable digital money built to be spent or exchanged, while
+> an NFT is a unique record proving ownership of one specific digital
+> item.
+
+**Problem 8.** Why does an autonomous vehicle use sensor fusion,
+combining a camera and radar, instead of relying on just one sensor?
+
+> **Answer:** So that one sensor's weakness, like a camera being
+> fooled by glare or fog, does not make the car fail; combining
+> multiple sensors gives a safer answer than trusting either one
+> alone.

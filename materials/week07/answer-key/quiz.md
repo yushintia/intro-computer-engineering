@@ -13,3 +13,13 @@
 8. **Sample answer:** Each process has its own private memory space.
    The crash stayed inside that one app's memory, so it could not
    reach or damage any other app's memory.
+9. **c) Four.** Process management, memory management, file
+   management, and device management.
+10. **c) File management.**
+11. **c) File management.** The three goals are resource management,
+    providing a user interface, and program execution. (File
+    management is one of the four core *jobs*, not one of the three
+    *goals* — a useful distinction to notice.)
+12. **c) Real-time.**
+13. **b) Music.** The rotation repeats: Browser (0-10), Music (10-20),
+    Video call (20-30), Browser (30-40), Music (40-50).

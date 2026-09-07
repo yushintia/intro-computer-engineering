@@ -74,3 +74,52 @@ For each scenario, decide whether it shows **Bias**, an **Error**, or
 decide? Why?
 
 ______________________________________________
+
+---
+
+## Part C (Extra session, in-class, ~10 minutes)
+
+### C1. AI Application Domains
+
+Match each scenario to the AI application domain it belongs to.
+
+**Image recognition · Recommendation systems · Voice & language ·
+Fraud & anomaly detection**
+
+1. A hospital's scan-reading tool highlights an area that matches
+   patterns seen in past, confirmed cases. ______________________
+2. A bank flags a purchase that does not match your usual spending
+   pattern. ______________________________________________
+3. A voice assistant converts your spoken words into text, then
+   matches it to a known request. ______________________________________________
+4. A streaming app suggests a show liked by viewers with a similar
+   watching pattern to yours. ______________________________________________
+
+### C2. AI, Automation, or Both?
+
+Automation means a machine repeats a fixed set of steps, with no
+person doing each one. Not every automated device is AI.
+
+For each device, decide: does it use **AI**, plain **automation**, or
+**both**? Write one short sentence why.
+
+1. **A dishwasher runs one fixed cleaning cycle, every time.**
+   AI / Automation / Both
+   Why: ______________________________________________
+
+2. **A spam filter learns to flag new kinds of spam, from thousands
+   of labeled emails.**
+   AI / Automation / Both
+   Why: ______________________________________________
+
+### C3. Neural Networks, in Your Own Words
+
+A neural network learns in layers: the first layer looks at raw
+input, like a photo's pixels; each next layer combines the layer
+before it into a slightly bigger pattern; the last layer turns those
+combined patterns into one final guess.
+
+In one or two sentences, explain why no single layer "understands" a
+face by itself.
+
+______________________________________________

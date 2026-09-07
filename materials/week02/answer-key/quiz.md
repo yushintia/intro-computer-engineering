@@ -14,3 +14,13 @@
 8. **Sample answer:** Every generation solved a real problem with the
    technology available at the time. Understanding that history
    explains why modern computers are small, fast, and cheap.
+9. **d) 5th generation.** Parallel processing means many cores work
+   on separate parts of a problem at the exact same instant.
+10. **b) Ada Lovelace.** She wrote the first computer program in the
+    1840s, for a machine that had not yet been built.
+11. **b) Special-purpose.** It only ever runs the one job it was built
+    for.
+12. **b) Analog.** It represents data as a continuously varying
+    signal, with no discrete steps.
+13. **False.** Punch cards controlled weaving looms first, in 1804;
+    Hollerith adapted them for the U.S. Census only later, in 1890.

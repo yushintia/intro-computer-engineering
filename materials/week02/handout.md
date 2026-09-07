@@ -27,6 +27,24 @@ Simple, plain definitions. Read these before or after class.
 | **Place value** | How much a digit is worth, based on its position in a number. |
 | **Convert** | To change a number from one system to another, like decimal to binary. |
 | **Core** | One processing unit inside a modern CPU chip. |
+| **Human computer** | Before "computer" meant a machine, a person paid to calculate tables of numbers by hand. |
+| **Abacus** | A frame of sliding beads, used to count and calculate by hand, with no gears and no electricity. |
+| **Mechanical calculator** | A machine that adds, subtracts, or otherwise calculates using gears and levers, with no electricity. |
+| **Pascaline** | The first mechanical adding machine, built by Blaise Pascal in 1642. |
+| **Stepped Reckoner** | Gottfried Leibniz's 1673 machine, the first to multiply and divide by repeated addition. |
+| **Punch card** | A stiff card with holes in fixed positions, where the hole pattern tells a machine what to do. |
+| **Difference Engine** | Babbage's 1822 design to automatically compute mathematical tables. |
+| **Analytical Engine** | Babbage's 1837 design meant to run any calculation fed to it on punch cards, with a "store" and a "mill." |
+| **Parallel processing** | A chip solving separate parts of a problem at the same time, using more than one processing unit. |
+| **General-purpose computer** | A computer built to run many different kinds of programs. |
+| **Special-purpose computer** | A computer built to do one specific job, and nothing else. |
+| **Digital computer** | A computer that represents data as distinct, separate values, like binary 0s and 1s. |
+| **Analog computer** | A computer that represents data as a continuously varying signal. |
+| **Hybrid computer** | A computer that mixes digital and analog representation in the same machine. |
+| **Supercomputer** | The fastest, most powerful class of computer, used for huge scientific problems. |
+| **Mainframe** | A very powerful computer built to serve many users and huge transactions at once. |
+| **Minicomputer** | A mid-sized computer, once common for a single department or lab. |
+| **Microcomputer** | The smallest class of computer, built around one microprocessor chip. |
 
 ---
 
@@ -35,21 +53,48 @@ Simple, plain definitions. Read these before or after class.
 This is the full version of the timeline from class. The slide version
 was shortened. Read this at home if you want more detail.
 
-**Before electronic computers, there were calculating machines.** In
-1642, Blaise Pascal built a mechanical adding machine. In 1837, Charles
-Babbage designed the Analytical Engine, a machine that could, in
-theory, run any set of instructions. It was never fully built in his
-lifetime, but the design was correct. Ada Lovelace wrote notes for
-this machine describing how it could follow a sequence of steps — many
-people consider her notes the first computer program ever written,
-even though the machine that would run it did not yet exist.
+**Long before any machine had gears, people still needed to calculate
+fast.** The **abacus** — a frame of sliding beads — let different
+cultures count and calculate by hand, with no gears and no
+electricity at all. Each row of beads stands for one place value, the
+same idea decimal digits use today.
+
+**Before electronic computers, there were mechanical calculators.** In
+1642, Blaise Pascal built the **Pascaline**, the first mechanical
+adding machine, to help his father, a tax official, add long columns
+of coins and figures correctly. Each digit had its own toothed wheel,
+and a small pin automatically carried a digit to the next wheel, an
+early physical version of carrying in addition. In 1673, Gottfried
+Leibniz built the **Stepped Reckoner**, the first machine that could
+multiply and divide, not only add and subtract — it worked by
+repeated addition, the same idea a simple CPU still uses today.
+
+**Punch cards taught machines to follow instructions on their own.**
+In 1804, Joseph Jacquard used punch cards — stiff cards with holes in
+fixed positions — to control weaving looms automatically. In 1890,
+Herman Hollerith adapted punch cards to tabulate the U.S. Census,
+cutting a count that once took years down to months.
+
+**Charles Babbage tried to combine "calculates on its own" with
+"follows any instructions."** In 1822, he designed the Difference
+Engine, meant to automatically compute mathematical tables like the
+navigation tables ships relied on. In 1837, he designed the far more
+ambitious Analytical Engine, a machine that could, in theory, run any
+set of instructions fed to it on punch cards. It was never fully
+built in his lifetime, but the design was correct, and it introduced a
+"store" to hold numbers and a "mill" to process them — the same split
+that still separates memory from the CPU today, in Weeks 4 and 5. Ada
+Lovelace wrote notes for this machine describing how it could follow
+a sequence of steps — many people consider her notes the first
+computer program ever written, even though the machine that would run
+it did not yet exist.
 
 **World War II created the real, urgent pain.** Armies needed fast,
 correct tables for aiming artillery. Before electronic computers,
 people called "human computers" calculated these tables by hand. This
 was slow, and small mistakes were common and costly. In 1945, ENIAC
 (Electronic Numerical Integrator and Computer) was built in the United
-States to solve exactly this problem. It used about 18,000 vacuum
+States to solve exactly this problem. It used about 17,000 vacuum
 tubes, filled a large room, and was among the first general-purpose
 electronic computers.
 
@@ -63,8 +108,17 @@ electronic computers.
    Many transistors packed onto one small chip. Desk-sized computers
    became possible.
 4. **4th generation (1971 onward):** the microprocessor put a whole
-   CPU onto a single chip. This generation is still ongoing — the chip
-   inside your own laptop or phone is a microprocessor.
+   CPU onto a single chip. The chip inside your own laptop or phone is
+   a microprocessor.
+5. **5th generation (1980s onward, accelerating in the last decade):**
+   AI and parallel processing. A chip solves separate parts of a
+   problem at the same time, using more than one processing unit,
+   instead of one instruction at a time. This generation is still
+   ongoing — many laptops and phones now ship with a chip dedicated to
+   AI tasks, running alongside the regular CPU.
+
+Five generations, one direction: smaller, faster, and able to do more
+at the exact same instant.
 
 **Along the way, key people shaped how computers work today:**
 
@@ -114,7 +168,49 @@ states, on and off — that is next week's topic, Boolean Logic.
 
 ---
 
-## 4. Optional Reading: More Detail
+## 4. Classifying Computers: Three Ways to Sort Any Machine
+
+History gave us machines. Beyond generations, there are three
+independent ways to sort *any* computer you meet, today or in the
+past.
+
+**By purpose: general vs special.** A **general-purpose computer** is
+built to run many different kinds of programs — your laptop, phone,
+or a lab desktop: today an essay, tomorrow a game. A **special-purpose
+computer** is built to do one specific job and nothing else — a
+washing machine's controller, a car's anti-lock brake controller, or a
+supermarket barcode scanner. Swap a washing machine's chip into a
+laptop, and it could not run a web browser; it was never built to.
+
+**By data representation: digital, analog, or hybrid.** A **digital
+computer** represents data as distinct, separate values, like binary
+0s and 1s — nearly every computer you meet today, including your
+laptop. An **analog computer** represents data as a continuously
+varying signal, like a smoothly changing voltage — a classic mercury
+thermometer is analog, since the mercury rises smoothly, skipping no
+in-between height. A **hybrid computer** mixes both in the same
+machine, like a hospital heart monitor, which takes in a continuous
+analog heartbeat signal and converts it into digital numbers on
+screen.
+
+**By processing capacity: four sizes.** A **supercomputer** is the
+fastest, most powerful class, used for huge scientific problems like
+weather forecasting. A **mainframe** is very powerful, built to serve
+many users and huge transactions at once, like a bank's central
+system. A **minicomputer** is mid-sized, once common for a single
+department or lab, mostly replaced today by powerful servers. A
+**microcomputer** is the smallest class, built around one
+microprocessor chip — this is your laptop, phone, or desktop.
+
+**These three schemes are independent.** One device can sit in a
+different spot on each scheme at once. A hospital heart monitor, for
+example, is special-purpose, hybrid, and microcomputer-sized, all at
+the same time — three separate questions, three separate answers, for
+the very same machine.
+
+---
+
+## 5. Optional Reading: More Detail
 
 This section holds extra detail that was trimmed from the slides. It
 is optional, but useful if you want to go deeper.
@@ -140,7 +236,7 @@ not — a very practical, real-world skill.
 
 ---
 
-## 5. Practice Problems (with Answers)
+## 6. Practice Problems (with Answers)
 
 Try each problem yourself before checking the answer.
 
@@ -180,3 +276,19 @@ true? Explain in one or two sentences.
 
 > **Answer:** False. Both old and new computers use the same binary
 > number system underneath; only the physical technology changed.
+
+**Problem 7.** A friend says: "Generations stopped at the
+microprocessor. Nothing has changed since 1971." Explain in one or
+two sentences why this is wrong.
+
+> **Answer:** False. A 5th generation exists too: AI and parallel
+> processing, where a chip solves separate parts of a problem at the
+> same time using more than one processing unit.
+
+**Problem 8.** A hospital heart monitor takes in a continuous
+heartbeat signal and converts it into digital numbers on screen. By
+data representation, is it digital, analog, or hybrid? Explain in one
+sentence.
+
+> **Answer:** Hybrid. It mixes an analog input signal with a digital
+> display in the same machine.

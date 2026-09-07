@@ -20,3 +20,25 @@ not a single "correct" pick.
 4. **Neither.** The filter did its job correctly; this is the tool working as expected.
 5. **Bias.** Training mostly on one group's past resumes teaches the model that group's patterns best, at the cost of fairness to others.
 6. **Error.** One uncommon word failing once, without a consistent group pattern, is a normal, isolated error.
+
+### Part C
+
+**C1. AI Application Domains**
+
+1. **Image recognition.** The tool matches patterns in medical images.
+2. **Fraud & anomaly detection.** The bank flags a charge unlike your usual pattern.
+3. **Voice & language.** The assistant converts speech to text, then matches a request.
+4. **Recommendation systems.** The app suggests content based on similar viewers.
+
+**C2. AI, Automation, or Both?**
+
+1. **Automation.** It follows one fixed cycle, every time; nothing is learned from examples.
+2. **AI** (also automated, since no person sorts each email by hand, but the key feature is that it *learns* its patterns from labeled examples, unlike the dishwasher's fixed cycle). Accept "Both" if well explained.
+
+**C3. Neural Networks, in Your Own Words**
+
+Sample answer: Each layer only combines a slightly bigger piece of
+the pattern than the layer before it, like edges, then shapes, then a
+whole face. The full pattern, "this is a face," only appears once
+every layer's result is combined together; no single layer holds the
+whole answer by itself.

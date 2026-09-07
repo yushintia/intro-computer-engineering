@@ -32,3 +32,32 @@ defensible at once; the goal is reasoning, not a single "correct" pick.
    tracking it). Accept either, or both.
 6. **Big data.** Millions of past trips is far too much data for one
    computer to study alone.
+
+### Part C
+
+**C1. Match the New Idea**
+
+1. **3D printing.** The factory adds material to build the part
+   itself, instead of ordering one.
+2. **Autonomous vehicle.** The shuttle senses the road and decides
+   on its own, without a person steering.
+3. **Drone.** Airspace rules limit a drone's height and sight-line
+   near an airport.
+4. **4IR.** Physical sensors, digital software, and biological
+   treatment working together is the Fourth Industrial Revolution.
+5. **Big data's three Vs.** Volume, variety, and velocity, described
+   together, are big data's three signs.
+
+**C2. Blockchain, Cryptocurrency, or NFT?**
+
+1. **Blockchain.** This is the general definition of the shared,
+   linked ledger itself.
+2. **Cryptocurrency.** Digital money recorded on a blockchain,
+   instead of by a central bank.
+3. **NFT.** A unique ownership record for one specific item, not an
+   interchangeable unit like a coin.
+
+Discussion: cryptocurrency answers "how much do I have?" (an amount
+of interchangeable digital money); an NFT answers "who owns this one
+thing?" (proof of ownership of one unique item). Both technologies
+sit on the same underlying blockchain.

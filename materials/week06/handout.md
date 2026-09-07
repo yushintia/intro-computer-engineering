@@ -23,6 +23,24 @@ Simple, plain definitions. Read these before or after class.
 | **Render** | To draw something on a screen so a person can see it. |
 | **Install** | To add a new app onto a device before using it. |
 | **Update** | To replace an app with a newer, improved version. |
+| **Utility software** | System software that keeps the machine healthy, without being the OS itself. Example: antivirus, disk cleanup. |
+| **Spreadsheet software** | Apps for organizing numbers into rows, columns, and formulas. |
+| **Communication software** | Apps for messaging, calling, and video chatting. |
+| **Educational software** | Apps built for studying, practicing, and taking quizzes. |
+| **Entertainment software** | Games and streaming apps, built purely to entertain. |
+| **Productivity software** | Calendars, to-do lists, and note-taking apps. |
+| **Navigation software** | Maps and route-finding apps. |
+| **Source code** | Instructions in a human-readable programming language, written by a programmer. |
+| **Compiler** | A program that translates all of a source code file into machine instructions once, in advance. |
+| **Interpreter** | A program that translates and runs source code line by line, each time the program runs. |
+| **Compiled** | Translated into a runnable program file once, in advance. |
+| **Interpreted** | Translated and run line by line, with no separate translation step beforehand. |
+| **Software license** | The set of rules that says how a program may be used, copied, changed, or shared. |
+| **Proprietary** | A license where the company keeps the source code private; usually paid, and not legally modifiable. |
+| **Open-source** | A license where the source code is public; anyone may read, modify, and often redistribute it. |
+| **Freeware** | A license that is free to use, but keeps the source code private and disallows modification. |
+| **Software distribution** | How a finished program gets from its developer onto the device that will run it. |
+| **App store** | An online service that delivers programs instantly, over the internet, to a registered device. |
 
 ---
 
@@ -51,10 +69,10 @@ useful once the right app decodes it and shows it to a real person.
 
 ---
 
-## 3. Application Software vs. System Software
+## 3. Application vs. System Software, Plus a Third Face: Utility Software
 
-These two kinds of software work together, but they do very
-different jobs:
+These kinds of software work together, but they do very different
+jobs:
 
 - **Application software** does one task *for the user*. Examples: a
   word processor writes documents, a browser shows web pages, a
@@ -64,14 +82,106 @@ different jobs:
   is the **operating system (OS)**, covered in full next week. It
   shares memory, storage, and CPU time between every app that is
   running.
+- **Utility software** is a third face of system software: it keeps
+  the machine healthy, without being the OS itself. Examples:
+  antivirus scanners, disk cleanup tools, file compression tools.
+  Like the OS, utility software manages the machine. Unlike the OS,
+  it usually runs only when a user chooses to run it, rather than
+  running constantly in the background.
 
 An easy test: if a normal user opens it on purpose, to do a specific
 job, it is application software. If it runs quietly in the
-background, managing the machine, it is system software.
+background, managing the machine itself, it is the OS. If it is a
+system program a user runs on purpose to maintain the machine (not to
+do a personal task like writing or browsing), it is utility software.
 
 ---
 
-## 4. How a File Becomes a Photo
+## 4. Extended App Categories
+
+Beyond the everyday list (word processor, web browser, photo editor,
+media player, messaging app, game), application software splits
+further by function:
+
+- **Spreadsheet** — organizing numbers into rows, columns, and formulas.
+- **Communication** — messaging, calling, and video chatting with others.
+- **Educational** — apps built for studying, practicing, and taking quizzes.
+- **Entertainment** — games and streaming apps, built purely to entertain.
+- **Productivity** — calendars, to-do lists, and note-taking apps.
+- **Navigation** — maps and route-finding apps.
+
+Classifying by function is exactly how app stores organize millions
+of apps: comparing two word processors makes sense, but comparing a
+word processor to a game does not. Job postings often ask for skill
+with "spreadsheet software" or "communication tools," by category, not
+by brand name.
+
+---
+
+## 5. From Source Code to Running Program
+
+Every app started as text, typed by a person. A programmer writes
+**source code**: instructions in a human-readable programming
+language. That source code must be translated into a form the CPU can
+actually execute before it becomes a running program, using either a
+**compiler** or an **interpreter**:
+
+- **Compiled** — the entire source code is translated into machine
+  instructions once, in advance, producing a program file you can run
+  directly, again and again.
+- **Interpreted** — the source code is translated and run line by
+  line, each time the program runs, with no separate translation step
+  beforehand.
+
+Week 10 returns to this in far more depth, once you have written code
+of your own.
+
+---
+
+## 6. Software Licensing
+
+A **software license** is the set of rules that says how a program may
+be used, copied, changed, or shared. Most software falls into one of
+three common models:
+
+- **Proprietary** — the company keeps the source code private; you
+  usually pay to use it, and cannot legally modify it.
+- **Open-source** — the source code is published publicly; anyone may
+  read, modify, and often redistribute it.
+- **Freeware** — free to use, but the source code stays private, and
+  modification is not allowed.
+
+**"Free" vs. "open-source"** are easy to mix up. Freeware means no
+cost to use; the source code is still hidden. Open-source means the
+source code is public and modifiable; it may or may not also be free
+of cost. "Free" describes a price. "Open-source" describes access to
+the code. They answer two different questions. Licensing shapes more
+than price: it decides whether you can legally copy software for a
+friend, whether a company or a community fixes bugs, and whether you
+can see and trust exactly what a program does.
+
+---
+
+## 7. Software Distribution
+
+**Software distribution** is how a finished program gets from its
+developer onto the device that will run it. Decades ago, software
+shipped physically, on floppy disks and then CDs, bought in a store.
+Today, an **app store** delivers the same kind of program instantly,
+over the internet, to any registered device.
+
+Installing an app is a specific set of steps, not magic: the device
+downloads the program's files from a server, those files are copied
+onto secondary storage (recall Week 5), and the operating system
+registers the new program so it appears as an icon you can open. An
+**update** simply repeats the install process with newer files,
+replacing the old version already on storage — that is why an update
+still needs a network connection and free storage space, exactly like
+a first-time install.
+
+---
+
+## 8. How a File Becomes a Photo
 
 When you open a photo, three things happen in order:
 
@@ -88,7 +198,7 @@ words on a page.
 
 ---
 
-## 5. Optional Reading: More Detail
+## 9. Optional Reading: More Detail
 
 This section holds extra detail that was trimmed from the slides. It
 is optional, but useful if you want to go deeper.
@@ -123,7 +233,7 @@ actually run.
 
 ---
 
-## 6. Practice Problems (with Answers)
+## 10. Practice Problems (with Answers)
 
 Try each problem yourself before checking the answer.
 
@@ -167,3 +277,41 @@ less, why VisiCalc is called the first "killer app."
 > **Answer (sample):** VisiCalc was so useful that people bought the
 > Apple II computer just to run it. It proved that one great app
 > could sell the hardware underneath it.
+
+**Problem 7.** A friend's antivirus program is not application
+software and not the OS itself. What is it, and why?
+
+> **Answer:** Utility software. It keeps the machine healthy (in this
+> case, scanning for threats), but it is not the OS itself, and it
+> usually runs only when chosen, not constantly like the OS.
+
+**Problem 8.** Name the extended app category (spreadsheet,
+communication, educational, entertainment, productivity, or
+navigation) that best fits a maps app used to find a bus stop.
+
+> **Answer:** Navigation.
+
+**Problem 9.** Explain the difference between compiled and
+interpreted code, in one or two sentences.
+
+> **Answer:** Compiled code is translated into machine instructions
+> once, in advance, producing a program file that runs directly.
+> Interpreted code is translated and run line by line, each time the
+> program runs.
+
+**Problem 10.** A friend says: "This app is freeware, so it must be
+open-source too." Explain why this is not necessarily true.
+
+> **Answer:** Freeware only means the app is free to use; its source
+> code can still be private and unmodifiable. Open-source specifically
+> means the source code is public and can be modified, which is a
+> separate question from price.
+
+**Problem 11.** Why does updating an app still require a network
+connection and free storage space, just like installing it the first
+time?
+
+> **Answer:** An update repeats the install process with newer files,
+> downloading them and writing them to storage in place of the old
+> version, so it needs the same network access and storage space as a
+> first install.

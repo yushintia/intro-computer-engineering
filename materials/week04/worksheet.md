@@ -83,3 +83,51 @@ or register) used in scenario 3. Explain its job in that scenario, in
 one sentence.
 
 ______________________________________________
+
+---
+
+## Part C (The Whole System: Memory, I/O, and the Bus)
+
+1. A computer system is built from three basic parts. One is the CPU.
+   Name the other two. ______________________ and ______________________
+2. Which bus carries the memory location the CPU wants to read or
+   write? ______________________
+3. Which bus carries the actual bits being read or written? ______________________
+4. Which bus carries signals like "read" or "write," telling the
+   other parts what kind of action this is? ______________________
+5. The program counter (PC) holds address 300 before a fetch happens.
+   What value does the PC hold right after that fetch finishes? ______________________
+6. **Trace a button press on a game controller.** Which part (CPU,
+   memory, or I/O) detects the button press first? Which part decides,
+   true or false, whether it means "jump"? ______________________
+
+**Discuss with your partner:** Without a bus, could the CPU ever reach
+memory at all? Explain in one sentence.
+
+______________________________________________
+
+---
+
+## Part D (Speed and Parallelism: Clock, Pipelining, and Cores)
+
+1. A laptop's spec sheet says "2.8 GHz." What does this mean, in
+   plain words? ______________________
+2. Laptop A runs at 2 GHz. Laptop B runs at 4 GHz. Both run the exact
+   same program. Which one completes more cycles per second, and by
+   what factor? ______________________
+3. Without pipelining, 3 instructions take 9 separate steps to finish.
+   With pipelining, how many steps do the same 3 instructions take? ______________________
+4. Instruction 2 needs the exact result instruction 1 is still
+   computing. What has to happen to instruction 2's execute step? ______________________
+5. A laptop needs to calculate 4 separate spreadsheet columns.
+   Compare: how does a single-core CPU handle this task, versus a
+   4-core CPU? ______________________
+6. **True or false:** "Two CPUs with the exact same GHz always finish
+   the exact same number of instructions per second." Explain in one
+   sentence. ______________________
+
+**Discuss with your partner:** Name one real limit that can force
+pipelining to pause (a hazard, or a wrong guess about which
+instruction comes next).
+
+______________________________________________

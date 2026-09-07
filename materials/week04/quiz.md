@@ -45,3 +45,33 @@ without your notes. About 10 minutes.
 8. **Short answer.** A calculator app shows the wrong answer. Name one
    CPU part, or one step, that could explain why. Explain in one
    sentence.
+
+9. Which bus carries the memory address the CPU wants to read or
+   write?
+   a) Control bus
+   b) Address bus
+   c) Data bus
+   d) Clock bus
+
+10. What does the **program counter (PC)** do?
+    a) Counts how many programs are open
+    b) Holds the memory address of the next instruction to fetch
+    c) Counts how many cores a CPU has
+    d) Stores the final answer of a calculation
+
+11. What is **pipelining**?
+    a) Running two completely different programs on two separate chips
+    b) Overlapping fetch, decode, and execute across several instructions at once
+    c) Increasing the clock speed of a CPU
+    d) Storing more data in a register
+
+12. A single-core CPU appears to run a calculator app and a music
+    player at the same time. What is it actually doing?
+    a) Running both fully at the exact same instant
+    b) Rapidly switching between tiny slices of each program
+    c) Ignoring one of the two programs
+    d) Running both apps on two different cores
+
+13. True or false: "Pipelining can sometimes have to pause and wait,
+    for example when one instruction needs the exact result of the
+    instruction right before it."

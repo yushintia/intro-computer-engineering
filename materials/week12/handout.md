@@ -22,6 +22,19 @@ Simple, plain definitions. Read these before or after class.
 | **Embedded computer** | A small computer built into another device. |
 | **Mobile computing** | Using a computer wherever you go, not just at a desk. |
 | **Cross-platform** | Software that runs on many kinds of devices. |
+| **Ubiquitous computing** | Small computers built into ordinary objects, working quietly in the background. |
+| **Home network** | A network that lets every device in a house talk to the same router. |
+| **Augmented reality (AR)** | Adds digital images on top of the real world you can still see. |
+| **Virtual reality (VR)** | Replaces what you see completely, with a fully digital world. |
+| **Mixed reality (MR)** | Places digital objects inside the real world, so they react to real objects too. |
+| **Digital twin** | A constantly updated digital copy of a real object or place. |
+| **Wearable device** | A small computer built to be worn, like a smart watch or smart ring. |
+| **Service robot** | A physical machine that senses its surroundings and acts, to help with a real-world task. |
+| **Metaverse** | A shared virtual space where many people's digital versions of themselves can meet and interact. |
+| **Multimedia** | Information that combines more than one form: text, image, audio, and video, together. |
+| **Compression** | Shrinking a file's size, so it takes less storage and less time to send. |
+| **JPEG** | A common way to compress a still image, like a photo. |
+| **MPEG** | A common way to compress a moving video, frame after frame. |
 
 ---
 
@@ -119,6 +132,66 @@ just generic "computer skills." Knowing which application domain
 interests you helps you choose a career path, and helps you speak the
 right language in an interview.
 
+**Computers everywhere, not just laptops.** Not every computer looks
+like a laptop. **Ubiquitous computing** means small computers are
+built into ordinary objects, working quietly in the background: a
+car's dashboard, a modern refrigerator, an elevator's control panel.
+You do not "turn on" most of these computers; they are already on,
+all the time. Inside one house, a **home network** lets every device,
+Mia's laptop, her phone, the family smart TV, and a game console, all
+share one router connection, using the same networking ideas from
+Week 9. One tap in an app, like Mia saying "good morning," can reach
+her thermostat and her lights at once, over that same home network.
+
+**Three ways to blend the real and the digital: AR, VR, and MR.**
+**Augmented reality (AR)** adds digital images on top of the real
+world you can still see, like a shopping app that draws a virtual
+sofa in your real living room. **Virtual reality (VR)** replaces what
+you see completely, with a fully digital world, like a flight-training
+program that puts a student pilot inside a fully virtual cockpit;
+unlike AR, nothing real stays visible while VR runs. **Mixed reality
+(MR)** places digital objects inside the real world so that they react
+to real objects too, like a virtual character that slides off your
+real desk when you tilt it; MR must constantly sense the real room,
+not just paint an image over it. In short: AR adds a layer, VR
+replaces the world, and MR makes the digital layer aware of the real
+one.
+
+**Digital twins, wearables, and service robots.** A **digital twin**
+is a constantly updated digital copy of a real object or place; sensors
+on the real object keep sending fresh data to its digital copy, so a
+factory can test a repair on the twin before touching the real
+machine. A **wearable device**, like a fitness tracker, smart watch,
+smart glasses, or smart ring, is a computer small enough to wear all
+day, trading a bigger screen for something you never have to pull out
+of a pocket. A **service robot** is a physical machine that senses its
+surroundings and acts, to help with a real task, like a hospital
+delivery robot or a warehouse robot; today's robot only needs to
+sense, move, and act, while Week 13's AI is what makes many of them
+smart.
+
+**The metaverse.** The **metaverse** is a shared virtual space, built
+from VR, AR, and networks together, where many people's digital
+versions of themselves can meet and interact: a virtual meeting space
+where classmates sit as digital characters, or a virtual store where
+you browse products alongside other shoppers. Today, the metaverse is
+still an early, developing idea; not every promised use has fully
+arrived yet.
+
+**Multimedia and why we compress it.** **Multimedia** means
+information that combines more than one form, text, image, audio,
+and video, together; a plain essay is only text, and a silent
+slideshow is only images, but a video with sound combines several
+forms at once. Multimedia files are usually far bigger than a plain
+text file for the same length of content, which is exactly why they
+are almost always **compressed** before you ever see them: shrinking a
+file's size so it takes less storage and less time to send. **JPEG**
+compresses a still image, and **MPEG** compresses a moving video,
+frame after frame; both trade a small amount of quality for a much
+smaller file. For example, an uncompressed photo might be about 24 MB,
+while the same photo saved as a JPEG is only about 3-4 MB, a small
+fraction of the original size.
+
 ---
 
 ## 4. Practice Problems (with Answers)
@@ -162,3 +235,18 @@ needs a lot of storage.
 > **Answer:** Sample: video editing or gaming needs a fast CPU; a
 > large photo or video library, or a business database, needs a lot
 > of storage.
+
+**Problem 7.** A headset places a virtual character on your real
+desk, and the character slides off if you tilt the desk. Is this AR,
+VR, or MR? Explain in one sentence.
+
+> **Answer:** Mixed reality (MR). The digital object actually
+> reacts to the real object's position, instead of only sitting on
+> top of the video, or replacing the real world entirely.
+
+**Problem 8.** Why is a JPEG photo usually much smaller than an
+uncompressed photo of the same picture?
+
+> **Answer:** Compression, like JPEG, shrinks a file's size so it
+> takes less storage and less time to send, trading a small amount
+> of quality for a much smaller file.

@@ -19,3 +19,15 @@
    photo, like the laptop that wants a copy. The server is the
    device that holds the photo and sends it, broken into packets, to
    the client.
+9. **b) Modem.** It sits between the home network and the wider
+   internet, converting data for the provider's line.
+10. **b) A LAN covers one limited space; a WAN covers a wide
+    geographic area.** A LAN might be one classroom's wifi; a WAN is
+    the whole internet.
+11. **a) It turns an easy-to-remember website name into a numeric IP
+    address.** DNS works like a phonebook.
+12. **c) 3G.** It added real, if slow, mobile internet access.
+13. **False.** Fiber-optic sends data as pulses of light through
+    glass or plastic, not electrical signals over copper.
+14. **b) Interactive and social; ordinary users post, comment, and
+    share.** That is Web 2.0.

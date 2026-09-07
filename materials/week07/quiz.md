@@ -45,3 +45,40 @@ without your notes. About 10 minutes.
 8. **Short answer.** One app crashes, but every other open app keeps
    running fine. In two sentences or less, explain why, using an idea
    from this week.
+
+9. According to this week's material, how many core management jobs
+   does an operating system perform?
+   a) Two
+   b) Three
+   c) Four
+   d) Five
+
+10. Which OS job **organizes stored data into named files and folders,
+    and tracks exactly where each one physically lives in storage**?
+    a) Process management
+    b) Memory management
+    c) File management
+    d) Device management
+
+11. Which of these is **not** one of the three underlying goals every
+    operating system sets out to achieve?
+    a) Resource management
+    b) Providing a user interface
+    c) File management
+    d) Program execution
+
+12. Which type of operating system **must respond within a strict,
+    guaranteed time limit**, or the whole system fails?
+    a) Batch
+    b) Time-sharing
+    c) Real-time
+    d) Distributed
+
+13. Using round-robin scheduling with Browser, Music, and Video call,
+    each getting a 10ms time slice in that fixed order (Browser
+    0-10ms, Music 10-20ms, Video call 20-30ms, Browser again
+    30-40ms), which process is running from 40-50ms?
+    a) Browser
+    b) Music
+    c) Video call
+    d) None; the rotation stops after 40ms

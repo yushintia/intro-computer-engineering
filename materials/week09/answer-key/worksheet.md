@@ -36,3 +36,39 @@ so neither one had an **IP address** the other could use to find it."
 Discuss answer (sample): "Typing the URL and showing the page happen
 on our own laptop. Finding the address and sending packets back
 happen out on the network, partly far away."
+
+### Part C
+
+**C1.**
+1. **Modem.** Converts data between the home network and the ISP's line.
+2. **NIC.** Lets one device join a network, wired or wireless.
+3. **Hub.** Repeats every incoming message to all wired devices.
+4. **LAN.** One limited physical space, like a classroom.
+5. **WAN.** Spans a wide geographic area, like the whole internet.
+6. **DNS.** Turns a website name into a numeric IP address.
+
+**C2.** Correct order:
+1. NIC (joins your laptop to the network)
+2. Hub (shares the wired connection locally)
+3. Router (directs data toward the right address)
+4. Modem (converts data for the ISP's line)
+
+**C3.**
+1. DSL.
+2. Fiber-optic.
+3. Broadband.
+4. Gigabit.
+
+**C4.**
+1. 3G.
+2. 1G.
+3. 5G.
+4. 4G.
+
+**C5.**
+1. Web 1.0.
+2. Web 2.0.
+
+Discuss answer (sample): "DNS happens during the 'Route' step — before
+the router can find the server's address, the name typed into the
+browser must first be looked up and turned into an IP address."

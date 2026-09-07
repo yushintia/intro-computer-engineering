@@ -46,3 +46,36 @@ graded Quiz 1.
 
 8. **Short answer.** In two sentences or less, explain why VisiCalc
    is often called the first "killer app."
+
+9. Antivirus software and disk-cleanup tools are best described as:
+   a) Application software
+   b) A third face of system software: utility software
+   c) A programming language
+   d) A file format
+
+10. What is the difference between **compiled** and **interpreted**
+    code?
+    a) There is no real difference
+    b) Compiled code is translated once in advance; interpreted code is translated and run line by line, each time
+    c) Compiled code only runs on phones; interpreted code only runs on laptops
+    d) Interpreted code is always faster than compiled code
+
+11. Which of these is **not** one of the three common software
+    licensing models covered this week?
+    a) Proprietary
+    b) Open-source
+    c) Freeware
+    d) Subscription-based
+
+12. A friend says: "Freeware and open-source software are the same
+    thing." What is wrong with this statement?
+    a) Nothing; they are identical
+    b) Freeware means no cost, but the code stays hidden; open-source means the code is public, whether or not it costs money
+    c) Open-source software always costs money
+    d) Freeware software is always illegal to use
+
+13. Which app category best fits a to-do list and calendar app?
+    a) Navigation
+    b) Spreadsheet
+    c) Productivity
+    d) Educational

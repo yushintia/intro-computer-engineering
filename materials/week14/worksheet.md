@@ -74,3 +74,52 @@ For each scenario, circle the idea it best matches: **IoT**, **Cloud**,
 one idea at once? Name both.
 
 ______________________________________________
+
+---
+
+## Part C (Extra session, in-class, ~15 minutes)
+
+### C1. Match the New Idea
+
+For each scenario, write which idea it matches best.
+
+**4IR · Big data's three Vs · 3D printing · Autonomous vehicle ·
+Drone**
+
+1. A factory prints a spare part overnight, instead of ordering one
+   from a supplier. ______________________________________________
+2. A self-driving shuttle combines camera and radar readings before
+   deciding to brake. ______________________________________________
+3. A small flying delivery robot must stay below a set height, and
+   within sight, near an airport. ______________________________________________
+4. A hospital sensor sends patient data to software that helps a
+   doctor treat that patient: physical, digital, and biological
+   systems, working together. ______________________________________________
+5. A streaming company describes its user data by volume, variety,
+   and velocity, all together. ______________________________________________
+
+### C2. Blockchain, Cryptocurrency, or NFT?
+
+Blockchain, cryptocurrency, and NFT are three different ideas, not
+one. For each definition, circle the correct term, and write one
+short sentence why.
+
+1. **"A shared record of transactions, copied across many computers,
+   where each new entry links back to the one before it."**
+   Blockchain / Cryptocurrency / NFT
+   Why: ______________________________________________
+
+2. **"Digital money whose transactions are recorded this way,
+   instead of by one central bank."**
+   Blockchain / Cryptocurrency / NFT
+   Why: ______________________________________________
+
+3. **"A record proving one person owns one specific, unique digital
+   item, not interchangeable like a coin."**
+   Blockchain / Cryptocurrency / NFT
+   Why: ______________________________________________
+
+**Discuss with your partner:** Cryptocurrency and NFTs both sit on a
+blockchain. What different question does each one answer?
+
+______________________________________________

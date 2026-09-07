@@ -69,3 +69,75 @@ messaging app, or game.**
 (memory, storage, or CPU time) that app probably needs from the OS.
 
 ______________________________________________
+
+---
+
+## Part C (Categories, Licensing, and Distribution, ~15 minutes)
+
+**1. Extended categories.** Match each everyday task to the app
+category that does it best: **spreadsheet, communication,
+educational, entertainment, productivity, navigation.**
+
+a. Tracking a part-time job's work schedule in rows and columns.
+   Category: ______________________________________________
+b. Finding the fastest route to the bus stop.
+   Category: ______________________________________________
+c. Studying flashcards before a quiz.
+   Category: ______________________________________________
+d. Video-chatting with a group project team.
+   Category: ______________________________________________
+e. Streaming a show purely to relax.
+   Category: ______________________________________________
+f. Keeping a to-do list and a calendar of deadlines.
+   Category: ______________________________________________
+
+**2. A third category.** Circle one: is antivirus software
+**application software**, **system software (the OS itself)**, or
+**utility software**? Explain your answer in one sentence.
+
+Answer: Application software / System software (the OS itself) / Utility software
+Why: ______________________________________________
+
+**3. From source code to running program.** Put these three steps in
+order: "a compiler or interpreter translates it," "a programmer
+writes source code," "a running program is produced."
+
+Order: ______ → ______ → ______
+
+**4. Compiled or interpreted?** For each description, write which one
+it matches.
+
+a. The entire program is translated into machine instructions once,
+   in advance, producing a file you can run again and again.
+   Answer: ______________________________________________
+b. The source code is translated and run line by line, each time the
+   program runs, with no separate translation step beforehand.
+   Answer: ______________________________________________
+
+**5. Licensing models.** Match each scenario to its license:
+**proprietary, open-source, freeware.**
+
+a. A paid photo editor whose source code the company keeps private.
+   License: ______________________________________________
+b. A community-built editor whose source code anyone can read, modify, and redistribute.
+   License: ______________________________________________
+c. An ad-supported app that costs nothing to use, but whose code stays hidden.
+   License: ______________________________________________
+
+**6. Free vs. open-source.** A friend says: "Freeware and open-source
+software are the same thing, since both cost nothing." Is this true?
+Explain in one or two sentences.
+
+______________________________________________
+
+**7. Distribution.** True or false: "Downloading an update to an app
+still requires a network connection and free storage space, just like
+installing it the first time." Explain your answer in one sentence.
+
+______________________________________________
+
+**Discuss with your partner:** Pick one app you use daily. Name its
+extended category (from question 1's list) and guess its likely
+license (proprietary, open-source, or freeware).
+
+______________________________________________

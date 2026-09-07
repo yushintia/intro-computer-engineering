@@ -84,3 +84,69 @@ sentence.
 on more than one answer? Name both.
 
 ______________________________________________
+
+---
+
+## Part C (Extra session, in-class, ~15 minutes)
+
+The slides also cover several newer ideas beyond the six core
+fields: ubiquitous computing, augmented reality (AR), virtual reality
+(VR), mixed reality (MR), digital twins, wearables, service robots,
+the metaverse, and multimedia compression.
+
+### C1. AR, VR, or MR?
+
+Augmented reality, virtual reality, and mixed reality are three
+different ideas, not one. For each example, circle which one it is,
+and write one short sentence why.
+
+1. **A flight-training program puts a student pilot inside a fully
+   digital cockpit. The real room disappears completely.**
+   AR / VR / MR
+   Why: ______________________________________________
+
+2. **A shopping app shows a virtual couch sitting in your real living
+   room, seen through your phone's camera.**
+   AR / VR / MR
+   Why: ______________________________________________
+
+3. **A headset places a virtual character on your real desk, and the
+   character slides off if you tilt the desk.**
+   AR / VR / MR
+   Why: ______________________________________________
+
+**Discuss with your partner:** Which of the three keeps the most of
+the real world visible? Which keeps the least?
+
+______________________________________________
+
+### C2. Name That Idea
+
+Match each real-world example to the term it best fits.
+
+**Ubiquitous computing · Home networking · Digital twin · Wearable
+device · Service robot · Metaverse**
+
+1. A factory keeps a constantly-updated digital copy of a real
+   machine, to test a repair before touching the real one. ______________________
+2. A smart ring tracks your sleep, worn on one finger. ______________________
+3. A hospital delivery robot carries supplies down a hallway on its
+   own. ______________________________________________
+4. Mia's laptop, phone, smart TV, and game console all share one
+   home router. ______________________________________________
+5. A car's dashboard computer checks speed and fuel, quietly, all the
+   time, without ever being "turned on." ______________________________________________
+6. Classmates meet as digital characters in a shared virtual space,
+   instead of a video call. ______________________________________________
+
+### C3. One Photo, Two File Sizes
+
+An uncompressed photo is about 24 MB. The same photo, saved as a
+JPEG, is about 3-4 MB.
+
+1. Which file would take longer to send over a home network? Why?
+   ______________________________________________
+
+2. Is a JPEG a way to compress an **image** or a **video**? What
+   format compresses a video instead?
+   ______________________________________________

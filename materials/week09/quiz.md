@@ -47,3 +47,39 @@ without your notes. About 10 minutes.
 8. **Short answer.** In two sentences or less, explain what a client
    and a server each do, using the "sending a photo between two
    laptops" example from class.
+
+9. Which device converts data between your home network and the
+   signal format your internet provider's line actually carries?
+   a) NIC
+   b) Modem
+   c) Hub
+   d) Browser
+
+10. Which best describes the difference between a **LAN** and a
+    **WAN**?
+    a) A LAN is wireless; a WAN is always wired
+    b) A LAN covers one limited space; a WAN covers a wide geographic area
+    c) A LAN is only for phones; a WAN is only for laptops
+    d) There is no real difference
+
+11. What does **DNS** actually do?
+    a) It turns an easy-to-remember website name into a numeric IP address
+    b) It breaks a message into small packets
+    c) It converts data for the ISP's line
+    d) It repeats every message to every wired device
+
+12. Which mobile generation was the first to add real (though slow)
+    mobile internet access?
+    a) 1G
+    b) 2G
+    c) 3G
+    d) 5G
+
+13. True or false: "Fiber-optic internet sends data as electrical
+    signals over copper wire, just like DSL."
+
+14. Which best matches "Web 2.0"?
+    a) Mostly read-only pages, published by a small number of people
+    b) Interactive and social; ordinary users post, comment, and share
+    c) A still-forming idea about a more open, less centrally-controlled web
+    d) A network with no web pages at all

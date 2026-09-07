@@ -49,3 +49,38 @@ step correctly. Sample answers:
 
 **Discuss:** In scenario 3, the **ALU** does the addition. Its job is
 to do the actual math, adding 10 to the current score.
+
+### Part C
+
+1. **Memory** and **I/O** (input/output).
+2. **Address bus.**
+3. **Data bus.**
+4. **Control bus.**
+5. **301.** The PC always moves forward to the next address right
+   after a fetch.
+6. **I/O** (the game controller) detects the button press first. The
+   **ALU** decides, true or false, whether it means "jump."
+
+**Discuss:** No. Without a bus, the CPU, memory, and keyboard would
+have no physical way to reach each other at all.
+
+### Part D
+
+1. **The clock ticks 2.8 billion times a second** — 2.8 GHz means 2.8
+   billion cycles per second.
+2. **Laptop B**, by a factor of **2** (4 ÷ 2 = 2).
+3. **5 steps** (pipelining overlaps fetch, decode, and execute across
+   the three instructions).
+4. **It has to pause and wait**, even though its own fetch and decode
+   steps may already be finished.
+5. **Single-core:** finishes column 1 completely, then column 2, then
+   column 3, then column 4, one at a time. **4-core:** each core takes
+   one column, and all four finish at roughly the same time.
+6. **False.** Instruction throughput can still differ underneath the
+   same GHz number — some instructions (like divide) take more cycles
+   to finish than others (like add).
+
+**Discuss:** Any reasonable answer is fine. Sample: "A hazard, where
+one instruction needs the exact result of the instruction right
+before it," or "a wrong guess about which instruction comes next,
+common around decisions."

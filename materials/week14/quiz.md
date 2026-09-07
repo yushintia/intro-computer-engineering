@@ -45,3 +45,31 @@ without your notes. About 10 minutes.
 
 8. **Short answer.** In two sentences or less, explain one real
    tradeoff that comes with using cloud computing or smart devices.
+
+9. Which three signs together are used to describe **big data**?
+   a) Size, price, and speed
+   b) Volume, variety, and velocity
+   c) Hardware, software, and network
+   d) Cost, quality, and time
+
+10. What does **3D printing (additive manufacturing)** do?
+    a) Cuts a shape out of a larger block of material
+    b) Builds an object by adding material, layer by layer
+    c) Only prints flat paper documents
+    d) Melts an object down into raw material
+
+11. Why does a self-driving car use **sensor fusion**, combining a
+    camera and radar together?
+    a) Cameras and radar always show the exact same information
+    b) So one sensor's weakness, like camera glare, does not make the car fail alone
+    c) Radar is required by law, even if not useful
+    d) Combining sensors makes the car lighter
+
+12. True or false: "A cryptocurrency and an NFT are exactly the same
+    kind of blockchain record."
+
+13. What does the **Fourth Industrial Revolution (4IR)** describe?
+    a) The fourth time computers were invented
+    b) A wave of change where physical machines, digital computing, and living systems increasingly work together
+    c) A new programming language
+    d) A rule that only applies to smartphones

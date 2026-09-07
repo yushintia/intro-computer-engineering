@@ -25,6 +25,18 @@ Simple, plain definitions. Read these before or after class.
 | **Download** | Receiving data, sent from a server to your device. |
 | **Upload** | Sending data, from your device to a server. |
 | **Offline** | Not connected to any network, at all. |
+| **LAN (Local Area Network)** | Devices connected within one limited physical space, like a classroom's wifi. |
+| **WAN (Wide Area Network)** | Devices connected across a wide geographic area, like the internet. |
+| **Modem** | Converts data between your home network and the signal format your internet provider's line carries. |
+| **NIC (Network Interface Card)** | The hardware inside a device that lets it send and receive data on a network, wired or wireless. |
+| **Hub** | Connects several wired devices, and repeats every incoming message to all of them at once. |
+| **DSL (Digital Subscriber Line)** | A family of connections that send digital data over copper phone wires. |
+| **Broadband** | The general term for any fast, "always-on" internet connection. |
+| **Fiber-optic internet** | Sends data as pulses of light through glass or plastic cable, instead of electrical signals over copper. |
+| **Gigabit internet** | A conceptual term for a connection fast enough to move roughly a billion bits per second. |
+| **Mobile generations (1G-6G)** | Successive generations of mobile networks, each solving one specific limit of the generation before it. |
+| **DNS (Domain Name System)** | Works like a phonebook: turns an easy-to-remember website name into the numeric IP address a computer needs. |
+| **Web 1.0 / 2.0 / 3.0** | Stages of the web's evolution: mostly read-only, then interactive and social, then a still-forming, more open idea. |
 
 ---
 
@@ -80,7 +92,75 @@ build the page:
 
 ---
 
-## 3. Optional Reading: More Detail
+## 3. Networking Hardware, Getting Online, and the Bigger Picture
+
+**Four pieces of hardware, four different jobs.** A packet leaving
+your laptop passes through several devices before it ever reaches the
+internet:
+
+- The **NIC** lets your laptop join the network at all, wired or
+  wireless.
+- A **hub**, if present, shares one wired connection among several
+  devices, repeating every message to all of them.
+- The **router** directs data toward the correct address, and hands
+  out IP addresses to devices on your home network.
+- The **modem** converts data between your home network and the
+  signal format your internet provider's line actually carries.
+
+Put together: **NIC → Hub → Router → Modem**, and a packet is on its
+way out to the wider internet. A router and a modem are not the same
+device, even though many home setups combine both into one box.
+
+**Getting online: DSL, broadband, and fiber.** Before fiber-optic
+lines were common, most homes connected using **DSL**, a family of
+connections that send digital data over the same copper phone wires
+already installed in most buildings. **Broadband** is the general
+term for any fast, always-on connection, DSL included. **Fiber-optic
+internet** instead sends data as pulses of light through thin glass or
+plastic cable, which can carry more data, and travel farther, with
+less loss than copper. "**Gigabit internet**" is a conceptual term for
+a connection fast enough to move roughly a billion bits every second.
+Faster access does not change *what* a network does, only *how
+quickly* it can do it.
+
+**LAN vs. WAN.** Not every network is the same size. A **LAN (Local
+Area Network)** connects devices within one limited physical space,
+like a classroom's wifi, usually owned by one person or group. A
+**WAN (Wide Area Network)** connects devices across a wide geographic
+area — the internet itself is the biggest WAN, made of many smaller
+LANs linked together.
+
+**Mobile generations, 1G to 6G.** Your phone's network has passed
+through several whole generations, each solving one specific limit of
+the one before it:
+
+| Generation | Defining leap |
+|---|---|
+| 1G | Analog signals carried voice calls only. No data at all. |
+| 2G | Digital signals added text messages alongside voice calls. |
+| 3G | Added real mobile internet access, at last, though a slow one. |
+| 4G | Fast enough mobile data for smooth video streaming and modern apps. |
+| 5G | Much lower delay, and room for many more connected devices at once. |
+| 6G | Still being researched worldwide; its exact defining leap is not yet settled. |
+
+**DNS: finding a name.** You type a website's name into your browser,
+not its IP address. **DNS (Domain Name System)** works like a
+phonebook: it turns that easy-to-remember name into the numeric IP
+address a computer actually needs. Only after that look-up comes back
+can your browser actually contact the right server — DNS happens
+during the "Route" step of the webpage-loading pipeline in Section 2.
+
+**The web, then and now.** The network underneath has not changed,
+but the web built on top of it has: **Web 1.0** was mostly read-only
+pages, published by a small number of people. **Web 2.0** became
+interactive and social, with ordinary users posting, commenting, and
+sharing. **Web 3.0** is a still-forming idea about a more open, less
+centrally-controlled web — described here only as an evolving
+concept, not a finished technology.
+
+---
+
+## 4. Optional Reading: More Detail
 
 This section holds extra detail that was trimmed from the slides. It
 is optional, but useful if you want to go deeper.
@@ -124,7 +204,7 @@ week's ideas:
 
 ---
 
-## 4. Practice Problems (with Answers)
+## 5. Practice Problems (with Answers)
 
 Try each problem yourself before checking the answer.
 
