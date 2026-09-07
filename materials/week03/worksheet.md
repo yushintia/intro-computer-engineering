@@ -12,7 +12,7 @@ sentence.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each scenario, circle the gate(s) that best model it, and fill in
 the small truth table.
@@ -57,7 +57,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 Same task, harder scenarios. Some need more than one gate. Work with
 a partner again (same or new).

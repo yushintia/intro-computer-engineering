@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!-- notes: Ask everyone: "Name one smart device you own, besides your phone." Collect two or three answers. -->
@@ -167,7 +167,7 @@ We look at each idea, one at a time, over three short sessions.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, Part 1 -->
 
 # Key Words Today
 
@@ -182,7 +182,7 @@ We look at each idea, one at a time, over three short sessions.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes Part 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -196,14 +196,7 @@ We look at each idea, one at a time, over three short sessions.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: connected devices and the cloud.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, Part 2 -->
 
 # Key Words Today
 
@@ -281,14 +274,7 @@ No cable was ever needed. The "cloud" is just someone else's server.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: big data, mobile computing, and the whole picture.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, Part 3 -->
 
 # Key Words Today
 
@@ -364,6 +350,269 @@ A phone is a full computer, built to fit in one hand.
 </div>
 
 Mobile computing did not replace the six layers. It just shrank them.
+
+---
+
+<!-- NEW: Act 3 enrichment - 4IR framing, IoT extension, big data 3Vs, 3D printing, autonomous vehicles, drones, blockchain, crypto, NFTs, closing wrap -->
+
+# The Fourth Industrial Revolution: When Physical, Digital, and Biological Meet
+
+<div class="thread">One big label for everything this week studies.</div>
+
+> The **Fourth Industrial Revolution (4IR)** describes today's wave of change, where physical machines, digital computing, and living systems increasingly work together.
+
+- A sensor (physical) sends data to software (digital) that helps a doctor treat a patient (biological).
+- Earlier waves added steam power, then electricity, then computers. This wave blends all three areas at once.
+- IoT, big data, 3D printing, and the other ideas today are all pieces of this same wave.
+
+---
+
+# Case Study: Jin's Devices, Talking to Each Other
+
+<div class="thread">Back to Jin's watch and phone, now with a third device.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Watch</div><div class="s">senses Jin finished a run</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Phone</div><div class="s">receives that update over a wireless connection</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Smart speaker</div><div class="s">announces "Nice run, Jin," using the same home network</div></div>
+</div>
+
+None of these three devices needed a cable, or a person carrying data between them by hand.
+
+---
+
+# Big Data's Three Signs: Volume, Variety, Velocity
+
+<div class="thread">A clearer definition of "big," before another worked example.</div>
+
+> **Big data** is usually described by three signs together: huge **volume**, many **varieties** of data, and fast **velocity**.
+
+- **Volume:** far more data than one computer can hold alone.
+- **Variety:** photos, text, video, and sensor readings, all mixed together.
+- **Velocity:** new data keeps arriving, every second, not all at once.
+
+---
+
+# Case Study: How a Streaming App Recommends Your Next Show
+
+<div class="thread">One plain example of big data actually working.</div>
+
+- **Volume:** millions of users' viewing histories, stored together.
+- **Variety:** what you watched, when you paused, and what you searched for.
+- **Velocity:** the app updates its guess the moment you finish an episode.
+
+Big data is not just "a lot of files." It is data too large, too varied, and too fast for one computer alone.
+
+---
+
+# 3D Printing: Building Up, Instead of Cutting Away
+
+<div class="thread">A new kind of manufacturing, unlike anything studied so far.</div>
+
+> **3D printing** (additive manufacturing) builds an object by adding material, layer by layer, instead of cutting it from a larger block.
+
+- Traditional manufacturing often cuts, drills, or molds material away from a bigger piece.
+- A 3D printer instead adds only the material the final object actually needs.
+- A computer file describing the object's shape controls exactly where each layer goes.
+
+---
+
+# Tracing One 3D-Printed Object, Layer by Layer
+
+<div class="thread">A worked example, from digital file to physical object.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. 3D model</div><div class="s">a digital file describes the object's shape</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Slicing software</div><div class="s">splits the shape into thin, flat layers</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Printer</div><div class="s">lays down material, one layer at a time</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">4. Object</div><div class="s">the finished, physical result</div></div>
+</div>
+
+---
+
+# 3D Printing in Practice: Two Real Uses
+
+<div class="thread">Where this idea already leaves the lab.</div>
+
+- **Rapid prototyping:** an engineer prints a rough part overnight, instead of waiting weeks for a factory order.
+- **Custom medical models:** a hospital prints a patient-specific model, sized from that patient's own scan.
+
+Both uses share one advantage: one single, custom copy, without building a whole factory line for it.
+
+---
+
+# Autonomous Vehicles: A Car That Senses and Decides
+
+<div class="thread">A car that drives itself, conceptually, not the engineering behind it.</div>
+
+> An **autonomous vehicle** uses sensors and software to sense the road and make its own driving decisions, without a person steering.
+
+- Cameras, radar, and other sensors constantly scan the road around the car.
+- Software combines those readings into one decision: speed up, slow down, or turn.
+- The car repeats this sense-then-decide cycle many times every second.
+
+---
+
+# Sensor Fusion: Why One Sensor Is Not Enough
+
+<div class="thread">The key challenge behind autonomous driving.</div>
+
+> **Sensor fusion** combines readings from several different sensors, so their weaknesses do not all fail at once.
+
+- A camera can be fooled by bright glare, or heavy fog.
+- Radar still detects a nearby car's shape, even when the camera cannot see clearly.
+- Combining both readings gives a safer answer than trusting either sensor alone.
+
+---
+
+# Drones: Flying Computers With Their Own Rules
+
+<div class="thread">A smaller, flying cousin of the autonomous vehicle.</div>
+
+> A **drone** is a small, uncrewed flying vehicle, controlled remotely or partly by its own software.
+
+- Sensors keep the drone stable in the air, and help it avoid obstacles.
+- Drones already deliver small packages, inspect power lines, and capture aerial video.
+- Unlike a car, a drone shares open airspace with planes, helicopters, and other drones.
+
+---
+
+# Airspace Rules: Why a Drone Cannot Fly Just Anywhere
+
+<div class="thread">The key challenge behind everyday drone use.</div>
+
+- Airspace near an airport is tightly restricted, to keep drones away from landing planes.
+- Many regions require a drone to stay within the operator's sight, and below a set height.
+- These rules exist because one careless drone can risk a much larger, crewed aircraft.
+
+---
+
+# Blockchain: A Ledger No Single Person Controls
+
+<div class="thread">A new way to keep a shared record, without hype.</div>
+
+> A **blockchain** is a shared record of transactions, copied across many computers, where each new entry links back to the one before it.
+
+- No single company or person holds the only copy of the record.
+- Many computers each keep a matching copy, and compare notes before accepting a new entry.
+- Changing one old entry would break its link to every entry after it, so old entries are very hard to quietly alter.
+
+---
+
+# Tracing One Blockchain Record
+
+<div class="thread">A worked example, one recorded transfer at a time.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Transaction</div><div class="s">someone records "A sends one unit to B"</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Verification</div><div class="s">many computers check that the record is valid</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. New block</div><div class="s">the accepted record joins the chain, linked to the last block</div></div>
+</div>
+
+Every later block links back to this one, which is what makes quietly editing it so difficult.
+
+---
+
+# Cryptocurrency: Digital Money Built on a Blockchain
+
+<div class="thread">One well-known use of a blockchain, described plainly.</div>
+
+> **Cryptocurrency** is digital money whose transactions are recorded on a blockchain, instead of by one central bank.
+
+- Sending cryptocurrency records a new transaction, verified the same way as any other blockchain entry.
+- Its value can rise or fall quickly, since no central bank manages its supply the way ordinary currency is managed.
+- This slide is conceptual only. It is not advice about buying, holding, or trading anything.
+
+---
+
+# NFTs: A Unique Digital Record, Not a Copy
+
+<div class="thread">A second, different use of the same underlying idea.</div>
+
+> An **NFT (non-fungible token)** is a blockchain record proving one person owns one specific, unique digital item.
+
+- "Non-fungible" means not interchangeable: each NFT points to one particular item, not an identical unit like a coin.
+- Owning the NFT record does not stop other people from viewing, or even copying, the underlying image or file.
+- Like cryptocurrency, this slide describes the concept only, neutrally, without investment advice.
+
+---
+
+# Cryptocurrency vs. NFTs: Two Different Ideas
+
+<div class="thread">Same underlying technology, two different jobs.</div>
+
+<div class="two-col">
+<div>
+<strong>Cryptocurrency</strong>
+<ul><li>Interchangeable units, like digital coins</li><li>Built to be spent or exchanged</li></ul>
+</div>
+<div>
+<strong>NFTs</strong>
+<ul><li>One unique record per item</li><li>Built to prove ownership of one specific thing</li></ul>
+</div>
+</div>
+
+Both sit on a blockchain. They answer two different questions: "how much do I have?" versus "who owns this one thing?"
+
+---
+
+# Where 4IR Ideas Already Touch Jin's Day
+
+<div class="thread">Zooming back out, to the case study you already know.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">IoT</div><div class="desc">Jin's watch and speaker, sensing and connecting.</div></div>
+<div class="app"><div class="name">Big data</div><div class="desc">His streaming app's recommendations, from millions of viewers.</div></div>
+<div class="app"><div class="name">3D printing</div><div class="desc">A custom part, printed instead of factory-made.</div></div>
+<div class="app"><div class="name">Autonomous vehicles</div><div class="desc">A self-driving shuttle Jin might ride to campus.</div></div>
+</div>
+
+---
+
+# Who Builds 4IR Systems?
+
+<div class="thread">New ideas, and the careers built around each one.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">Robotics engineer</div><div class="desc">Builds sensors and control software for machines.</div></div>
+<div class="app"><div class="name">3D printing technician</div><div class="desc">Prepares and runs additive manufacturing jobs.</div></div>
+<div class="app"><div class="name">Blockchain developer</div><div class="desc">Builds software that reads and writes shared ledgers.</div></div>
+<div class="app"><div class="name">Data engineer</div><div class="desc">Builds the pipelines that move big data around.</div></div>
+</div>
+
+---
+
+# Benefits and Tradeoffs of These Newer Ideas
+
+<div class="thread">One more honest look, before the closing wrap.</div>
+
+<div class="two-col">
+<div>
+<strong>Real benefits</strong>
+<ul><li>Custom objects, printed on demand</li><li>Records that are hard to quietly alter</li><li>Fewer crashes, in principle, with careful sensor fusion</li></ul>
+</div>
+<div>
+<strong>Real tradeoffs</strong>
+<ul><li>3D printing is still slower than a mass factory line</li><li>Blockchain records use real computing power to maintain</li><li>Autonomous vehicles still need very careful testing</li></ul>
+</div>
+</div>
+
+---
+
+# The Field Keeps Moving: Back to This Course's Five Goals
+
+<div class="thread">One last zoom-out, before Week 15's review.</div>
+
+- Week 1 set five goals for this whole course: hardware and software structure, data and instructions, system software and networks, databases and multimedia, and AI, IoT, cloud, and mobile technology.
+- This week's ideas, IoT, big data, 3D printing, autonomous systems, and blockchain, all extend that fifth goal, and still rest on the earlier four.
+- New technology will keep appearing after this course ends. The six layers, and the habit of asking "what is actually inside this," will still apply to it.
 
 ---
 

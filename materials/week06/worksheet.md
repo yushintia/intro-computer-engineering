@@ -5,7 +5,7 @@ Work with a partner. There can be more than one correct answer.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each program below, decide: is it **application software** or
 **system software**? Circle one, then write one short reason why.
@@ -41,7 +41,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 Match each everyday task on the left to the app category that does it
 best: **word processor, web browser, photo editor, media player,

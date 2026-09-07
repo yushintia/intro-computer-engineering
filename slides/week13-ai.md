@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -180,7 +180,7 @@ AI does not follow a rule a person wrote. It builds its own, from examples.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, Part 1 -->
 
 # Key Words Today
 
@@ -194,7 +194,7 @@ AI does not follow a rule a person wrote. It builds its own, from examples.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes Part 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -208,14 +208,7 @@ AI does not follow a rule a person wrote. It builds its own, from examples.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: how a computer actually learns from examples.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, Part 2 -->
 
 # Key Words Today
 
@@ -305,14 +298,7 @@ You open the photo app. It shows you a new photo.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: where AI gets it wrong, then today's Quiz 2.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, Part 3 -->
 
 # Key Words Today
 
@@ -346,6 +332,264 @@ You open the photo app. It shows you a new photo.
 <div class="why">
 A model that has never seen snow can still misread a snowy photo.
 </div>
+
+---
+
+<!-- NEW: Act 3 enrichment - AI goals, history sketch, rules vs neural nets, learning pipeline, domains, strengths/limits, responsible AI -->
+
+# Why We Build AI: Automate, Predict, Assist
+
+<div class="thread">Before more mechanics, one question: why bother at all?</div>
+
+- **Automate:** let software do a repetitive task, like sorting thousands of photos.
+- **Predict:** guess something not yet known, like which video you will want next.
+- **Assist:** help a person decide faster, like flagging a possibly unusual bank charge.
+
+<div class="why">
+None of these goals need AI to be perfect. They only need it to save time, on average.
+</div>
+
+---
+
+# From Rules to Learning: How AI Approaches Changed
+
+<div class="thread">A short history sketch, in your own words, not a list of exact dates.</div>
+
+<div class="timeline">
+<div class="pt"><div class="dot"></div><div class="y">First</div><div class="d">Symbolic, rule-based AI: programmers wrote every rule by hand</div></div>
+<div class="pt"><div class="dot"></div><div class="y">Later</div><div class="d">Machine learning shifts the work: show examples, let the software find the pattern</div></div>
+<div class="pt"><div class="dot"></div><div class="y">Today</div><div class="d">Neural networks, a layered kind of machine learning, power most modern AI tools</div></div>
+</div>
+
+Each stage did not erase the one before it. Rule-based software still runs simple, well-defined jobs today.
+
+---
+
+# Neural Networks: Learning in Layers
+
+<div class="thread">One layer deeper into "machine learning."</div>
+
+> A **neural network** is a machine-learning model built from layers of small, simple units, each passing its result to the next layer.
+
+- The first layer looks at raw input, like a photo's individual pixels.
+- Each next layer combines the layer before it into a slightly bigger pattern: edges, then shapes, then a whole face.
+- The last layer turns those combined patterns into one final guess.
+
+<div class="why">
+No single layer "understands" a face. The pattern only appears once all the layers work together.
+</div>
+
+---
+
+# Rule-Based AI in Practice: An If-Then Thermostat
+
+<div class="thread">A simple, concrete example of the old approach.</div>
+
+- A programmer writes an exact rule: "if room temperature is below 18°C, turn on the heater."
+- The rule never changes, unless a person edits the code by hand.
+- It works well for one narrow, well-defined job, and nothing else.
+
+This is ordinary software, not AI. No example was ever "learned."
+
+---
+
+# Neural-Network AI in Practice: A Learned Spam Filter
+
+<div class="thread">The same kind of job, built the AI way instead.</div>
+
+- Instead of hand-written rules, the filter trains on thousands of emails, labeled "spam" or "not spam."
+- It learns its own patterns: certain words, senders, and formats that tend to appear together in spam.
+- A brand-new email, never seen before, still gets sorted, based on those learned patterns.
+
+Same goal as a rule-based filter. Completely different way of getting there.
+
+---
+
+# The Learning Pipeline, in One Picture
+
+<div class="thread">Training, model, and prediction, drawn as one path.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Labeled data</div><div class="s">thousands of examples, each with the correct answer</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Training</div><div class="s">the software searches for a pattern that fits</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Model</div><div class="s">the learned pattern, saved and ready to use</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">4. Prediction</div><div class="s">the model's best guess, on something brand-new</div></div>
+</div>
+
+Every AI tool in this deck follows this same four-step path.
+
+---
+
+# When Should You Use Rules, and When Should You Use AI?
+
+<div class="thread">A practical way to decide, not just a definition.</div>
+
+<div class="two-col">
+<div>
+<strong>Rules fit better when</strong>
+<ul><li>The task has one exact, unchanging answer</li><li>Every case can be listed in advance</li></ul>
+</div>
+<div>
+<strong>AI fits better when</strong>
+<ul><li>Real examples are messy, or too varied to list</li><li>You have many labeled examples to learn from</li></ul>
+</div>
+</div>
+
+Neither approach is "better" overall. Each fits a different kind of problem.
+
+---
+
+# How Much Data Does Training Need?
+
+<div class="thread">A worked comparison, before this week's data-heavy examples.</div>
+
+<div class="barchart">
+<div class="bar-row">
+  <div class="bar-label">A simple rule-based check</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 10%"></div></div>
+  <div class="bar-value">zero training examples needed</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">A useful photo-sorting model</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
+  <div class="bar-value">thousands to millions of labeled photos</div>
+</div>
+</div>
+
+More varied real-world cases usually need far more training examples.
+
+---
+
+# AI Application Domains
+
+<div class="thread">Naming the fields, not just the apps you already use.</div>
+
+<div class="cardlist">
+<div class="card"><div class="h">Image recognition</div><div class="d">Identifying what is in a photo or video frame.</div></div>
+<div class="card"><div class="h">Recommendation systems</div><div class="d">Guessing what a person will want next.</div></div>
+<div class="card"><div class="h">Voice &amp; language</div><div class="d">Turning speech or text into an understood request.</div></div>
+<div class="card"><div class="h">Fraud &amp; anomaly detection</div><div class="d">Flagging activity that looks unlike the normal pattern.</div></div>
+</div>
+
+---
+
+# Zoom In: Image Recognition
+
+<div class="thread">One domain, one concrete worked case.</div>
+
+- A hospital's scan-reading tool is trained on thousands of labeled medical images.
+- It highlights an area that matches patterns seen in past, confirmed cases.
+- A doctor still makes the final call. The tool only points, it does not diagnose alone.
+
+---
+
+# Zoom In: Recommendation Systems
+
+<div class="thread">A second domain, tied to what you watch or buy.</div>
+
+- A streaming app trains on what millions of users watched, and what they watched next.
+- For a new user, it finds people with a similar viewing pattern, and suggests what they liked.
+- The guess gets better as you watch more, giving the model more of your own pattern to learn from.
+
+---
+
+# Zoom In: Voice Assistants
+
+<div class="thread">A third domain, built on turning sound into action.</div>
+
+- A voice assistant first converts your spoken words into text, using a trained model.
+- It then matches that text to the closest known request, like "set a timer."
+- If your accent or phrasing is unusual, compared to its training data, it can easily mishear you.
+
+---
+
+# Zoom In: Fraud &amp; Anomaly Detection
+
+<div class="thread">A fourth domain, built on noticing what looks unusual.</div>
+
+- A bank trains a model on millions of normal, everyday transactions.
+- A charge that does not match your usual pattern, like a purchase in a country you have never visited, gets flagged.
+- The model does not "know" it is fraud. It only knows the pattern looks unlike your normal pattern.
+
+---
+
+# AI and Automation: Not Always the Same Thing
+
+<div class="thread">A quick, important distinction before we go further.</div>
+
+- **Automation** means a machine repeats a fixed set of steps, with no person doing each one.
+- Not all automation is AI: a dishwasher automates cleaning, using one fixed cycle, no learning at all.
+- AI is one way to build smarter automation, when the fixed steps are not known in advance.
+
+---
+
+# Trace the Guess: A Streaming App's Recommendation
+
+<div class="thread">One more worked example, following the learning pipeline.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Your history</div><div class="s">what you watched, and for how long</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Pattern match</div><div class="s">the trained model compares you to similar viewers</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Prediction</div><div class="s">a ranked list of shows you have not watched yet</div></div>
+</div>
+
+Same four-step pipeline as before, just applied to viewing history instead of photos.
+
+---
+
+# Generative AI: Creating New Content From Patterns
+
+<div class="thread">Back to Week 12's promise: a field that can write text and create images.</div>
+
+> **Generative AI** is a model trained to produce new content, such as text or images, instead of only labeling existing content.
+
+- It is trained on huge amounts of existing text or images, and learns the patterns behind them.
+- Given a short prompt, it predicts a plausible new result, one piece at a time.
+- The result is a new pattern-based guess, not a fact retrieved from a database.
+
+---
+
+# What AI Does Well
+
+<div class="thread">Being honest about strengths, before the limits.</div>
+
+<div class="two-col">
+<div>
+<strong>AI is strong at</strong>
+<ul><li>Repeating a pattern-matching task, tirelessly, at huge scale</li><li>Spotting a pattern too subtle for a person to notice quickly</li></ul>
+</div>
+<div>
+<strong>But it still needs</strong>
+<ul><li>Good, fair training data</li><li>A person to check important decisions</li></ul>
+</div>
+</div>
+
+---
+
+# Where AI Still Struggles
+
+<div class="thread">The honest other half of the picture.</div>
+
+- A totally new situation, unlike its training data, can confuse even a strong model.
+- AI cannot explain "why" the way a person can; it can only show which pattern matched.
+- It has no common sense about the real world, beyond the patterns it was shown.
+
+Knowing these limits is part of using AI well, not a reason to avoid it.
+
+---
+
+# Using AI Responsibly
+
+<div class="thread">One plain, non-alarming note before we close.</div>
+
+- **Bias:** unfair or incomplete training data teaches a model unfair patterns. Check who is represented in the data.
+- **Over-reliance:** treating every AI guess as certain fact removes the human check that catches its mistakes.
+- Responsible use simply means: know the model's training, and keep a person in the loop for important decisions.
 
 ---
 

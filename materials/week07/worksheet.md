@@ -12,7 +12,7 @@ sentence.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each scenario, circle the OS job(s) most likely involved, and
 write one short sentence why.
@@ -48,7 +48,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 Same task, new scenarios. Work with a partner again (same or new).
 

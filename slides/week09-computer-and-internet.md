@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -172,7 +172,7 @@ Without a unique address, a network cannot tell devices apart at all.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, session 1 -->
 
 # Key Words Today
 
@@ -186,7 +186,7 @@ Without a unique address, a network cannot tell devices apart at all.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -200,14 +200,7 @@ Without a unique address, a network cannot tell devices apart at all.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: how one machine actually finds another.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, session 2 -->
 
 # Key Words Today
 
@@ -263,6 +256,36 @@ This is why a big file can look "slow," then finish all at once.
 
 ---
 
+# Before Packets: The Line Problem
+
+<div class="thread">Why not just send the whole photo down one open line?</div>
+
+Early long-distance phone calls worked by reserving one whole line for one conversation, start to finish, even during silent pauses.
+
+- Computers wanted to share a handful of expensive, long-distance lines among many people at once, not just one.
+- Reserving a whole line per computer, for the whole call, would waste most of that line's capacity.
+- Engineers instead chopped messages into small **packets**, so many different messages could share the same lines, taking turns.
+
+<div class="why">
+This is the same idea behind slot 8's ARPANET story, now at the level of "why packets," not just "who built it."
+</div>
+
+---
+
+# Packet Switching in Numbers
+
+<div class="thread">"Small pieces" sounds vague. Here are real numbers.</div>
+
+Say a photo file is about 2,000,000 bytes (2 MB), and each packet can carry about 1,500 bytes.
+
+- 2,000,000 ÷ 1,500 ≈ **1,333 packets**, for one single photo.
+- Each packet carries a small piece of the photo, plus the destination address.
+- Some packets may take a slightly different path, and still arrive within a fraction of a second of each other.
+
+The receiving device only needs to wait for all 1,333 pieces, then reassemble them in order.
+
+---
+
 # Client and Server: Who Asks, Who Answers
 
 <div class="thread">Now put an address and packets to work.</div>
@@ -308,6 +331,128 @@ You open a weather app. It needs today's forecast.
 
 ---
 
+# How Big Is Your Network? LAN and WAN
+
+<div class="thread">Not every network is the same size.</div>
+
+<div class="two-col">
+<div>
+
+**LAN (Local Area Network)**
+- Devices connected within one limited physical space.
+- Example: one classroom's wifi, roughly 30 meters across.
+- Usually owned and controlled by one person or group.
+
+</div>
+<div>
+
+**WAN (Wide Area Network)**
+- Devices connected across a wide geographic area.
+- Example: the internet, spanning every country on Earth.
+- Made of many smaller LANs, linked together.
+
+</div>
+</div>
+
+---
+
+# Meet the Hardware: The Modem
+
+<div class="thread">Something has to connect your home to the outside world.</div>
+
+> A **modem** is a device that converts data between your home network and the signal format your internet provider's line actually carries.
+
+- It sits between your home network and the wider internet, like a front door.
+- Without it, your home network has no way to reach anything outside itself.
+- One modem usually serves one home, or one small office.
+
+---
+
+# Meet the Hardware: The NIC
+
+<div class="thread">Every device needs its own way to physically join a network.</div>
+
+> A **NIC (Network Interface Card)** is the hardware inside a device that lets it send and receive data on a network, wired or wireless.
+
+- Your laptop's wifi chip is a NIC. So is a desktop's wired network port.
+- No NIC means no way for that specific device to join any network at all.
+- Most NICs today are tiny built-in chips, not a separate visible card.
+
+---
+
+# Meet the Hardware: The Hub
+
+<div class="thread">One of the simplest ways to connect several wired devices.</div>
+
+> A **hub** is a device that connects several wired devices, and repeats every incoming message out to all of them at once.
+
+- A hub does not check addresses at all. Every device gets every message, needed or not.
+- This wastes capacity as more devices join, so most networks now use smarter devices instead.
+- A hub is still a useful first idea: one shared line, many devices.
+
+---
+
+# Meet the Hardware: The Router
+
+<div class="thread">Something has to decide where each packet actually goes.</div>
+
+> A **router** is a device that directs data between networks, choosing the correct path so each packet reaches the right address.
+
+- A router hands out IP addresses to devices joining a home network.
+- It decides whether a packet stays on the local network, or heads out to the internet.
+- A router and a modem are not the same device, even though home setups often combine both into one box.
+
+---
+
+# Networking Hardware, Working Together
+
+<div class="thread">Four devices, four different jobs, one shared path.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">NIC</div><div class="s">joins your laptop to the network</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Hub</div><div class="s">shares the wired connection locally</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Router</div><div class="s">directs data toward the right address</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Modem</div><div class="s">converts data for the ISP's line</div></div>
+</div>
+
+Each device does one job. Together, they carry a packet from your laptop out to the internet.
+
+---
+
+# Networking Hardware Cheat Sheet
+
+<div class="thread">Four devices, one line each, before we keep going.</div>
+
+<div class="chip-row">
+<span class="chip">NIC: lets one device join a network</span>
+<span class="chip">Hub: repeats data to every wired device</span>
+<span class="chip">Router: directs data to the right address</span>
+<span class="chip">Modem: converts data for the provider's line</span>
+</div>
+
+---
+
+# Extending the Case Study: A Home Network
+
+<div class="thread">Put all four devices to work in one everyday place.</div>
+
+A student's apartment has a fiber line coming in from the internet provider.
+
+<div class="pipeline">
+<div class="stage"><div class="h">Modem</div><div class="s">converts the incoming fiber signal</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Router</div><div class="s">creates the home wifi (a LAN), assigns addresses</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Laptop's NIC</div><div class="s">joins that LAN, gets its own IP address</div></div>
+</div>
+
+From here, one more step — through the router, out past the modem — reaches the wider internet: a WAN.
+
+---
+
 <!-- NEW: Try-It hand-off, Worksheet Part A -->
 
 # Try It: Worksheet Part A
@@ -322,14 +467,87 @@ You open a weather app. It needs today's forecast.
 
 ---
 
-<!-- _class: section -->
+# Getting Online: The DSL Family
 
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: watch a whole webpage load, step by step.</div>
+<div class="thread">Before fiber, most homes connected another way.</div>
+
+> **DSL (Digital Subscriber Line)** is a family of connections that send digital data over the same copper phone wires already installed in most buildings.
+
+- A special modem lets data travel much faster than old dial-up, without blocking phone calls.
+- **Broadband** is the general term for any fast, "always-on" connection, DSL included.
+- DSL speed depends partly on how far a building sits from the provider's equipment.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 3 -->
+# Getting Online: Fiber and Gigabit Internet
+
+<div class="thread">A newer way to carry the same kind of data.</div>
+
+> **Fiber-optic internet** sends data as pulses of light through a thin glass or plastic cable, instead of electrical signals over copper wire.
+
+- Light signals can carry more data, and travel farther, with less loss than copper.
+- "**Gigabit internet**" is a conceptual term for a connection fast enough to move roughly a billion bits every second.
+- Faster access does not change *what* a network does, only *how quickly* it can do it.
+
+---
+
+# Comparing Access Speeds
+
+<div class="thread">Same idea — a working network — at very different speeds.</div>
+
+<div class="barchart">
+<div class="bar-row">
+  <div class="bar-label">Old dial-up</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 4%"></div></div>
+  <div class="bar-value">shares the phone line</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">DSL broadband</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 35%"></div></div>
+  <div class="bar-value">always-on, faster</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">Fiber / gigabit</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
+  <div class="bar-value">fastest, most stable</div>
+</div>
+</div>
+
+<div class="bar-note">Illustrative comparison only, not measured or marketed figures.</div>
+
+---
+
+# Mobile Generations: 1G to 3G
+
+<div class="thread">Your phone's network has gone through several whole generations.</div>
+
+<div class="timeline">
+<div class="pt"><div class="dot"></div><div class="y">1G</div><div class="d">Analog signals carried voice calls only. No data at all.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">2G</div><div class="d">Digital signals added text messages alongside voice calls.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">3G</div><div class="d">Added real mobile internet access, at last, though a slow one.</div></div>
+</div>
+
+Each generation's "defining leap" solved one specific limit of the one before it.
+
+---
+
+# Mobile Generations: 4G to 6G
+
+<div class="thread">The most recent leaps, one still barely finished.</div>
+
+<div class="timeline">
+<div class="pt"><div class="dot"></div><div class="y">4G</div><div class="d">Fast enough mobile data for smooth video streaming and modern apps.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">5G</div><div class="d">Much lower delay, and room for many more connected devices at once.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">6G</div><div class="d">Still being researched worldwide; its exact defining leap is not yet settled.</div></div>
+</div>
+
+<div class="why">
+6G is deliberately described here as "still emerging." Treat any confident claim about it with caution.
+</div>
+
+---
+
+<!-- NEW: Key Words Today, session 3 -->
 
 # Key Words Today
 
@@ -354,6 +572,18 @@ Your browser sends many small requests, not just one, to build the page.
 
 ---
 
+# Finding a Name: What DNS Actually Does
+
+<div class="thread">You type a name. The network still needs a number.</div>
+
+> **DNS (Domain Name System)** works like a phonebook: it turns an easy-to-remember website name into the numeric IP address a computer actually needs.
+
+- You type a website's name into your browser, not its IP address.
+- Your device asks a DNS look-up: "what address matches this name?"
+- Only after that answer comes back can your browser actually contact the right server.
+
+---
+
 # How a Webpage Loads, Step by Step
 
 <div class="thread">Every word today, working together, in order.</div>
@@ -369,6 +599,36 @@ Your browser sends many small requests, not just one, to build the page.
 </div>
 
 <!-- notes: Ask: "Which of these four steps happens on our own laptop, and which happens far away?" -->
+
+---
+
+# What the Internet Actually Delivers
+
+<div class="thread">One network, many different everyday jobs.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">Web browsing</div><div class="desc">Requests and displays pages of text, images, and links.</div></div>
+<div class="app"><div class="name">Email</div><div class="desc">Sends and stores written messages between accounts.</div></div>
+<div class="app"><div class="name">Streaming</div><div class="desc">Sends video or audio continuously, played as it arrives.</div></div>
+</div>
+
+Every one of these services still relies on addresses, packets, clients, and servers.
+
+---
+
+# The Web, Then and Now
+
+<div class="thread">The web itself has changed, even though the network underneath has not.</div>
+
+<div class="timeline">
+<div class="pt"><div class="dot"></div><div class="y">Web 1.0</div><div class="d">Mostly read-only pages, published by a small number of people.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">Web 2.0</div><div class="d">Interactive and social; ordinary users post, comment, and share.</div></div>
+<div class="pt"><div class="dot"></div><div class="y">Web 3.0</div><div class="d">A still-forming idea about a more open, less centrally-controlled web.</div></div>
+</div>
+
+<div class="why">
+Web 3.0 is described here only as an evolving concept, not a finished or agreed-upon technology.
+</div>
 
 ---
 

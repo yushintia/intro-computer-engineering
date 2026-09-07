@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -167,7 +167,7 @@ One stored-program idea. Millions of different jobs, on the same design.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, Part 1 -->
 
 # Key Words Today
 
@@ -180,7 +180,7 @@ One stored-program idea. Millions of different jobs, on the same design.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes Part 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -194,14 +194,7 @@ One stored-program idea. Millions of different jobs, on the same design.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: six fields where computers do real work.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, Part 2 -->
 
 # Key Words Today
 
@@ -329,14 +322,7 @@ Every field reuses the same protection ideas, not a new one each time.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: creative work, science, games, and your own laptop.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, Part 3 -->
 
 # Key Words Today
 
@@ -448,6 +434,251 @@ Many apps today offer more than one door, so you can pick.
 </div>
 
 Same six layers. Different amounts of CPU, memory, and storage.
+
+---
+
+<!-- NEW: Act 3 enrichment - ubiquitous computing, smart home, AR/VR/MR, digital twin, wearables, robots, metaverse, multimedia, compression, e-commerce, industry survey -->
+
+# Ubiquitous Computing: Small Computers, Almost Everywhere
+
+<div class="thread">Not every computer looks like a laptop.</div>
+
+> **Ubiquitous computing** means small computers built into ordinary objects, working quietly in the background.
+
+- A car's dashboard has its own small computer, checking speed and fuel.
+- A modern refrigerator can have a screen and a chip, tracking what is inside.
+- An elevator's control panel runs on a small embedded computer too.
+
+You do not "turn on" most of these computers. They are already on, all the time.
+
+---
+
+# Home Networking: One Roof, Many Connected Devices
+
+<div class="thread">Mia's house has more computers in it than just her laptop.</div>
+
+- A **home network** lets every device in a house talk to the same router.
+- Mia's laptop, her phone, the family smart TV, and a game console all share one connection.
+- Each device gets its own address on that network, from Week 9's networking ideas.
+
+<div class="why">
+A home network is a small version of the same network ideas that connect the whole internet.
+</div>
+
+---
+
+# Case Study: Mia's Smart Thermostat and Lights
+
+<div class="thread">Mia's house already uses a home network, every morning.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Mia's phone</div><div class="s">taps "Good Morning" in an app</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Home network</div><div class="s">carries that request over wifi</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Thermostat &amp; lights</div><div class="s">both receive the same signal</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">4. Result</div><div class="s">heat turns up, and the lights turn on</div></div>
+</div>
+
+One tap on Mia's phone reaches two different devices, over the same home network.
+
+---
+
+# Augmented Reality: Adding a Digital Layer to the Real World
+
+<div class="thread">The first of three ways to blend real and digital.</div>
+
+> **Augmented reality (AR)** adds digital images on top of the real world you can still see.
+
+- You still see your real room, through your phone's camera.
+- AR draws a digital sofa on top of that real video, so you can check if it fits.
+- Example: a shopping app that shows a virtual couch sitting in your real living room.
+
+---
+
+# Virtual Reality: Replacing the Real World Entirely
+
+<div class="thread">The second way to blend real and digital, and the most different from AR.</div>
+
+> **Virtual reality (VR)** replaces what you see completely, with a fully digital world.
+
+- A VR headset covers your eyes, so you no longer see the real room at all.
+- Example: a flight-training program that puts a student pilot inside a fully virtual cockpit.
+- Unlike AR, nothing real stays visible while VR runs.
+
+---
+
+# Mixed Reality: Digital Objects That Notice the Real Ones
+
+<div class="thread">The third way, in between the other two.</div>
+
+> **Mixed reality (MR)** places digital objects inside the real world, so they react to real objects too.
+
+- Example: an MR headset places a virtual character on your real desk, and it slides off if you tilt the desk.
+- Unlike simple AR, the digital object actually responds to the real object's position.
+- MR must constantly sense the real room, not just paint an image over it.
+
+<div class="why">
+AR adds a layer. VR replaces the world. MR makes the digital layer aware of the real one.
+</div>
+
+---
+
+# Digital Twins: A Digital Copy That Stays Up to Date
+
+<div class="thread">One more idea, built from the same sensing technology as MR.</div>
+
+> A **digital twin** is a constantly updated digital copy of a real object or place.
+
+- Sensors on the real object send fresh data to its digital copy, again and again.
+- Example: a factory keeps a digital twin of a real machine, to test a repair before touching the real one.
+- Unlike a photo, a digital twin keeps changing as the real object changes.
+
+---
+
+# Wearable Devices: Computers You Wear, Not Carry
+
+<div class="thread">Some computers are small enough to wear all day.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">Fitness tracker</div><div class="desc">Senses steps, heart rate, and sleep.</div></div>
+<div class="app"><div class="name">Smart watch</div><div class="desc">Shows notifications right on your wrist.</div></div>
+<div class="app"><div class="name">Smart glasses</div><div class="desc">Shows information right in your view.</div></div>
+<div class="app"><div class="name">Smart ring</div><div class="desc">Tracks sleep, worn on one finger.</div></div>
+</div>
+
+A wearable trades a bigger screen for something you never have to pull out of a pocket.
+
+---
+
+# Service Robots: Software With a Body
+
+<div class="thread">A brief look today. Week 13 studies the "thinking" part in far more depth.</div>
+
+> A **service robot** is a physical machine that senses its surroundings and acts, to help with a real-world task.
+
+- A hospital delivery robot carries supplies down a hallway, on its own.
+- A warehouse robot moves shelves of products to a waiting worker.
+- Today's robot only needs to sense, move, and act. Week 13's AI is what makes many of them smart.
+
+---
+
+# The Metaverse: One Shared Virtual Space
+
+<div class="thread">A newer idea, built from VR, AR, and networks together.</div>
+
+> The **metaverse** is a shared virtual space where many people's digital versions of themselves can meet and interact.
+
+- One type is a virtual meeting space, where classmates sit as digital characters instead of joining a video call.
+- Another type is a virtual store, where you walk around and view products, alongside other shoppers.
+- Today, the metaverse is still an early, developing idea. Not every promised use has fully arrived yet.
+
+---
+
+# What Counts as Multimedia
+
+<div class="thread">A new topic. Not every file on a computer is the same kind.</div>
+
+> **Multimedia** means information that combines more than one form: text, image, audio, and video, together.
+
+- A plain essay is only text. A silent slideshow is only images.
+- A video with sound combines images, audio, and often text captions, all at once.
+- Multimedia files are usually far bigger than a plain text file, for the same length of content.
+
+---
+
+# Why Multimedia Files Need Special Handling
+
+<div class="thread">Bigger files bring a real, practical problem.</div>
+
+- A short, uncompressed video can be far larger than an entire folder of essays.
+- Sending a huge file over a network, from Week 9, takes longer, and can load slowly.
+- Storing many uncompressed videos can fill a hard drive fast, from Week 5.
+
+This is exactly why multimedia files are almost always compressed before you ever see them.
+
+---
+
+# Why We Compress Multimedia Files
+
+<div class="thread">Compression, conceptually: fewer bytes, similar quality.</div>
+
+> **Compression** shrinks a file's size, so it takes less storage and less time to send.
+
+- **JPEG** is a common way to compress a still image, like a photo.
+- **MPEG** is a common way to compress a moving video, frame after frame.
+- Both trade a small amount of quality, for a much smaller file.
+
+<div class="why">
+This is conceptual only. We are not studying exactly how JPEG or MPEG work, only why they exist.
+</div>
+
+---
+
+# One Photo, Two File Sizes
+
+<div class="thread">A worked example, back to Week 5's storage units.</div>
+
+<div class="barchart">
+<div class="bar-row">
+  <div class="bar-label">Uncompressed photo</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
+  <div class="bar-value">about 24 MB</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">Same photo, as a JPEG</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 15%"></div></div>
+  <div class="bar-value">about 3-4 MB</div>
+</div>
+</div>
+
+Same picture. A JPEG file can be a small fraction of the uncompressed size.
+
+---
+
+# E-Commerce: A Store With No Building
+
+<div class="thread">Back to real fields, before one worked purchase.</div>
+
+> **E-commerce** means buying and selling goods or services over the internet, instead of in a physical store.
+
+- A shopper browses products on a website or app, instead of walking store aisles.
+- Payment happens online, using the transaction idea from earlier this week.
+- The product still has to be shipped to a real address, unlike downloaded software.
+
+---
+
+# Case Study: Mia Buys a Textbook Online
+
+<div class="thread">One purchase, traced step by step.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">1. Browse</div><div class="s">Mia searches a textbook on a store's website</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">2. Order</div><div class="s">she adds it to her cart, and checks out</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">3. Transaction</div><div class="s">her bank approves the payment, from a database</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">4. Delivery</div><div class="s">a real truck ships the real book to her door</div></div>
+</div>
+
+The whole purchase runs on this week's ideas, plus Week 11's databases.
+
+---
+
+# Computers at Work: Industry, Media, and Education
+
+<div class="thread">One more zoom-out, before the case study you already know.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">Manufacturing</div><div class="desc">Robots and sensors track a product on a factory line.</div></div>
+<div class="app"><div class="name">Agriculture</div><div class="desc">Sensors in a field track soil moisture and weather.</div></div>
+<div class="app"><div class="name">News &amp; media</div><div class="desc">Editors cut video, and publish stories, on a computer.</div></div>
+<div class="app"><div class="name">Education</div><div class="desc">Students take quizzes and watch lessons on a screen.</div></div>
+<div class="app"><div class="name">Logistics</div><div class="desc">A delivery company tracks every package's location.</div></div>
+<div class="app"><div class="name">Government</div><div class="desc">Public records and ID systems run on databases.</div></div>
+</div>
 
 ---
 

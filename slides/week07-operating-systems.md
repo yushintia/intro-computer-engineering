@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -150,7 +150,7 @@ careful design to get right.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, session 1 -->
 
 # Key Words Today
 
@@ -164,7 +164,7 @@ careful design to get right.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -178,14 +178,7 @@ careful design to get right.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: how one chip gives every app a turn.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, session 2 -->
 
 # Key Words Today
 
@@ -200,6 +193,48 @@ careful design to get right.
 ---
 
 <!-- Act 3 / BUILD -->
+
+# What an Operating System Actually Sets Out to Do
+
+<div class="thread">One definition, three underlying goals.</div>
+
+Every operating system, no matter how old or new, exists to achieve three goals at once:
+
+- **Manage resources** — share the CPU, memory, and devices fairly.
+- **Provide a user interface** — let a person actually control the machine.
+- **Execute programs** — load and run the software a user asks for.
+
+---
+
+# Three Goals, One Job
+
+<div class="cardlist">
+<div class="card"><div class="h">Resource Management</div><div class="d">Share CPU time, memory, and devices among every running program.</div></div>
+<div class="card"><div class="h">User Interface</div><div class="d">Give a person a way to actually control the machine.</div></div>
+<div class="card"><div class="h">Program Execution</div><div class="d">Load a program into memory, and start it running.</div></div>
+</div>
+
+---
+
+# Worked Example: Three Goals, One Ordinary Laptop
+
+<div class="thread">Back to Minjun's five open apps. All three goals, at once.</div>
+
+- **Resource management:** the OS juggles his browser, music, and video call, so none of them freeze the others.
+- **User interface:** the desktop icons and taskbar he clicks are literally how he controls all of this.
+- **Program execution:** double-clicking any of those icons is the OS loading and starting a program.
+
+---
+
+# Is Every Program on the Laptop "the OS"?
+
+<div class="thread">A quick, important distinction from last week.</div>
+
+No. The operating system is one specific piece of system software (Week
+6). The browser, the music player, and every other app Minjun opens are
+application software, built on top of the OS, not part of it.
+
+---
 
 # What the OS Actually Manages
 
@@ -246,6 +281,78 @@ This keeps one crashing app from crashing every other app too.
 
 ---
 
+# Four Jobs, Looked at More Closely
+
+<div class="thread">The appgrid earlier named three. Here is the fourth, and all four in depth.</div>
+
+Every operating system performs four core management jobs, each worth
+its own definition: process management, memory management, file
+management, and device management.
+
+---
+
+# Process Management: Definition
+
+<div class="thread">The first of the four jobs.</div>
+
+> **Process management** is how the OS creates, schedules, and
+> eventually ends every running program, called a **process**.
+
+Example: opening a browser creates a new process. Closing it ends that
+process, and frees whatever resources it was using.
+
+---
+
+# Memory Management: Definition
+
+<div class="thread">The second of the four jobs.</div>
+
+> **Memory management** is how the OS decides how much memory each
+> running process gets, and keeps one process from touching another's memory.
+
+Example: Minjun's browser and his music player each get separate
+memory. A bug in one cannot corrupt the other.
+
+---
+
+# File Management: Definition
+
+<div class="thread">The third of the four jobs, and a brand-new one this week.</div>
+
+> **File management** is how the OS organizes stored data into named
+> files and folders, and tracks exactly where each one physically lives in storage.
+
+Example: Minjun saves his essay as `essay_draft.docx` inside a
+Documents folder. The OS remembers exactly which spot on his SSD holds
+those bytes, so he can find the file again by name, never by memory address.
+
+---
+
+# Device Management: Definition
+
+<div class="thread">The fourth of the four jobs.</div>
+
+> **Device management** is how the OS communicates with hardware,
+> through device drivers, on behalf of every running process.
+
+Example: when Minjun's browser needs to display a video, device
+management hands the finished pixels to the screen's driver.
+
+---
+
+# One Click, Four Jobs at Once
+
+<div class="thread">Every one of the four jobs, inside one ordinary click.</div>
+
+Minjun double-clicks a photo file. In that single instant:
+
+- **Process management** creates a new process for the photo viewer.
+- **Memory management** gives that process its own private space.
+- **File management** locates the exact bytes of that photo on the SSD.
+- **Device management** sends the finished image to the screen.
+
+---
+
 <!-- NEW: Try-It hand-off, Worksheet Part A -->
 
 # Try It: Worksheet Part A
@@ -260,14 +367,7 @@ This keeps one crashing app from crashing every other app too.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: talking to hardware, then a real laptop.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, session 3 -->
 
 # Key Words Today
 
@@ -289,6 +389,210 @@ This keeps one crashing app from crashing every other app too.
 - An app sends a **request** to the OS. The OS talks to the driver.
 
 Without the right driver, the OS cannot use that hardware at all.
+
+---
+
+# Four Types of Operating Systems, Part One
+
+<div class="thread">Not every OS is built for the same situation.</div>
+
+- **Batch** — runs a queued stack of jobs with no user interaction, one after another.
+- **Time-sharing** — splits CPU time among many users or tasks, so each one feels instant. Most everyday laptops and phones behave this way.
+
+---
+
+# Four Types of Operating Systems, Part Two
+
+<div class="thread">The other two types, built for very different pressures.</div>
+
+- **Real-time** — must respond within a strict, guaranteed time limit, or the whole system fails.
+- **Distributed** — spreads one job's work across many separate machines, working together as one system. Week 9 explores this in depth.
+
+---
+
+# Worked Example: One Type, One Real System
+
+<div class="thread">Four abstract categories, four concrete machines.</div>
+
+| Type | Real Example |
+|---|---|
+| Batch | A bank processing millions of overnight transactions |
+| Time-sharing | Minjun's own laptop, juggling five open apps |
+| Real-time | A car's anti-lock braking system, reacting in milliseconds |
+| Distributed | A streaming service's video, spread across many data-center machines |
+
+---
+
+# A Short History of the Operating System
+
+<div class="thread">From typed commands to touch and voice.</div>
+
+<div class="timeline">
+<div class="pt"><div class="dot"></div><div class="y">1960s-70s</div><div class="d">DOS-style systems: users type text commands, one line at a time</div></div>
+<div class="pt"><div class="dot"></div><div class="y">1984</div><div class="d">Graphical OS arrives: windows, icons, and a mouse replace typed commands</div></div>
+<div class="pt"><div class="dot"></div><div class="y">2007</div><div class="d">Touch-based mobile OS begins reaching everyday pockets</div></div>
+<div class="pt"><div class="dot"></div><div class="y">Today</div><div class="d">Modern OS blends touch, voice, and constant cloud connection</div></div>
+</div>
+
+---
+
+# The DOS Era: Typing Every Instruction
+
+<div class="thread">The first stop on the timeline above.</div>
+
+Early operating systems like DOS gave users a blank text prompt. Every
+action, opening a file, running a program, had to be typed out exactly,
+with no icons and no mouse at all.
+
+---
+
+# The GUI Era: Pointing Instead of Typing
+
+<div class="thread">The second stop on the timeline above.</div>
+
+Graphical operating systems let users click icons and drag windows
+instead of typing commands. This single shift is why computers became
+usable by people with no technical training at all.
+
+---
+
+# The Modern Era: Touch, Voice, and the Cloud
+
+<div class="thread">The most recent stop on the timeline above.</div>
+
+Today's operating systems respond to touch and voice, constantly sync
+with the cloud, and run on phones, laptops, and watches alike, often
+the same OS family across every one of them.
+
+---
+
+# Worked Example: Minjun's Own Family Timeline
+
+<div class="thread">The whole history above, inside one family.</div>
+
+His grandfather's first computer ran a DOS-style system, typed command
+by command. Minjun's own laptop runs a modern graphical OS, and he
+barely remembers a time before touchscreens. Three generations, three
+very different ways of talking to the same idea: an operating system.
+
+---
+
+# Major Operating System Families Today
+
+<div class="thread">Different devices, different needs, different OS families.</div>
+
+Five families dominate today's devices, and each one is built around
+one clearly differentiating idea.
+
+---
+
+# Windows
+
+<div class="thread">One differentiating fact.</div>
+
+Windows is built for broad hardware compatibility: it runs on an
+enormous variety of PC hardware, from many different manufacturers, not
+just one.
+
+---
+
+# macOS
+
+<div class="thread">One differentiating fact.</div>
+
+macOS is built by Apple exclusively for Apple's own hardware, which
+lets the operating system and the machine be tuned tightly together.
+
+---
+
+# Linux / UNIX Lineage
+
+<div class="thread">One differentiating fact.</div>
+
+Linux traces back to UNIX, and is open-source (recall Week 6's
+licensing concept). That openness is exactly why it quietly powers most
+of the world's servers and cloud data centers.
+
+---
+
+# Mobile OS: Android and iOS
+
+<div class="thread">One differentiating fact.</div>
+
+Android and iOS are built around touch input and a single home screen
+of apps, not a desktop of overlapping windows like Windows or macOS.
+
+---
+
+# Embedded OS
+
+<div class="thread">One differentiating fact.</div>
+
+An embedded OS is built to run just one dedicated job forever, inside
+devices like a car's dashboard or a washing machine, not to run
+arbitrary apps a user installs later.
+
+---
+
+# Choosing the Right OS Family for the Job
+
+<div class="thread">Five families, matched to five real devices.</div>
+
+- Minjun's gaming desktop: **Windows**, for its huge hardware and game support.
+- Minjun's phone: **Android** or **iOS**, built around touch.
+- The server behind his favorite app: almost certainly **Linux**.
+- The washing machine in his dorm: a tiny **embedded OS**, doing exactly one job.
+
+---
+
+# The Scheduler: Who Goes Next?
+
+<div class="thread">A word from Key Words Today, now given its own definition.</div>
+
+> The **scheduler** is the specific part of the OS that decides which
+> process runs next, and for how long.
+
+Every time-slice switch you saw earlier in this deck is a decision the
+scheduler makes, dozens of times per second.
+
+---
+
+# Round-Robin: One Fair Way to Take Turns
+
+<div class="thread">One common scheduling approach, in plain words.</div>
+
+One common scheduling approach is **round-robin**: give every process
+an equal time slice, in a fixed rotating order, then repeat. No process
+is favored over another just because it asked first.
+
+---
+
+# Case Study: Three Processes, Ten Milliseconds Each
+
+<div class="thread">Round-robin, traced through real time.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">Browser</div><div class="s">0-10ms</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Music</div><div class="s">10-20ms</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Video call</div><div class="s">20-30ms</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Browser again</div><div class="s">30-40ms</div></div>
+</div>
+
+In just 40 milliseconds, every process has already had a turn, and the rotation starts again.
+
+---
+
+# Why Fairness Matters
+
+<div class="thread">The whole reason a scheduler exists at all.</div>
+
+Without a scheduler enforcing turns, one greedy process could simply
+keep running forever, freezing every other app on the machine. A fair
+scheduler is exactly what keeps one busy download from freezing your
+music or your video call.
 
 ---
 

@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -153,7 +153,7 @@ expert.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, session 1 -->
 
 # Key Words Today
 
@@ -166,7 +166,7 @@ expert.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -180,14 +180,7 @@ expert.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: app categories, and how every app needs the OS.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, session 2 -->
 
 # Key Words Today
 
@@ -202,6 +195,51 @@ expert.
 
 <!-- Act 3 / BUILD -->
 
+# What Is Software, Really?
+
+<div class="thread">Before splitting software into types, nail down what it even is.</div>
+
+> **Software** is the set of instructions and data a computer follows.
+> **Hardware** is the physical machine that carries those instructions out.
+
+- Software has no physical shape; it is code, sitting somewhere in memory or storage.
+- Every layer this course has covered so far, logic gates, the CPU, memory, exists so software has something to run on.
+
+---
+
+# A Laptop With No Software At All
+
+<div class="thread">Strip everything away. What is left?</div>
+
+Imagine a brand-new laptop with every chip and drive installed, but
+absolutely no software loaded onto it at all, not even firmware.
+
+- The screen would never light up.
+- The keyboard would never respond.
+- Powerful hardware, completely useless, with nothing telling it what to do.
+
+---
+
+# Software vs Hardware: Quick Contrast
+
+| | Hardware | Software |
+|---|---|---|
+| What it is | Physical parts (CPU, RAM, disk) | Instructions and data |
+| Can you touch it? | Yes | No |
+| Wears out how? | Physically, over years of use | Never wears out, but can become outdated |
+
+---
+
+# Software Needs Hardware, Hardware Needs Software
+
+<div class="thread">Neither one is useful alone.</div>
+
+- Hardware without software cannot do anything at all: it just sits there.
+- Software without hardware has nowhere to run: it is only an idea.
+- Every device you use is this exact partnership, working together.
+
+---
+
 # Application vs. System Software
 
 <div class="thread">Back to the locked photo. What was actually missing?</div>
@@ -212,6 +250,61 @@ expert.
 </div>
 
 The photo file was safe. The app to open it was missing, not the OS.
+
+---
+
+# System Software vs Application Software: Full Definitions
+
+<div class="thread">Two categories, doing two very different jobs.</div>
+
+> **System software** manages the computer itself: the operating
+> system, device drivers, and utility programs that keep the machine running.
+> **Application software** helps a user do one specific task: writing,
+> browsing, editing photos, playing a game.
+
+- System software examples: Windows, macOS, a printer driver, a disk-cleanup utility.
+- Application software examples: a word processor, a browser, a photo editor, a game.
+
+---
+
+# Utility Software: A Third Face of System Software
+
+<div class="thread">Not every system program is the OS itself.</div>
+
+- **Utility software** is system software that keeps the machine healthy, without being the OS.
+- Examples: antivirus scanners, disk cleanup tools, file compression tools.
+- Like the OS, utility software manages the machine. Unlike the OS, it usually runs only when you choose to run it.
+
+---
+
+# Same Task, Different Layer
+
+<div class="thread">Watch one everyday action move between the two layers.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">You click "Open"</div><div class="s">the app (application software) makes the request</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">OS finds the file</div><div class="s">system software locates it in storage</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">App displays it</div><div class="s">back to application software, showing the result</div></div>
+</div>
+
+One action, two layers, cooperating without you ever noticing the handoff.
+
+---
+
+# Worked Example: Sorting Minjun's Laptop Programs
+
+<div class="thread">Real programs, sorted into their real layer.</div>
+
+| Program | Layer |
+|---|---|
+| Windows | System software |
+| Antivirus | System software (utility) |
+| Web browser | Application software |
+| Word processor | Application software |
+
+Every icon on his desktop belongs to exactly one of these two layers.
 
 ---
 
@@ -229,6 +322,55 @@ The photo file was safe. The app to open it was missing, not the OS.
 </div>
 
 Each app does one job well, instead of trying to do everything.
+
+---
+
+# Software Classification: Grouping by What It Does
+
+<div class="thread">Beyond system vs. application, apps split further by function.</div>
+
+<div class="cardlist">
+<div class="card"><div class="h">Word Processing</div><div class="d">Writing and editing text documents.</div></div>
+<div class="card"><div class="h">Spreadsheet</div><div class="d">Organizing numbers into rows, columns, and formulas.</div></div>
+<div class="card"><div class="h">Media</div><div class="d">Playing or editing music, video, and photos.</div></div>
+<div class="card"><div class="h">Communication</div><div class="d">Messaging, calling, and video chatting with others.</div></div>
+</div>
+
+---
+
+# More Categories You Use Every Day
+
+<div class="thread">The list keeps going.</div>
+
+<div class="cardlist">
+<div class="card"><div class="h">Educational</div><div class="d">Apps built for studying, practicing, and taking quizzes.</div></div>
+<div class="card"><div class="h">Entertainment</div><div class="d">Games and streaming apps, built purely to entertain.</div></div>
+<div class="card"><div class="h">Productivity</div><div class="d">Calendars, to-do lists, and note-taking apps.</div></div>
+<div class="card"><div class="h">Navigation</div><div class="d">Maps and route-finding apps.</div></div>
+</div>
+
+---
+
+# Worked Example: Sorting Minjun's Home Screen
+
+<div class="thread">One phone, several categories, all at once.</div>
+
+- A spreadsheet app for his part-time job's schedule: **spreadsheet**.
+- A maps app for finding the bus stop: **navigation**.
+- A study app for flashcards before this course's quiz: **educational**.
+- A messaging app for his group project: **communication**.
+
+Classifying by function is exactly how app stores organize millions of apps for you.
+
+---
+
+# Why Classification Matters
+
+<div class="thread">Not just tidiness. It changes how you evaluate software.</div>
+
+- Comparing two word processors makes sense; comparing a word processor to a game does not.
+- Job postings often ask for skill with "spreadsheet software" or "communication tools," by category, not by brand name.
+- Understanding categories helps you pick the right tool for a task, instead of forcing one app to do everything.
 
 ---
 
@@ -263,14 +405,7 @@ on sharing fairly, next week.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: a worked example, more practice, then Quiz 1.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, session 3 -->
 
 # Key Words Today
 
@@ -280,6 +415,184 @@ on sharing fairly, next week.
 - **Update** — replace an app with a newer, improved version.
 
 <!-- notes: Read each word aloud. Say: "You will see these words in Worksheet Part B." -->
+
+---
+
+# How Is Software Actually Made?
+
+<div class="thread">Every app you use started as text, typed by a person.</div>
+
+> A programmer writes **source code**: instructions in a human-readable
+> programming language. That source code must be turned into a form
+> the CPU can actually execute before it becomes a running program.
+
+---
+
+# Diagram: From Source Code to Running Program
+
+<div class="thread">Two different roads to the same destination.</div>
+
+<div class="pipeline">
+<div class="stage"><div class="h">Source code</div><div class="s">written by a programmer, human-readable</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Compiler or interpreter</div><div class="s">translates it into instructions the CPU understands</div></div>
+<div class="arrow">&rarr;</div>
+<div class="stage"><div class="h">Running program</div><div class="s">the app you actually open and use</div></div>
+</div>
+
+---
+
+# Compiled vs Interpreted, Briefly
+
+<div class="thread">Two ways to do that translation step.</div>
+
+- **Compiled:** the entire source code is translated into machine instructions once, in advance, producing a program file you can run directly, again and again.
+- **Interpreted:** the source code is translated and run line by line, each time the program runs, with no separate translation step beforehand.
+
+Week 10 returns to this in far more depth, once you have written code of your own.
+
+---
+
+# Worked Example: Behind Minjun's Photo App
+
+<div class="thread">A team of programmers, long before Minjun ever opened the app.</div>
+
+- Developers wrote the photo app's source code, function by function.
+- A compiler translated that source code into a program file.
+- That program file is exactly what Minjun's app store delivers to his phone, ready to run.
+
+---
+
+# Software Licensing: Who's Allowed to Do What?
+
+<div class="thread">Installing software is never truly free of rules.</div>
+
+> A **software license** is the set of rules that says how a program
+> may be used, copied, changed, or shared.
+
+---
+
+# Three Common Licensing Models
+
+<div class="thread">Most software you use falls into one of these three.</div>
+
+- **Proprietary** — the company keeps the source code private; you usually pay to use it, and cannot legally modify it.
+- **Open-source** — the source code is published publicly; anyone may read, modify, and often redistribute it.
+- **Freeware** — free to use, but the source code stays private, and modification is not allowed.
+
+---
+
+# Common Confusion: "Free" vs "Open-Source"
+
+<div class="thread">These two words get mixed up constantly.</div>
+
+- **Freeware** means no cost to use. The source code is still hidden.
+- **Open-source** means the source code is public and modifiable. It may or may not also be free of cost.
+
+"Free" describes a price. "Open-source" describes access to the code. They answer two different questions.
+
+---
+
+# Worked Example: Minjun Picks a Photo Editor
+
+<div class="thread">Three real choices, three different licenses.</div>
+
+| Option | License | Trade-off |
+|---|---|---|
+| Paid photo editor | Proprietary | Polished, supported, costs money |
+| Free community editor | Open-source | No cost, customizable, community support only |
+| Ad-supported photo app | Freeware | No cost, but shows ads, code stays hidden |
+
+---
+
+# Why Licensing Matters Beyond the Price Tag
+
+<div class="thread">Licensing shapes far more than what you pay.</div>
+
+- It decides whether you can legally copy the software for a friend.
+- It decides whether a company or a community fixes bugs.
+- It decides whether you can see, and trust, exactly what the program does.
+
+---
+
+# Software Changes Everyday Life
+
+<div class="thread">Application software doesn't just run on a device. It reshapes daily routines.</div>
+
+Beyond writing documents and editing photos, application software has
+quietly rebuilt how people navigate, receive care, and learn, often
+without anyone calling it a big deal.
+
+---
+
+# Worked Example: Three Everyday Shifts
+
+<div class="thread">Life before this software, and life after it.</div>
+
+| Task | Before | After (with software) |
+|---|---|---|
+| Getting somewhere new | Paper maps, asking strangers | A navigation app gives turn-by-turn directions |
+| Seeing a doctor | Always an in-person visit | A telehealth app allows a video consultation from home |
+| Studying a subject | Only in-person classrooms | An e-learning platform delivers lessons and quizzes online |
+
+---
+
+# Worked Example: This Very Course
+
+<div class="thread">You don't have to look far to find e-learning software in action.</div>
+
+This course itself distributes its worksheets and self-check quizzes as
+software, files a browser renders on your screen. The photo-app case
+study from earlier in this deck is also how your e-learning materials
+reach you: stored data, decoded and rendered into something you can read.
+
+---
+
+# Software Distribution: How Programs Actually Reach You
+
+<div class="thread">A finished program is useless until it reaches a real device.</div>
+
+> **Software distribution** is how a finished program gets from its
+> developer onto the device that will run it.
+
+---
+
+# From Big Box Software to App Stores
+
+<div class="thread">Distribution itself has changed enormously.</div>
+
+- **Decades ago:** software shipped physically, on floppy disks, then CDs, bought in a store.
+- **Today:** an app store delivers the same program instantly, over the internet, to any registered device.
+
+---
+
+# What "Installing" an App Actually Does
+
+<div class="thread">Installing is not magic. It is a specific set of steps.</div>
+
+- The device downloads the program's files from a server.
+- Those files are copied onto secondary storage (recall Week 5).
+- The operating system registers the new program, so it appears as an icon you can open.
+
+---
+
+# Worked Example: Minjun Downloads an App
+
+<div class="thread">One tap, several steps, all in the background.</div>
+
+- He taps "Install" on an app store listing.
+- His phone downloads the program's files over the network.
+- The files are written to his phone's storage, and the OS adds an icon to his home screen.
+
+---
+
+# Updates: The Same Process, Repeated
+
+<div class="thread">Recall the vocabulary word from Key Words Today.</div>
+
+An **update** simply repeats the install process with newer files,
+replacing the old version already on storage. That is why an update
+still needs a network connection and free storage space, exactly like a first-time install.
 
 ---
 

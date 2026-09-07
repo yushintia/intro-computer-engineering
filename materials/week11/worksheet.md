@@ -5,7 +5,7 @@ Work with a partner. There can be more than one correct answer.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 Design a small database table for each app below. Write 3-4 field
 names (column headers), and one sample row of data.
@@ -43,7 +43,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 **Judge each password.** Circle Weak or Strong, and write one reason.
 

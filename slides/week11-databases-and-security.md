@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -151,7 +151,7 @@ breaking any other data.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, session 1 -->
 
 # Key Words Today
 
@@ -165,7 +165,7 @@ breaking any other data.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -179,14 +179,7 @@ breaking any other data.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: how a database actually stores and finds data.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, session 2 -->
 
 # Key Words Today
 
@@ -208,6 +201,36 @@ breaking any other data.
 - A plain list has no exact rules. Anyone can type it any way.
 - Finding "only my Seoul photos" means reading the whole list by eye.
 - A database enforces structure, so a program can search it instantly.
+
+---
+
+# Why Not Just Use Flat Files?
+
+<div class="thread">A plain list has a deeper problem than just being messy.</div>
+
+Imagine Mia keeps her photo list in three separate text files: one for Seoul trips, one for Busan trips, one for home photos. Each file repeats words like "Seoul" or "Busan," typed by hand, over and over.
+
+- This repeated copying is called **data redundancy**: the same fact, stored in more than one place.
+- If Mia later renames "Busan" to "Busan City," she must find and fix every single copy herself.
+- Miss even one copy, and her records now quietly disagree with each other.
+
+<div class="why">
+A database stores each fact once, and lets many rows point to it — the redundancy problem, solved structurally.
+</div>
+
+---
+
+# Before Relational: Data Models, Briefly
+
+<div class="thread">Tables were not the first way anyone organized stored data.</div>
+
+- **Hierarchical model** (1960s): data arranged like a family tree, each record with exactly one parent. Fast, but rigid.
+- **Network model** (late 1960s): records could link to several other records, not just one parent. More flexible, but complex to search.
+- **Relational model** (1970, Edgar Codd): data arranged in simple tables instead, linked by shared values. It became, and remains, the dominant model.
+
+<div class="why">
+Every table you will see for the rest of this week already assumes the relational model.
+</div>
 
 ---
 
@@ -236,6 +259,34 @@ Each row is one record. Each column is one field.
 
 ---
 
+# Primary Key: Making Each Row Unique
+
+<div class="thread">What stops two rows from being confused with each other?</div>
+
+> A **primary key** is a field (or small set of fields) whose value is guaranteed to be different in every single row of a table.
+
+- No two rows may ever share the same primary key value.
+- A primary key lets a database find, update, or delete exactly one row, with no confusion.
+- Mia's photo table can use **Photo** (like IMG001) as its primary key, since no two photos share that name.
+
+---
+
+# Worked Example: A Student Roster Table
+
+<div class="thread">Same idea, a different everyday table.</div>
+
+| StudentID | Name | Major | Year |
+|---|---|---|---|
+| S1001 | Jiho | Computer Engineering | 2 |
+| S1002 | Yuna | Computer Engineering | 3 |
+| S1003 | Minseo | Business | 1 |
+
+- **StudentID** is the primary key: every student gets a different one, even if two students share the same name.
+- **Name**, **Major**, and **Year** are ordinary fields, free to repeat across rows.
+- Two students could both be named "Jiho" — the ID still tells them apart.
+
+---
+
 # Finding One Row: a Query
 
 <div class="thread">Mia wants to see only her Seoul photos.</div>
@@ -243,6 +294,38 @@ Each row is one record. Each column is one field.
 - A **query** asks the database a question, using exact rules.
 - Example: "Show me every row where Place is Seoul."
 - The database checks each row, and returns only the matches.
+
+---
+
+# A Taste of SQL: Asking in Structured Words
+
+<div class="thread">A query is not just an idea — it has its own exact wording.</div>
+
+> **SQL** is a structured language used to ask a relational database a question, in a small set of exact, reusable words.
+
+- **SELECT** names which fields you want to see.
+- **FROM** names which table to look in.
+- **WHERE** names the condition a row must match.
+
+A SQL query reads almost like an English sentence, but every word follows exact rules — Week 10's "programming language" idea, now applied to asking questions instead of giving steps.
+
+---
+
+# A Taste of SQL: One Worked Query
+
+<div class="thread">Turn "show me only my Seoul photos" into SQL.</div>
+
+```
+SELECT Photo, Caption
+FROM Photos
+WHERE Place = 'Seoul';
+```
+
+- **SELECT Photo, Caption** — show only these two fields.
+- **FROM Photos** — look inside the Photos table.
+- **WHERE Place = 'Seoul'** — only rows where Place matches "Seoul."
+
+This is not a full SQL course — just enough to see that a query is really a small, precise sentence.
 
 ---
 
@@ -321,14 +404,7 @@ Every app you tap is reading or writing rows, somewhere.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: keeping stored data safe.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, session 3 -->
 
 # Key Words Today
 
@@ -349,6 +425,46 @@ Every app you tap is reading or writing rows, somewhere.
 - Mia's photo app stores her name, email, and location history.
 - Anyone who reaches this data could misuse it, or sell it.
 - A database must let Mia in, and keep everyone else out.
+
+---
+
+# Why Security Matters: Confidentiality, Integrity, Availability
+
+<div class="thread">"Keep data safe" actually means three separate promises.</div>
+
+- **Confidentiality** — only the right people can read the data.
+- **Integrity** — the data stays accurate, and is not secretly changed.
+- **Availability** — the data is there and reachable when it is actually needed.
+
+<div class="why">
+Losing any one of these three is still a security failure, even if the other two hold up fine.
+</div>
+
+---
+
+# Case Study: Is Mia's Photo App Secure?
+
+<div class="thread">Apply all three promises to one everyday app.</div>
+
+<div class="cardlist">
+<div class="card"><div class="h">Confidentiality</div><div class="d">Only Mia's own login can view her private photo captions.</div></div>
+<div class="card"><div class="h">Integrity</div><div class="d">No one else can quietly rename her photos without her knowing.</div></div>
+<div class="card"><div class="h">Availability</div><div class="d">Mia can still open her photos, even if one server briefly goes down.</div></div>
+</div>
+
+Losing any one of these three still counts as a security problem for Mia's app.
+
+---
+
+# Authentication: Proving Who You Are
+
+<div class="thread">Passwords and two-step logins are both one bigger idea.</div>
+
+> **Authentication** is the general process of proving that someone really is who they claim to be, before letting them in.
+
+- A password is one common form of authentication: something only Mia should know.
+- Two-step login adds a second form: something only Mia should have, like her phone.
+- Authentication answers one question only: "are you really Mia?" It does not decide what Mia is allowed to do next.
 
 ---
 
@@ -398,6 +514,31 @@ No single lock is perfect. Together, these layers protect the data well.
 
 ---
 
+# Firewalls: A Gate Between Networks
+
+<div class="thread">Not every layer of protection lives inside the database itself.</div>
+
+> A **firewall** is a system that watches traffic passing between two networks, and blocks anything that does not match its allowed rules.
+
+- Think of it as a gate between Mia's home network and the wider internet.
+- It can stop an unknown outside computer from ever reaching Mia's devices in the first place.
+- A firewall protects the network path; encryption and passwords protect the data and the login, further inside.
+
+---
+
+# Security Technologies Cheat Sheet
+
+<div class="thread">Four techniques, one line each, before we look at threats.</div>
+
+<div class="chip-row">
+<span class="chip">Authentication: proves who you are</span>
+<span class="chip">Encryption: scrambles data for outsiders</span>
+<span class="chip">Firewall: blocks unwanted network traffic</span>
+<span class="chip">Backup: protects against loss, not just theft</span>
+</div>
+
+---
+
 # Backups: Protecting Against Loss
 
 <div class="thread">Security is not only about keeping people out.</div>
@@ -436,6 +577,43 @@ No single lock is perfect. Together, these layers protect the data well.
 The gap is huge. Good habits at your scale still matter a lot.
 
 <!-- notes: Point at the two bars. Say: "See the size difference? That is why companies invest so much in protection." -->
+
+---
+
+# Types of Malware: Virus, Worm, Trojan, Ransomware
+
+<div class="thread">Not every threat tries to log in through the front door.</div>
+
+<div class="cardlist">
+<div class="card"><div class="h">Virus</div><div class="d">Attaches to a real file, and spreads when that file is shared or opened.</div></div>
+<div class="card"><div class="h">Worm</div><div class="d">Spreads on its own across a network, with no file or person needed.</div></div>
+<div class="card"><div class="h">Trojan</div><div class="d">Disguises itself as useful software, then does something harmful.</div></div>
+<div class="card"><div class="h">Ransomware</div><div class="d">Locks or scrambles a victim's data, then demands payment to restore it.</div></div>
+</div>
+
+---
+
+# Recent Hacking Trends: Phishing and Social Engineering
+
+<div class="thread">Many modern attacks target a person, not a machine.</div>
+
+- **Phishing** — a fake message pretends to be a trusted sender, tricking someone into sharing a password or clicking a bad link.
+- **Social engineering** — a broader term for tricking a person into breaking their own security, through pressure, urgency, or false trust.
+- These attacks skip the encryption and the firewall entirely, by aiming at human judgment instead.
+
+<div class="why">
+Awareness is the main defense here: pause before trusting an urgent, unexpected request.
+</div>
+
+---
+
+# Information Ethics: Privacy and Responsible Data Use
+
+<div class="thread">Protecting data is not only a technical question.</div>
+
+- **Privacy** — a person's reasonable expectation that their personal data is not collected or shared without good reason.
+- Responsible data use means only collecting what is actually needed, and only using it for the purpose it was collected for.
+- Even perfectly secure data can still be used unethically, if it is misused within the rules.
 
 ---
 

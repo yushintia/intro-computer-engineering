@@ -56,7 +56,7 @@ everyday experience and does not expect any prior coding knowledge.
 | 7 | Operating Systems | 15 | **Final Exam** (Wks 9-14) |
 | 8 | **Midterm Exam** (Wks 1-7) | | |
 
-Each week has three class periods (차시), about 50 minutes each: a
+Each week has three class periods, about 50 minutes each: a
 short lecture, a recap of the previous week, in-class activities
 (worksheets, discussion, pair work), and, in Weeks 6 and 13, a short
 self-check quiz.

@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -146,13 +146,6 @@ the frozen call you just heard about.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. Next: the course contract - what's covered, how you're graded, and what's expected of you.</div>
-
----
-
 # Course Description
 
 <div class="thread">From the official syllabus.</div>
@@ -224,7 +217,7 @@ will understand hardware and software, at least the basics.
 
 <div class="thread">What to expect from a 3-period block, every week.</div>
 
-Each week has three class periods (차시), about 50 minutes each:
+Each week has three class periods, about 50 minutes each:
 
 <div class="cardlist">
 <div class="card"><div class="h">A short lecture</div><div class="d">New words and ideas, explained simply, always starting from a real device you already own.</div></div>
@@ -251,13 +244,6 @@ You will talk in this class, not just listen.
 | 6 | Application Software - **Quiz 1** | 14 | Emerging Technologies |
 | 7 | Operating Systems | 15 | **Final Exam** (Wks 9-14) |
 | 8 | **Midterm Exam** (Wks 1-7) | | |
-
----
-
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. Next: grading, assignments, and policy.</div>
 
 ---
 

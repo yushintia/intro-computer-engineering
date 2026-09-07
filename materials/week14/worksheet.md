@@ -5,7 +5,7 @@ Work with a partner. There can be more than one correct answer.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each object or scenario, circle **IoT**, **Cloud**, or **Neither**,
 and write one short sentence why.
@@ -41,7 +41,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 For each scenario, circle the idea it best matches: **IoT**, **Cloud**,
 **Big data**, or **Mobile computing**. Write one short sentence why.

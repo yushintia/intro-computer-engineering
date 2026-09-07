@@ -9,7 +9,7 @@ than one field.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each real job, circle the computer application domain it belongs
 to, and write one short sentence why.
@@ -47,7 +47,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 For each scenario, circle the hardware, or layer from this semester,
 that it depends on **most**. Then explain your choice in one short

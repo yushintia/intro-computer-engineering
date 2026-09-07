@@ -9,7 +9,7 @@ yours.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each plain request, write an ordered list of exact steps a laptop
 would need. Use short, exact actions (open, read, write, check, show,
@@ -46,7 +46,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 Mia's laptop now runs several small programs. For each scenario, name
 which building block matters most: **sequence, loop, or decision**.

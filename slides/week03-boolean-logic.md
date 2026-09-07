@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -184,7 +184,187 @@ false, on and off, even today.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+# A Third Number System: Hexadecimal
+
+<div class="thread">Binary bits pile up fast. Chip designers and programmers use a shorthand.</div>
+
+> A **hexadecimal (hex) number system** uses sixteen digits: 0-9, then A, B, C, D, E, F standing for ten through fifteen.
+
+- Hex exists purely as a shorthand for long binary numbers. Chips still only ever use two real states, on and off.
+- Every hex digit maps to exactly 4 binary digits, called a **nibble**, with nothing left over, since 2⁴ = 16.
+
+| Binary | 0000 | 0100 | 1000 | 1010 | 1100 | 1111 |
+|---|---|---|---|---|---|---|
+| Hex | 0 | 4 | 8 | A | C | F |
+
+---
+
+# Worked Example: Converting Decimal to Hexadecimal
+
+<div class="thread">One method: divide by 16, keep the remainder, repeat.</div>
+
+**Example: convert 202 to hexadecimal.**
+
+- 202 ÷ 16 = 12, remainder **10** → the hex digit **A**.
+- 12 ÷ 16 = 0, remainder **12** → the hex digit **C**.
+- Read the remainders from last to first: **C**, then **A**.
+
+**Result: 202 in decimal is `CA` in hexadecimal.**
+
+---
+
+# Worked Example: Converting Binary to Hexadecimal
+
+<div class="thread">A faster method exists if you already have the binary form.</div>
+
+**Example: convert `11001010` to hexadecimal.**
+
+- Split the byte into two nibbles: `1100` and `1010`.
+- Convert each nibble alone: `1100` = 12 = **C**. `1010` = 10 = **A**.
+- Combine the two hex digits: **C**, then **A**.
+
+**Result: `11001010` in binary is `CA` in hexadecimal — the exact same 202 from the last slide.**
+
+---
+
+# Case Study: Where Your Laptop Actually Shows You Hex
+
+<div class="thread">Hex is not just a classroom exercise. Your laptop uses it constantly.</div>
+
+- Every color on your screen is written in hex, like `#1A2B3C`.
+- Memory addresses inside your laptop are usually shown in hex too, since it is shorter than binary and cleaner than decimal for grouping bits.
+
+**Worked example:** the hex value `FF` is binary `11111111`, which is decimal **255** — the common "maximum byte value" you will see again in screen brightness and color settings.
+
+---
+
+# Binary Addition: Carrying the Same Way Decimal Does
+
+<div class="thread">Binary numbers can be added, exactly like decimal numbers, just with only two digits.</div>
+
+> **Binary addition** follows one rule at each column: 0+0=0, 1+0=1, 0+1=1, and 1+1=**10** (write 0, carry 1) — the same way 9+1 carries into a new decimal column.
+
+| A | B | Sum | Carry? |
+|---|---|---|---|
+| 0 | 0 | 0 | No |
+| 1 | 0 | 1 | No |
+| 0 | 1 | 1 | No |
+| 1 | 1 | 0 | Yes, carry 1 |
+
+---
+
+# Worked Example: Adding Two Binary Numbers
+
+<div class="thread">Add column by column, from the right, carrying exactly like the rule just shown.</div>
+
+**Example: add `1011` (11) and `0110` (6).**
+
+- Column 1 (ones): 1 + 0 = **1**.
+- Column 2 (twos): 1 + 1 = 0, carry **1**.
+- Column 3 (fours): 0 + 1 + 1(carried) = 0, carry **1**.
+- Column 4 (eights): 1 + 0 + 1(carried) = 0, carry **1**, which becomes a new leading digit.
+
+**Result: `1011` + `0110` = `10001`, which is 17 — matching 11 + 6 in decimal.**
+
+---
+
+# Representing Whole Numbers: Integers in Fixed-Width Bits
+
+<div class="thread">So far every number used exactly 8 bits. That width is a real design choice.</div>
+
+> An **integer representation** stores a whole number using a fixed number of bits, commonly 8, 16, 32, or 64.
+
+- An 8-bit integer can represent 2⁸ = 256 different values, 0 through 255 if only positive numbers are allowed.
+- More bits give a bigger range, but every extra bit costs more memory to store.
+
+**Worked example:** the number 5, stored as an 8-bit integer, is `00000101` — five bits worth of leading zeros are simply padding to fill the fixed width.
+
+---
+
+# Negative Numbers: The Sign Bit and Two's Complement
+
+<div class="thread">Every example so far was positive. Computers still need to store negative numbers too.</div>
+
+> Computers reserve the leftmost bit of an integer as a **sign bit**: 0 for positive, 1 for negative. Most systems then use a method called **two's complement** so that ordinary addition still works correctly with that sign bit included.
+
+- **Two's complement rule:** flip every bit of the positive version, then add 1.
+
+**Worked example: represent −5 in 8-bit two's complement.**
+- Positive 5 = `00000101`.
+- Flip every bit: `11111010`.
+- Add 1: `11111011`.
+- **Result: −5 = `11111011`.**
+
+---
+
+# Worked Example: Why the Sign Bit Matters on Your Laptop
+
+<div class="thread">This is not only a math trick. Real apps store negative numbers constantly.</div>
+
+Say your laptop's weather widget records an overnight temperature change of **−3 degrees**.
+
+- Positive 3 = `00000011`.
+- Flip every bit: `11111100`.
+- Add 1: `11111101`.
+- **Result: −3 = `11111101`**, stored with the exact same two's complement idea, just with more bits available for a wider range in a real app.
+
+---
+
+# Representing Text: ASCII
+
+<div class="thread">Numbers are not the only thing bits represent. Letters need a system too.</div>
+
+> **ASCII (American Standard Code for Information Exchange)** assigns every English letter, digit, and common symbol a unique number, stored as one byte.
+
+- Capital **'A'** is number **65**. Lowercase **'a'** is number **97**.
+
+**Worked example:** convert 'A' (65) to binary: 128? No. 64? Yes → 65−64=1. 32? No. 16? No. 8? No. 4? No. 2? No. 1? Yes → 1−1=0.
+**Result: 'A' is `01000001` in binary.**
+
+---
+
+# Beyond English: Unicode
+
+<div class="thread">ASCII works for English. It runs out of room almost everywhere else.</div>
+
+> **Unicode** is a much larger character standard, assigning a unique number to characters from nearly every written language, plus symbols and emoji, not only English letters.
+
+- ASCII only had room for 128 characters, far too few for the world's alphabets.
+- Your laptop's keyboard, screen, and every app agree on Unicode numbers, so a Korean character, an emoji, and an English letter all display correctly, side by side.
+
+**Worked example:** Unicode assigns a Japanese hiragana character its own number, entirely outside ASCII's range, while 'A' keeps the exact same number 65 that ASCII already used.
+
+---
+
+# Worked Example: Spelling "OK" in Binary
+
+<div class="thread">One short worked example, one character at a time.</div>
+
+- **'O' is ASCII 79.** 64? Yes → 79−64=15. 8? Yes → 15−8=7. 4? Yes → 7−4=3. 2? Yes → 3−2=1. 1? Yes → 1−1=0. → `01001111`.
+- **'K' is ASCII 75.** 64? Yes → 75−64=11. 8? Yes → 11−8=3. 2? Yes → 3−2=1. 1? Yes → 1−1=0. → `01001011`.
+
+**Result: "OK" is `01001111` `01001011` in binary — two bytes, one per character.**
+
+Every word you type becomes a run of bytes like these, before your laptop ever displays it.
+
+---
+
+# Worked Example: One Byte, Three Views
+
+<div class="thread">Same one byte, read three different ways, all at once.</div>
+
+| View | Value |
+|---|---|
+| Binary | `01000001` |
+| Decimal | 65 |
+| Hexadecimal | 41 |
+| ASCII character | 'A' |
+
+A chip never "knows" this is a letter. It only ever stores `01000001`. Binary, decimal, hex, and ASCII are just different ways humans choose to read the exact same bits.
+
+---
+
+<!-- NEW: Key Words Today, Session 1 -->
 
 # Key Words Today
 
@@ -198,7 +378,7 @@ false, on and off, even today.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes Session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -212,14 +392,7 @@ false, on and off, even today.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: the three gates that build every decision.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, Session 2 -->
 
 # Key Words Today
 
@@ -339,14 +512,7 @@ An OR gate says yes if even one input says yes. Only both false stays false.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: combining gates, then a real chip.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, Session 3 -->
 
 # Key Words Today
 
@@ -405,6 +571,88 @@ Real circuits chain small gates like this, one feeding the next.
 <div class="why">
 Every app, every warning, every button on your laptop traces back to
 gates like the three you just learned.
+</div>
+
+---
+
+# Boolean Algebra: Writing Logic Like Math
+
+<div class="thread">George Boole's original goal, back on the origin slide: write logic as math.</div>
+
+> **Boolean algebra** writes AND, OR, and NOT as operations, the same way plus and times are operations in ordinary algebra.
+
+- AND is often written like multiplication: **A · B**.
+- OR is often written like addition: **A + B**.
+- NOT is often written with a bar over the value: **Ā**.
+
+**Worked example:** let R mean "raining" and H mean "have one at home already." Then "bring umbrella" from the first slide today is written **R · H̄** — raining, AND not already having one.
+
+---
+
+# Two Basic Laws: Commutative and Associative
+
+<div class="thread">Boolean algebra follows real rules, just like ordinary algebra.</div>
+
+> The **commutative law** says order does not matter: A AND B gives the same answer as B AND A (the same holds for OR). The **associative law** says grouping does not matter: (A AND B) AND C gives the same answer as A AND (B AND C).
+
+**Worked example:** "raining AND no-umbrella-at-home," checked in either order, both raining=Yes and no-umbrella=Yes give **Yes**. Swapping the order never changes the truth table's output.
+
+These laws mean a chip designer can rearrange or regroup gates for convenience, without ever changing the final answer.
+
+---
+
+# De Morgan's Law: Flipping AND and OR
+
+<div class="thread">One more law, useful for rewriting a circuit into a different, equal shape.</div>
+
+> **De Morgan's law:** NOT(A AND B) is the same as (NOT A) OR (NOT B). And NOT(A OR B) is the same as (NOT A) AND (NOT B).
+
+**Worked example:** let raining = Yes, no-umbrella = No.
+- Left side: NOT(Yes AND No) = NOT(No) = **Yes**.
+- Right side: (NOT Yes) OR (NOT No) = No OR Yes = **Yes**.
+
+Both sides agree. This law is why some real chips are built almost entirely from just one gate type, covered in later hardware courses.
+
+---
+
+# From Gate to Transistor: What's Really Inside
+
+<div class="thread">Every gate today was drawn as one box. Physically, a gate is not one part.</div>
+
+> A **transistor** acts as a tiny electronic switch, letting current flow (on) or blocking it (off), controlled by another signal.
+
+- A single NOT gate can be built from just one transistor, arranged to flip an incoming signal.
+- An AND gate needs several transistors arranged so current only flows through when every switch along the path is also on.
+
+A modern CPU chip holds billions of transistors, wired into millions of gates like the ones you learned today.
+
+---
+
+# Worked Example: Counting Transistors Behind One Decision
+
+<div class="thread">Back to the low-battery warning, one layer deeper.</div>
+
+Your laptop's low-battery warning used one NOT gate and one AND gate.
+
+- A NOT gate built from transistors might use about 2 transistors.
+- A simple AND gate built from basic switches might use about 6 transistors.
+- That one small warning alone could use around 8 transistors — and your laptop's chip repeats decisions like this billions of times.
+
+This is the last stop before Week 4: those same transistors, wired into gates, are what actually carry out every CPU instruction.
+
+---
+
+# Today's Building Blocks: A Cheat Sheet
+
+<div class="thread">Before the official case study, one more look at everything Act 3 covered.</div>
+
+<div class="chip-row">
+<span class="chip">Hex: shorthand for 4 bits</span>
+<span class="chip">Binary addition: carries like decimal</span>
+<span class="chip">Sign bit: marks negative numbers</span>
+<span class="chip">ASCII/Unicode: text as numbers</span>
+<span class="chip">Boolean algebra: logic as math</span>
+<span class="chip">Gates: built from transistors</span>
 </div>
 
 ---

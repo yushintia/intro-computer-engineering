@@ -13,7 +13,7 @@ footer: 'Department of Intelligent Computing'
 <span class="subtitle">Introduction to Computer Engineering (400507-001)</span>
 
 <div class="meta">
-Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · 성파 701
+Yushintia Pramitarini, Ph.D · Dept. of Intelligent Computing · Thu [1-3] · Seongpa Hall 701
 </div>
 
 <!--
@@ -140,7 +140,7 @@ checks if you understand the whole field, not just code.
 
 ---
 
-<!-- NEW: Key Words Today, 차시 1 -->
+<!-- NEW: Key Words Today, Session 1 -->
 
 # Key Words Today
 
@@ -153,7 +153,7 @@ checks if you understand the whole field, not just code.
 
 ---
 
-<!-- NEW: Try-It preview, closes 차시 1 -->
+<!-- NEW: Try-It preview, closes Session 1 -->
 
 # Coming Up: Worksheet Part A
 
@@ -167,14 +167,7 @@ checks if you understand the whole field, not just code.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 1
-<div class="driving-q">Short break. 차시 2: where the first computer came from.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 2 -->
+<!-- NEW: Key Words Today, Session 2 -->
 
 # Key Words Today
 
@@ -223,6 +216,89 @@ Every number you know in decimal also has a matching binary form.
 
 <!-- Act 3 / BUILD -->
 
+# Early Counting Tools: The Abacus
+
+<div class="thread">Long before any machine had gears or switches, people still needed to calculate fast.</div>
+
+> An **abacus** is a frame of sliding beads, used to count and calculate by hand, with no gears and no electricity at all.
+
+- Different cultures built their own versions of it, some many centuries old.
+- Each row of beads stands for one place value, the same idea decimal digits use today.
+
+**Worked example:** to add 3 and 4, a user slides 3 beads up on one rod, then slides 4 more. The rod fills past 9, so the user carries one bead over to the next rod — exactly like carrying a 1 in ordinary addition.
+
+---
+
+# The Pascaline: The First Mechanical Adding Machine
+
+<div class="thread">In the 1600s, one mathematician tried to remove human error from arithmetic completely.</div>
+
+> A **mechanical calculator** is a machine that adds, subtracts, or otherwise calculates using gears and levers, with no electricity.
+
+- **1642:** Blaise Pascal, a French mathematician, built the **Pascaline** to help his father, a tax official, add long columns of coins and figures correctly.
+- Each digit had its own toothed wheel: ten teeth per wheel, one wheel per decimal place.
+
+**Worked example:** turning the ones-wheel up from 8 by 5 more clicks passes 9 and rolls back to 3. A small pin on the wheel automatically nudges the tens-wheel forward by one — an early, physical version of carrying a digit.
+
+---
+
+# Leibniz's Stepped Reckoner: Multiplying by Machine
+
+<div class="thread">Pascal's machine could add. The next big step was multiplying.</div>
+
+> A **stepped drum** is a gear shaped so the same wheel can represent different digit values, depending on how far a lever turns it.
+
+- **1673:** Gottfried Leibniz built the **Stepped Reckoner**, the first machine that could multiply and divide, not only add and subtract.
+- It worked by repeated addition: to multiply, the machine simply added the same number over and over, one step per unit.
+
+**Worked example:** to compute 6 × 3, the Stepped Reckoner added 6, then 6 again, then 6 a third time: 6, 12, 18. Multiplication as repeated addition is still exactly how a simple CPU handles it today.
+
+---
+
+# Punch Cards: Programming Before Electricity
+
+<div class="thread">Mechanical calculators still needed a human to turn every crank. What if a machine could follow instructions on its own?</div>
+
+> A **punch card** is a stiff card with holes in fixed positions, where the pattern of holes tells a machine what to do.
+
+- **1804:** Joseph Jacquard used punch cards to control weaving looms. The hole pattern on each card decided the woven pattern automatically, with no weaver deciding by hand.
+- **1890:** Herman Hollerith adapted punch cards to tabulate the U.S. Census, cutting a count that once took years down to months.
+
+**Worked example:** one census card might carry three punched holes meaning "adult," "employed," and "owns a home." The tabulating machine reads the holes and sorts the card, the same true/false idea Week 3 turns into logic gates.
+
+---
+
+# Babbage's Engines: Difference Engine and Analytical Engine
+
+<div class="thread">One inventor tried to combine "calculates on its own" with "follows any instructions."</div>
+
+- **1822, Difference Engine:** designed to automatically compute mathematical tables, like the navigation tables ships relied on, that were previously calculated by hand and often contained errors.
+- **1837, Analytical Engine:** a far more ambitious design, meant to run any calculation fed to it on punch cards, not just one fixed task. It was never fully built in Babbage's lifetime, but it introduced a "store" to hold numbers and a "mill" to process them.
+
+<div class="why">
+That split — one place to hold data, one place to process it — is still exactly how memory and the CPU are separated today, in Weeks 4 and 5.
+</div>
+
+---
+
+# Worked Example: Adding 68 + 57 on a Gear-Driven Calculator
+
+<div class="thread">One full worked example, tying every gear-era machine above together.</div>
+
+| Wheel | Digits added | Result shown | Carried? |
+|---|---|---|---|
+| Ones | 8 + 7 = 15 | 5 | Yes, carry 1 |
+| Tens | 6 + 5 + 1(carried) = 12 | 2 | Yes, carry 1 |
+| Hundreds | 0 + 0 + 1(carried) = 1 | 1 | No |
+
+**Result: 68 + 57 = 125.**
+
+Every carry a gear performs by hand, a modern chip performs electronically, in billionths of a second.
+
+---
+
+<!-- Act 3 / BUILD -->
+
 # Five Big Steps in Computer History
 
 <div class="thread">From room-sized machines to the chip in your pocket.</div>
@@ -261,6 +337,88 @@ Each generation got smaller, faster, and cheaper than the one before.
 
 ---
 
+# Generation 1: The Vacuum Tube Era
+
+<div class="thread">The timeline named the tube. Here is what actually made it a whole generation.</div>
+
+> A **vacuum tube** is a glass tube that controls electric current by heating a filament inside a vacuum, acting like a fast, fragile on/off switch.
+
+- **Roughly the 1940s to the early 1950s.**
+- ENIAC alone used about 17,000 vacuum tubes, filled a large room, and drew enormous amounts of electricity.
+- Tubes ran hot and burned out often. Someone had to hunt down and replace a broken tube nearly every day.
+
+**Worked example:** if even 1 of ENIAC's 17,000 tubes failed mid-calculation, the whole machine could stop. Engineers checked tubes one by one, like finding a single dead bulb in thousands of string lights.
+
+---
+
+# Generation 2: The Transistor Era
+
+<div class="thread">This fragility is exactly why the next generation had to replace the tube.</div>
+
+> A **transistor** is a small, solid-state switch made from silicon that does the same on/off job as a vacuum tube, with no heated filament to burn out.
+
+- Invented in 1947 at Bell Labs; entered computers roughly **the mid-1950s through the 1960s**.
+- A transistor is smaller, cooler, cheaper, and far more reliable than a tube.
+
+**Worked example:** a single transistor could do the job of a whole cluster of vacuum tubes. Machines shrank from filling a room to filling a large cabinet, while breaking down far less often.
+
+---
+
+# Generation 3: The Integrated Circuit Era
+
+<div class="thread">Transistors were small. The next idea was putting many of them in exactly one place.</div>
+
+> An **integrated circuit (IC)**, or chip, is a single piece of silicon holding many transistors and their connections together, manufactured all at once.
+
+- **Roughly 1958 through the late 1960s / early 1970s.**
+- Jack Kilby and Robert Noyce separately built the first working integrated circuits around 1958-1959.
+
+**Worked example:** one early integrated circuit packed dozens of transistors onto a chip the size of a fingernail — work that used to need a whole cabinet of separately wired transistors.
+
+---
+
+# Generation 4: The Microprocessor Era
+
+<div class="thread">One more squeeze: put the entire brain of a computer on that one chip.</div>
+
+> A **microprocessor** is a single chip that holds an entire CPU — the complete set of parts that reads and carries out instructions — not just some of its transistors.
+
+- **1971 onward**, starting with the Intel 4004.
+- This is the generation your own laptop's CPU still belongs to, over 50 years later.
+
+**Worked example:** the Intel 4004 held about 2,300 transistors on one chip. A modern laptop CPU holds billions on a chip about the same size — thousands, then billions, on the very same idea.
+
+---
+
+# Generation 5: AI and Parallel Processing
+
+<div class="thread">The fifth step is not one invention. It is doing many things on a chip at the exact same instant.</div>
+
+> **Parallel processing** means a chip solves separate parts of a problem at the same time, using more than one processing unit, instead of one instruction at a time.
+
+- **Roughly the 1980s to today**, accelerating sharply in the last decade with chips built specifically for AI workloads.
+- Many laptops and phones now ship with a chip dedicated to AI tasks, running alongside the regular CPU.
+
+**Worked example:** a laptop with 8 CPU cores can, in principle, work on 8 small tasks at the exact same instant, instead of finishing one task completely before starting the next.
+
+---
+
+# Five Generations at a Glance
+
+<div class="thread">Zoom out. Same five generations, side by side.</div>
+
+<div class="appgrid">
+<div class="app"><div class="name">1st — Vacuum Tubes</div><div class="desc">1940s-50s. Room-sized, hot, failed often.</div></div>
+<div class="app"><div class="name">2nd — Transistors</div><div class="desc">1950s-60s. Smaller, cooler, more reliable.</div></div>
+<div class="app"><div class="name">3rd — Integrated Circuits</div><div class="desc">Late 1950s-70s. Many transistors, one chip.</div></div>
+<div class="app"><div class="name">4th — Microprocessors</div><div class="desc">1971-today. A whole CPU, one chip.</div></div>
+<div class="app"><div class="name">5th — AI &amp; Parallel</div><div class="desc">1980s-today. Many cores, working at once.</div></div>
+</div>
+
+Five generations, one direction: smaller, faster, and able to do more at the exact same instant.
+
+---
+
 <!-- NEW: Try-It hand-off, Worksheet Part A -->
 
 # Try It: Worksheet Part A
@@ -275,14 +433,7 @@ Each generation got smaller, faster, and cheaper than the one before.
 
 ---
 
-<!-- _class: section -->
-
-# End of 차시 2
-<div class="driving-q">Short break. 차시 3: binary numbers, and your laptop's own history.</div>
-
----
-
-<!-- NEW: Key Words Today, 차시 3 -->
+<!-- NEW: Key Words Today, Session 3 -->
 
 # Key Words Today
 
@@ -323,6 +474,67 @@ Each position is worth double the value to its right.
 
 ---
 
+# Why Computers Settled on Binary, Not Decimal
+
+<div class="thread">You already have the binary/decimal definition. Here is why the choice landed on binary, specifically.</div>
+
+- A decimal digit needs to reliably tell apart 10 different voltage levels, packed close together.
+- A binary digit only ever needs to tell apart 2: "on" and "off," far apart from each other.
+- Electric signals drift and pick up noise. Two far-apart states are much easier to build reliably than ten close ones.
+
+**Worked example:** picture a dial with 10 evenly-spaced marks, versus a switch with only 2 positions. A small nudge on the switch never turns "on" into "off." That same small nudge on the crowded dial can easily land on the wrong number.
+
+---
+
+# From Binary Digits to On/Off Switches
+
+<div class="thread">One bit is one digit on paper. But physically, what is a bit actually made of?</div>
+
+> A **bit**, stored in real hardware, is really just the state of one tiny switch: current flowing (**1**) or not flowing (**0**).
+
+- Your laptop's memory holds billions of these tiny switches, each frozen at 0 or 1 at any given moment.
+- The `00001101` you just wrote for 13 is really 8 real switches: off, off, off, off, on, on, off, on.
+
+Week 3 opens exactly here: how a switch, all by itself, can make a decision.
+
+---
+
+# Worked Example: Converting ENIAC's Founding Year to Binary
+
+<div class="thread">History and binary, in one number: 1945, the year ENIAC was built.</div>
+
+- 1024? Yes → 1945 − 1024 = 921.
+- 512? Yes → 921 − 512 = 409.
+- 256? Yes → 409 − 256 = 153.
+- 128? Yes → 153 − 128 = 25.
+- 64? No. 32? No.
+- 16? Yes → 25 − 16 = 9.
+- 8? Yes → 9 − 8 = 1.
+- 4? No. 2? No.
+- 1? Yes → 1 − 1 = 0.
+
+**Result: 1945 in decimal is `11110011001` in binary.**
+
+Even a single history date can be written entirely in bits. There is nothing decimal can represent that binary cannot.
+
+---
+
+# Worked Example: Converting Your Laptop's Core Count to Binary
+
+<div class="thread">Back to your own laptop, one more time before the case study.</div>
+
+**Say a newer version of your laptop has 12 CPU cores.**
+
+- 8? Yes → 12 − 8 = 4.
+- 4? Yes → 4 − 4 = 0.
+- 2? No. 1? No.
+
+**Result: 12 in decimal is `00001100` in binary.**
+
+Every spec-sheet number, no matter how large, is just another binary number waiting to be converted.
+
+---
+
 <!-- SLOT N-2: Worked example -->
 
 # Case Study: History Inside Your Laptop
@@ -334,6 +546,187 @@ Each position is worth double the value to its right.
 - Say your laptop has **4 CPU cores**. In binary, 4 is `00000100`.
 
 This one small number already uses the system every chip runs on.
+
+---
+
+# The Human Computer Era: Calculation Before Any Machine
+
+<div class="thread">One more look at the origin story, before we classify computers by type.</div>
+
+> Before "computer" meant a machine, it meant a **job**: a **human computer** was a person paid to calculate tables of numbers by hand, following one fixed method, over and over.
+
+- Teams of human computers calculated artillery firing tables during World War II. One full table could take weeks of repeated arithmetic.
+- A single arithmetic slip, copied by hand down a whole table, could send a shell to the wrong place entirely.
+
+**Worked example:** one artillery table alone could need 3,000 or more individual trajectory calculations, each one worked out by hand, then checked again by a second person for mistakes. This exact bottleneck is what ENIAC was built to remove.
+
+---
+
+# Classifying Computers by Purpose: General vs Special
+
+<div class="thread">History gave us machines. Now, three ways to sort any computer you meet.</div>
+
+> A **general-purpose computer** is built to run many different kinds of programs. A **special-purpose computer** is built to do one specific job, and nothing else.
+
+- Your laptop, your phone, or a lab desktop are general-purpose: today an essay, tomorrow a game, next a spreadsheet.
+- A washing machine's controller, a car's anti-lock brake controller, or a supermarket barcode scanner are special-purpose: they only ever run the one job they were built for.
+
+**Worked example:** swap a washing machine's chip into your laptop, and it could not run a web browser — it was never built to. Swap your laptop's chip into the washing machine, and it is massive overkill for spinning a drum.
+
+---
+
+# Worked Example: General or Special Purpose? Four Devices
+
+<div class="thread">Sort four everyday devices using the definition you just learned.</div>
+
+| Device | Purpose type | Why |
+|---|---|---|
+| Laptop | General-purpose | Runs a browser, a game, and a code editor, all on the same chip |
+| Microwave controller | Special-purpose | Only ever times and heats food |
+| Smart thermostat | Special-purpose | Only ever checks temperature and switches heat |
+| Gaming console | General-purpose | Runs many different games, plus apps like streaming |
+
+General-purpose machines cost more and use more power, but a special-purpose machine cannot do anything else.
+
+---
+
+# Classifying Computers by Data Representation: Digital, Analog, and Hybrid
+
+<div class="thread">A second way to sort computers: not by job, but by how they represent data at all.</div>
+
+> A **digital computer** represents data as distinct, separate values, like binary 0s and 1s. An **analog computer** represents data as a continuously varying signal, like a smoothly changing voltage. A **hybrid computer** mixes both inside the same machine.
+
+- Nearly every computer you meet today, including your laptop, is digital.
+- Older analog computers used continuously spinning dials or flowing voltages to model things like weather patterns or missile trajectories, with no discrete steps at all.
+- A hybrid computer, like some medical devices, takes in a continuous analog signal and converts it into digital data a computer can store.
+
+**Worked example:** a classic mercury thermometer is analog — the mercury rises smoothly, skipping no in-between height. A digital thermometer instead jumps between fixed numbers, like 36.5 then 36.6, with nothing displayed in between those two steps.
+
+---
+
+# Worked Example: Digital, Analog, or Hybrid? Three Devices
+
+<div class="thread">Sort three more devices, using the same three categories.</div>
+
+| Device | Type | Why |
+|---|---|---|
+| Digital alarm clock | Digital | Jumps between fixed numbers: 7:00, then 7:01 |
+| Old wall clock with sweeping hands | Analog | Hands move continuously, never jumping |
+| Hospital heart monitor | Hybrid | An analog heartbeat signal, converted into digital numbers on screen |
+
+The same three categories sort almost any device you already own.
+
+---
+
+# Classifying Computers by Processing Capacity: Four Sizes
+
+<div class="thread">A third way to sort computers: not by job or data type, but by raw processing power.</div>
+
+- **Supercomputer** — the fastest, most powerful class, used for huge scientific problems like weather forecasting.
+- **Mainframe** — very powerful, built to serve many users and huge transactions at once, like a bank's central system.
+- **Minicomputer** — mid-sized; once common for a single department or lab, mostly replaced today by powerful servers.
+- **Microcomputer** — the smallest class, built around one microprocessor chip; this is your laptop, phone, or desktop.
+
+<div class="barchart">
+<div class="bar-row">
+  <div class="bar-label">Supercomputer</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
+  <div class="bar-value">highest raw power</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">Mainframe</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 60%"></div></div>
+  <div class="bar-value">built for many users at once</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">Minicomputer</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 25%"></div></div>
+  <div class="bar-value">mid-sized, mostly historical</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">Microcomputer</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 10%"></div></div>
+  <div class="bar-value">one chip, one person at a time</div>
+</div>
+</div>
+
+<div class="bar-note">Bars are illustrative only, not measured benchmarks.</div>
+
+---
+
+# Worked Example: Where Does Your Laptop Fit on the Capacity Scale?
+
+<div class="thread">Place three real machines on the four sizes you just learned.</div>
+
+- Your laptop is a **microcomputer**: one microprocessor chip, built for one person at a time.
+- A university's shared research cluster, crunching climate models overnight, is a **supercomputer**.
+- The bank that processes your card payment most likely runs on a **mainframe**, built to handle millions of transactions reliably.
+
+The same fetch-decode-execute idea from Week 4 runs inside all four sizes. Only the scale changes.
+
+---
+
+# Comparing Raw Speed Across the Five Generations
+
+<div class="thread">One more look back at the generations, this time by speed.</div>
+
+<div class="barchart">
+<div class="bar-row">
+  <div class="bar-label">1st gen: vacuum tubes</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 5%"></div></div>
+  <div class="bar-value">hundreds of operations/sec</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">2nd gen: transistors</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 15%"></div></div>
+  <div class="bar-value">thousands of operations/sec</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">3rd gen: integrated circuits</div>
+  <div class="bar-track"><div class="bar-fill short" style="width: 35%"></div></div>
+  <div class="bar-value">millions of operations/sec</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">4th gen: microprocessors</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 70%"></div></div>
+  <div class="bar-value">billions of operations/sec</div>
+</div>
+<div class="bar-row">
+  <div class="bar-label">5th gen: AI &amp; parallel</div>
+  <div class="bar-track"><div class="bar-fill long" style="width: 100%"></div></div>
+  <div class="bar-value">trillions of operations/sec, many cores at once</div>
+</div>
+</div>
+
+<div class="bar-note">Bars are illustrative only, meant to show direction, not exact measurements.</div>
+
+---
+
+# Classification Cheat Sheet: Purpose, Data, and Capacity Together
+
+<div class="thread">Three separate questions, three separate answers, for any computer.</div>
+
+<div class="chip-row">
+<span class="chip">Purpose: general or special</span>
+<span class="chip">Data: digital, analog, or hybrid</span>
+<span class="chip">Capacity: micro, mini, mainframe, or super</span>
+</div>
+
+Every computer you will ever meet in this course can be answered along all three lines, independently.
+
+---
+
+# Worked Example: Classifying Three Real Devices Side by Side
+
+<div class="thread">One last worked example, using every scheme from today at once.</div>
+
+| Device | Purpose | Data type | Capacity class |
+|---|---|---|---|
+| Your laptop | General-purpose | Digital | Microcomputer |
+| Hospital heart monitor | Special-purpose | Hybrid | Microcomputer-sized, embedded |
+| University research cluster | General-purpose (research) | Digital | Supercomputer |
+
+One device can sit in a different spot on each of the three schemes at once. They are independent ways to describe the same machine.
 
 ---
 

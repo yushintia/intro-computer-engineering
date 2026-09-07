@@ -5,7 +5,7 @@ Work with a partner. There can be more than one correct answer.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each item, decide where it lives: **Memory (RAM)**, **Storage**,
 or **Both**. Then write one short sentence why.
@@ -41,7 +41,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 For each scenario, decide: does the data **survive a restart**, or
 is it **gone**? Write one short sentence why.

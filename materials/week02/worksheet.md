@@ -5,7 +5,7 @@ Work with a partner. There can be more than one correct answer.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 For each event, write which **generation** it belongs to (1st, 2nd,
 3rd, or 4th), and one short reason why.
@@ -38,7 +38,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 **Section 1: Convert decimal to binary.** Use the place-value table
 below to help. Show your steps if you can.

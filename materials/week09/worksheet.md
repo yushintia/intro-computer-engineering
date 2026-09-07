@@ -10,7 +10,7 @@ how the photo could actually get across.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 **Word bank:** Network · Internet · IP address · Wifi · Router ·
 Packet · Server · Client · Browser · URL
@@ -59,7 +59,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 ### B1. Put the steps in order
 

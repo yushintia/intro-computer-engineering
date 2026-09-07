@@ -6,7 +6,7 @@ inside your own laptop or phone, running one instruction at a time.
 
 ---
 
-## Part A (차시 2, in-class, ~15 minutes)
+## Part A (Session 2, in-class, ~15 minutes)
 
 Each scenario below lists the three cycle steps **out of order**.
 Write **1, 2, 3** next to each step, to show the correct order:
@@ -49,7 +49,7 @@ ______________________________________________
 
 ---
 
-## Part B (차시 3, in-class, ~15 minutes)
+## Part B (Session 3, in-class, ~15 minutes)
 
 Trace **one instruction** through the full cycle for each scenario.
 Fill in what happens at each step, in your own words.
