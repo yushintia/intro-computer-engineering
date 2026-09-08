@@ -215,7 +215,7 @@ Imagine Mia keeps her photo list in three separate text files: one for Seoul tri
 - Miss even one copy, and her records now quietly disagree with each other.
 
 <div class="why">
-A database stores each fact once, and lets many rows point to it — the redundancy problem, solved structurally.
+A database stores each fact once, and lets many rows point to it: the redundancy problem, solved structurally.
 </div>
 
 ---
@@ -283,7 +283,7 @@ Each row is one record. Each column is one field.
 
 - **StudentID** is the primary key: every student gets a different one, even if two students share the same name.
 - **Name**, **Major**, and **Year** are ordinary fields, free to repeat across rows.
-- Two students could both be named "Jiho" — the ID still tells them apart.
+- Two students could both be named "Jiho," but the ID still tells them apart.
 
 ---
 
@@ -299,7 +299,7 @@ Each row is one record. Each column is one field.
 
 # A Taste of SQL: Asking in Structured Words
 
-<div class="thread">A query is not just an idea — it has its own exact wording.</div>
+<div class="thread">A query is not just an idea: it has its own exact wording.</div>
 
 > **SQL** is a structured language used to ask a relational database a question, in a small set of exact, reusable words.
 
@@ -307,7 +307,7 @@ Each row is one record. Each column is one field.
 - **FROM** names which table to look in.
 - **WHERE** names the condition a row must match.
 
-A SQL query reads almost like an English sentence, but every word follows exact rules — Week 10's "programming language" idea, now applied to asking questions instead of giving steps.
+A SQL query reads almost like an English sentence, but every word follows exact rules: Week 10's "programming language" idea, now applied to asking questions instead of giving steps.
 
 ---
 
@@ -321,11 +321,11 @@ FROM Photos
 WHERE Place = 'Seoul';
 ```
 
-- **SELECT Photo, Caption** — show only these two fields.
-- **FROM Photos** — look inside the Photos table.
-- **WHERE Place = 'Seoul'** — only rows where Place matches "Seoul."
+- **SELECT Photo, Caption**: show only these two fields.
+- **FROM Photos**: look inside the Photos table.
+- **WHERE Place = 'Seoul'**: only rows where Place matches "Seoul."
 
-This is not a full SQL course — just enough to see that a query is really a small, precise sentence.
+This is not a full SQL course, just enough to see that a query is really a small, precise sentence.
 
 ---
 
@@ -432,9 +432,9 @@ Every app you tap is reading or writing rows, somewhere.
 
 <div class="thread">"Keep data safe" actually means three separate promises.</div>
 
-- **Confidentiality** — only the right people can read the data.
-- **Integrity** — the data stays accurate, and is not secretly changed.
-- **Availability** — the data is there and reachable when it is actually needed.
+- **Confidentiality**: only the right people can read the data.
+- **Integrity**: the data stays accurate, and is not secretly changed.
+- **Availability**: the data is there and reachable when it is actually needed.
 
 <div class="why">
 Losing any one of these three is still a security failure, even if the other two hold up fine.
@@ -597,8 +597,8 @@ The gap is huge. Good habits at your scale still matter a lot.
 
 <div class="thread">Many modern attacks target a person, not a machine.</div>
 
-- **Phishing** — a fake message pretends to be a trusted sender, tricking someone into sharing a password or clicking a bad link.
-- **Social engineering** — a broader term for tricking a person into breaking their own security, through pressure, urgency, or false trust.
+- **Phishing**: a fake message pretends to be a trusted sender, tricking someone into sharing a password or clicking a bad link.
+- **Social engineering**: a broader term for tricking a person into breaking their own security, through pressure, urgency, or false trust.
 - These attacks skip the encryption and the firewall entirely, by aiming at human judgment instead.
 
 <div class="why">
@@ -611,7 +611,7 @@ Awareness is the main defense here: pause before trusting an urgent, unexpected 
 
 <div class="thread">Protecting data is not only a technical question.</div>
 
-- **Privacy** — a person's reasonable expectation that their personal data is not collected or shared without good reason.
+- **Privacy**: a person's reasonable expectation that their personal data is not collected or shared without good reason.
 - Responsible data use means only collecting what is actually needed, and only using it for the purpose it was collected for.
 - Even perfectly secure data can still be used unethically, if it is misused within the rules.
 

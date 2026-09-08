@@ -66,7 +66,7 @@ have no physical way to reach each other at all.
 
 ### Part D
 
-1. **The clock ticks 2.8 billion times a second** — 2.8 GHz means 2.8
+1. **The clock ticks 2.8 billion times a second**: 2.8 GHz means 2.8
    billion cycles per second.
 2. **Laptop B**, by a factor of **2** (4 ÷ 2 = 2).
 3. **5 steps** (pipelining overlaps fetch, decode, and execute across
@@ -77,7 +77,7 @@ have no physical way to reach each other at all.
    column 3, then column 4, one at a time. **4-core:** each core takes
    one column, and all four finish at roughly the same time.
 6. **False.** Instruction throughput can still differ underneath the
-   same GHz number — some instructions (like divide) take more cycles
+   same GHz number; some instructions (like divide) take more cycles
    to finish than others (like add).
 
 **Discuss:** Any reasonable answer is fine. Sample: "A hazard, where

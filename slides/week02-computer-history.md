@@ -225,7 +225,7 @@ Every number you know in decimal also has a matching binary form.
 - Different cultures built their own versions of it, some many centuries old.
 - Each row of beads stands for one place value, the same idea decimal digits use today.
 
-**Worked example:** to add 3 and 4, a user slides 3 beads up on one rod, then slides 4 more. The rod fills past 9, so the user carries one bead over to the next rod — exactly like carrying a 1 in ordinary addition.
+**Worked example:** to add 3 and 4, a user slides 3 beads up on one rod, then slides 4 more. The rod fills past 9, so the user carries one bead over to the next rod, exactly like carrying a 1 in ordinary addition.
 
 ---
 
@@ -238,7 +238,7 @@ Every number you know in decimal also has a matching binary form.
 - **1642:** Blaise Pascal, a French mathematician, built the **Pascaline** to help his father, a tax official, add long columns of coins and figures correctly.
 - Each digit had its own toothed wheel: ten teeth per wheel, one wheel per decimal place.
 
-**Worked example:** turning the ones-wheel up from 8 by 5 more clicks passes 9 and rolls back to 3. A small pin on the wheel automatically nudges the tens-wheel forward by one — an early, physical version of carrying a digit.
+**Worked example:** turning the ones-wheel up from 8 by 5 more clicks passes 9 and rolls back to 3. A small pin on the wheel automatically nudges the tens-wheel forward by one: an early, physical version of carrying a digit.
 
 ---
 
@@ -276,7 +276,7 @@ Every number you know in decimal also has a matching binary form.
 - **1837, Analytical Engine:** a far more ambitious design, meant to run any calculation fed to it on punch cards, not just one fixed task. It was never fully built in Babbage's lifetime, but it introduced a "store" to hold numbers and a "mill" to process them.
 
 <div class="why">
-That split — one place to hold data, one place to process it — is still exactly how memory and the CPU are separated today, in Weeks 4 and 5.
+That split (one place to hold data, one place to process it) is still exactly how memory and the CPU are separated today, in Weeks 4 and 5.
 </div>
 
 ---
@@ -373,7 +373,7 @@ Each generation got smaller, faster, and cheaper than the one before.
 - **Roughly 1958 through the late 1960s / early 1970s.**
 - Jack Kilby and Robert Noyce separately built the first working integrated circuits around 1958-1959.
 
-**Worked example:** one early integrated circuit packed dozens of transistors onto a chip the size of a fingernail — work that used to need a whole cabinet of separately wired transistors.
+**Worked example:** one early integrated circuit packed dozens of transistors onto a chip the size of a fingernail; work that used to need a whole cabinet of separately wired transistors.
 
 ---
 
@@ -381,12 +381,12 @@ Each generation got smaller, faster, and cheaper than the one before.
 
 <div class="thread">One more squeeze: put the entire brain of a computer on that one chip.</div>
 
-> A **microprocessor** is a single chip that holds an entire CPU — the complete set of parts that reads and carries out instructions — not just some of its transistors.
+> A **microprocessor** is a single chip that holds an entire CPU (the complete set of parts that reads and carries out instructions), not just some of its transistors.
 
 - **1971 onward**, starting with the Intel 4004.
 - This is the generation your own laptop's CPU still belongs to, over 50 years later.
 
-**Worked example:** the Intel 4004 held about 2,300 transistors on one chip. A modern laptop CPU holds billions on a chip about the same size — thousands, then billions, on the very same idea.
+**Worked example:** the Intel 4004 held about 2,300 transistors on one chip. A modern laptop CPU holds billions on a chip about the same size: thousands, then billions, on the very same idea.
 
 ---
 
@@ -408,11 +408,11 @@ Each generation got smaller, faster, and cheaper than the one before.
 <div class="thread">Zoom out. Same five generations, side by side.</div>
 
 <div class="appgrid">
-<div class="app"><div class="name">1st — Vacuum Tubes</div><div class="desc">1940s-50s. Room-sized, hot, failed often.</div></div>
-<div class="app"><div class="name">2nd — Transistors</div><div class="desc">1950s-60s. Smaller, cooler, more reliable.</div></div>
-<div class="app"><div class="name">3rd — Integrated Circuits</div><div class="desc">Late 1950s-70s. Many transistors, one chip.</div></div>
-<div class="app"><div class="name">4th — Microprocessors</div><div class="desc">1971-today. A whole CPU, one chip.</div></div>
-<div class="app"><div class="name">5th — AI &amp; Parallel</div><div class="desc">1980s-today. Many cores, working at once.</div></div>
+<div class="app"><div class="name">1st: Vacuum Tubes</div><div class="desc">1940s-50s. Room-sized, hot, failed often.</div></div>
+<div class="app"><div class="name">2nd: Transistors</div><div class="desc">1950s-60s. Smaller, cooler, more reliable.</div></div>
+<div class="app"><div class="name">3rd: Integrated Circuits</div><div class="desc">Late 1950s-70s. Many transistors, one chip.</div></div>
+<div class="app"><div class="name">4th: Microprocessors</div><div class="desc">1971-today. A whole CPU, one chip.</div></div>
+<div class="app"><div class="name">5th: AI &amp; Parallel</div><div class="desc">1980s-today. Many cores, working at once.</div></div>
 </div>
 
 Five generations, one direction: smaller, faster, and able to do more at the exact same instant.
@@ -571,7 +571,7 @@ This one small number already uses the system every chip runs on.
 - Your laptop, your phone, or a lab desktop are general-purpose: today an essay, tomorrow a game, next a spreadsheet.
 - A washing machine's controller, a car's anti-lock brake controller, or a supermarket barcode scanner are special-purpose: they only ever run the one job they were built for.
 
-**Worked example:** swap a washing machine's chip into your laptop, and it could not run a web browser — it was never built to. Swap your laptop's chip into the washing machine, and it is massive overkill for spinning a drum.
+**Worked example:** swap a washing machine's chip into your laptop, and it could not run a web browser. It was never built to. Swap your laptop's chip into the washing machine, and it is massive overkill for spinning a drum.
 
 ---
 
@@ -600,7 +600,7 @@ General-purpose machines cost more and use more power, but a special-purpose mac
 - Older analog computers used continuously spinning dials or flowing voltages to model things like weather patterns or missile trajectories, with no discrete steps at all.
 - A hybrid computer, like some medical devices, takes in a continuous analog signal and converts it into digital data a computer can store.
 
-**Worked example:** a classic mercury thermometer is analog — the mercury rises smoothly, skipping no in-between height. A digital thermometer instead jumps between fixed numbers, like 36.5 then 36.6, with nothing displayed in between those two steps.
+**Worked example:** a classic mercury thermometer is analog: the mercury rises smoothly, skipping no in-between height. A digital thermometer instead jumps between fixed numbers, like 36.5 then 36.6, with nothing displayed in between those two steps.
 
 ---
 
@@ -622,10 +622,10 @@ The same three categories sort almost any device you already own.
 
 <div class="thread">A third way to sort computers: not by job or data type, but by raw processing power.</div>
 
-- **Supercomputer** — the fastest, most powerful class, used for huge scientific problems like weather forecasting.
-- **Mainframe** — very powerful, built to serve many users and huge transactions at once, like a bank's central system.
-- **Minicomputer** — mid-sized; once common for a single department or lab, mostly replaced today by powerful servers.
-- **Microcomputer** — the smallest class, built around one microprocessor chip; this is your laptop, phone, or desktop.
+- **Supercomputer**: the fastest, most powerful class, used for huge scientific problems like weather forecasting.
+- **Mainframe**: very powerful, built to serve many users and huge transactions at once, like a bank's central system.
+- **Minicomputer**: mid-sized; once common for a single department or lab, mostly replaced today by powerful servers.
+- **Microcomputer**: the smallest class, built around one microprocessor chip; this is your laptop, phone, or desktop.
 
 <div class="barchart">
 <div class="bar-row">

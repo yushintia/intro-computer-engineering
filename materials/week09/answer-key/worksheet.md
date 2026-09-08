@@ -69,6 +69,6 @@ happen out on the network, partly far away."
 1. Web 1.0.
 2. Web 2.0.
 
-Discuss answer (sample): "DNS happens during the 'Route' step — before
+Discuss answer (sample): "DNS happens during the 'Route' step: before
 the router can find the server's address, the name typed into the
 browser must first be looked up and turned into an IP address."

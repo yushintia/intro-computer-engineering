@@ -168,7 +168,7 @@ ______________________________________________
 ### D1. The CIA triad
 
 Mia's school portal stores grades. For each event, write
-**Confidentiality**, **Integrity**, or **Availability** — which
+**Confidentiality**, **Integrity**, or **Availability**: which
 promise is broken?
 
 1. A hacker cannot read any student's grades, but floods the school
@@ -200,10 +200,10 @@ For each message, circle **Yes** or **No**, and write one reason.
 
 1. "URGENT: Your account will be deleted in 1 hour. Click here and
    enter your password now to keep it."
-   Yes / No — Why: ______________________________________________
+   Yes / No. Why: ______________________________________________
 2. A calendar reminder from an app you installed yourself, showing
    your own class schedule.
-   Yes / No — Why: ______________________________________________
+   Yes / No. Why: ______________________________________________
 
 ### D4. Quick match
 

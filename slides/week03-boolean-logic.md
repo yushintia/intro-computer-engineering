@@ -223,7 +223,7 @@ false, on and off, even today.
 - Convert each nibble alone: `1100` = 12 = **C**. `1010` = 10 = **A**.
 - Combine the two hex digits: **C**, then **A**.
 
-**Result: `11001010` in binary is `CA` in hexadecimal — the exact same 202 from the last slide.**
+**Result: `11001010` in binary is `CA` in hexadecimal: the exact same 202 from the last slide.**
 
 ---
 
@@ -234,7 +234,7 @@ false, on and off, even today.
 - Every color on your screen is written in hex, like `#1A2B3C`.
 - Memory addresses inside your laptop are usually shown in hex too, since it is shorter than binary and cleaner than decimal for grouping bits.
 
-**Worked example:** the hex value `FF` is binary `11111111`, which is decimal **255** — the common "maximum byte value" you will see again in screen brightness and color settings.
+**Worked example:** the hex value `FF` is binary `11111111`, which is decimal **255**: the common "maximum byte value" you will see again in screen brightness and color settings.
 
 ---
 
@@ -242,7 +242,7 @@ false, on and off, even today.
 
 <div class="thread">Binary numbers can be added, exactly like decimal numbers, just with only two digits.</div>
 
-> **Binary addition** follows one rule at each column: 0+0=0, 1+0=1, 0+1=1, and 1+1=**10** (write 0, carry 1) — the same way 9+1 carries into a new decimal column.
+> **Binary addition** follows one rule at each column: 0+0=0, 1+0=1, 0+1=1, and 1+1=**10** (write 0, carry 1), the same way 9+1 carries into a new decimal column.
 
 | A | B | Sum | Carry? |
 |---|---|---|---|
@@ -264,7 +264,7 @@ false, on and off, even today.
 - Column 3 (fours): 0 + 1 + 1(carried) = 0, carry **1**.
 - Column 4 (eights): 1 + 0 + 1(carried) = 0, carry **1**, which becomes a new leading digit.
 
-**Result: `1011` + `0110` = `10001`, which is 17 — matching 11 + 6 in decimal.**
+**Result: `1011` + `0110` = `10001`, which is 17, matching 11 + 6 in decimal.**
 
 ---
 
@@ -277,7 +277,7 @@ false, on and off, even today.
 - An 8-bit integer can represent 2⁸ = 256 different values, 0 through 255 if only positive numbers are allowed.
 - More bits give a bigger range, but every extra bit costs more memory to store.
 
-**Worked example:** the number 5, stored as an 8-bit integer, is `00000101` — five bits worth of leading zeros are simply padding to fill the fixed width.
+**Worked example:** the number 5, stored as an 8-bit integer, is `00000101`: five bits worth of leading zeros are simply padding to fill the fixed width.
 
 ---
 
@@ -343,7 +343,7 @@ Say your laptop's weather widget records an overnight temperature change of **�
 - **'O' is ASCII 79.** 64? Yes → 79−64=15. 8? Yes → 15−8=7. 4? Yes → 7−4=3. 2? Yes → 3−2=1. 1? Yes → 1−1=0. → `01001111`.
 - **'K' is ASCII 75.** 64? Yes → 75−64=11. 8? Yes → 11−8=3. 2? Yes → 3−2=1. 1? Yes → 1−1=0. → `01001011`.
 
-**Result: "OK" is `01001111` `01001011` in binary — two bytes, one per character.**
+**Result: "OK" is `01001111` `01001011` in binary: two bytes, one per character.**
 
 Every word you type becomes a run of bytes like these, before your laptop ever displays it.
 
@@ -585,7 +585,7 @@ gates like the three you just learned.
 - OR is often written like addition: **A + B**.
 - NOT is often written with a bar over the value: **Ā**.
 
-**Worked example:** let R mean "raining" and H mean "have one at home already." Then "bring umbrella" from the first slide today is written **R · H̄** — raining, AND not already having one.
+**Worked example:** let R mean "raining" and H mean "have one at home already." Then "bring umbrella" from the first slide today is written **R · H̄**: raining, AND not already having one.
 
 ---
 
@@ -636,7 +636,7 @@ Your laptop's low-battery warning used one NOT gate and one AND gate.
 
 - A NOT gate built from transistors might use about 2 transistors.
 - A simple AND gate built from basic switches might use about 6 transistors.
-- That one small warning alone could use around 8 transistors — and your laptop's chip repeats decisions like this billions of times.
+- That one small warning alone could use around 8 transistors, and your laptop's chip repeats decisions like this billions of times.
 
 This is the last stop before Week 4: those same transistors, wired into gates, are what actually carry out every CPU instruction.
 

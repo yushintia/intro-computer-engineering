@@ -103,12 +103,12 @@ Beyond the everyday list (word processor, web browser, photo editor,
 media player, messaging app, game), application software splits
 further by function:
 
-- **Spreadsheet** — organizing numbers into rows, columns, and formulas.
-- **Communication** — messaging, calling, and video chatting with others.
-- **Educational** — apps built for studying, practicing, and taking quizzes.
-- **Entertainment** — games and streaming apps, built purely to entertain.
-- **Productivity** — calendars, to-do lists, and note-taking apps.
-- **Navigation** — maps and route-finding apps.
+- **Spreadsheet**: organizing numbers into rows, columns, and formulas.
+- **Communication**: messaging, calling, and video chatting with others.
+- **Educational**: apps built for studying, practicing, and taking quizzes.
+- **Entertainment**: games and streaming apps, built purely to entertain.
+- **Productivity**: calendars, to-do lists, and note-taking apps.
+- **Navigation**: maps and route-finding apps.
 
 Classifying by function is exactly how app stores organize millions
 of apps: comparing two word processors makes sense, but comparing a
@@ -126,10 +126,10 @@ language. That source code must be translated into a form the CPU can
 actually execute before it becomes a running program, using either a
 **compiler** or an **interpreter**:
 
-- **Compiled** — the entire source code is translated into machine
+- **Compiled**: the entire source code is translated into machine
   instructions once, in advance, producing a program file you can run
   directly, again and again.
-- **Interpreted** — the source code is translated and run line by
+- **Interpreted**: the source code is translated and run line by
   line, each time the program runs, with no separate translation step
   beforehand.
 
@@ -144,11 +144,11 @@ A **software license** is the set of rules that says how a program may
 be used, copied, changed, or shared. Most software falls into one of
 three common models:
 
-- **Proprietary** — the company keeps the source code private; you
+- **Proprietary**: the company keeps the source code private; you
   usually pay to use it, and cannot legally modify it.
-- **Open-source** — the source code is published publicly; anyone may
+- **Open-source**: the source code is published publicly; anyone may
   read, modify, and often redistribute it.
-- **Freeware** — free to use, but the source code stays private, and
+- **Freeware**: free to use, but the source code stays private, and
   modification is not allowed.
 
 **"Free" vs. "open-source"** are easy to mix up. Freeware means no
@@ -175,7 +175,7 @@ downloads the program's files from a server, those files are copied
 onto secondary storage (recall Week 5), and the operating system
 registers the new program so it appears as an icon you can open. An
 **update** simply repeats the install process with newer files,
-replacing the old version already on storage — that is why an update
+replacing the old version already on storage; that is why an update
 still needs a network connection and free storage space, exactly like
 a first-time install.
 

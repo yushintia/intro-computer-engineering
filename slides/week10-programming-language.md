@@ -225,7 +225,7 @@ Change the order, and the result can change too.
 
 # Sequence in Pseudocode: A Worked Example
 
-<div class="thread">"Open, read, write" — now written as real pseudocode.</div>
+<div class="thread">"Open, read, write": now written as real pseudocode.</div>
 
 ```
 OPEN photo_file
@@ -262,7 +262,7 @@ END FOR
 ```
 
 - `FOR EACH ... END FOR` marks where the repeating block starts and stops.
-- The three lines inside run once per photo — 200 photos, 200 repeats, one loop.
+- The three lines inside run once per photo: 200 photos, 200 repeats, one loop.
 - A **loop** does not copy the steps 200 times; it reuses the same three lines.
 
 ---
@@ -360,7 +360,7 @@ A translator changes code a person can read into signals only the chip understan
 > **Machine code** is the raw pattern of 0s and 1s that a CPU's circuits can directly read and execute, with no translation needed.
 
 - Week 3 and Week 4 already met this idea: instructions as patterns of on and off signals.
-- A single machine-code instruction might look like `10110000 00000101` — add two tiny numbers together.
+- A single machine-code instruction might look like `10110000 00000101`: add two tiny numbers together.
 - No one writes large programs directly in machine code today. It is far too tedious, and too easy to mistype.
 
 ---
@@ -372,7 +372,7 @@ A translator changes code a person can read into signals only the chip understan
 > **Assembly language** replaces raw binary patterns with short, readable mnemonics, one mnemonic per machine instruction.
 
 - The same instruction from the last slide might be written as `ADD A, 5`.
-- Assembly still matches the chip's instructions almost one-for-one — just spelled in words a person can read.
+- Assembly still matches the chip's instructions almost one-for-one, just spelled in words a person can read.
 - A translator called an **assembler** turns assembly back into the exact machine code the chip needs.
 
 ---
@@ -391,7 +391,7 @@ A translator changes code a person can read into signals only the chip understan
 
 # Worked Mini-Example: One Task, Three Levels
 
-<div class="thread">"Add 5 to a number" — the exact same task, three different levels.</div>
+<div class="thread">"Add 5 to a number": the exact same task, three different levels.</div>
 
 | Level | What it looks like |
 |---|---|
@@ -399,7 +399,7 @@ A translator changes code a person can read into signals only the chip understan
 | Assembly | `ADD A, 5` |
 | Machine code | `10110000 00000101` |
 
-Same task, same final result inside the chip — just written for three very different readers: a person, an assembler, and a CPU.
+Same task, same final result inside the chip, just written for three very different readers: a person, an assembler, and a CPU.
 
 ---
 
@@ -414,7 +414,7 @@ Same task, same final result inside the chip — just written for three very dif
 <div class="pt"><div class="dot"></div><div class="y">1995</div><div class="d">Java and JavaScript: one for large apps, one for web pages.</div></div>
 </div>
 
-Each new language answered a limit of the languages before it — the same pattern as slot 8's own story.
+Each new language answered a limit of the languages before it, the same pattern as slot 8's own story.
 
 ---
 
@@ -475,7 +475,7 @@ Each new language answered a limit of the languages before it — the same patte
 - **Interpreted version:** Mia's program starts renaming photos immediately. If line 150 has a typo, the first 149 photos may already be renamed before it crashes.
 
 <div class="why">
-Same bug, same program — but the two translator styles catch it at very different moments.
+Same bug, same program, but the two translator styles catch it at very different moments.
 </div>
 
 ---
@@ -512,7 +512,7 @@ Every language follows the same idea: exact rules, exact steps.
 
 # Worked Example: Same Task, Two Languages' Styles
 
-<div class="thread">"Print hello 3 times" — the same task, two very different feels.</div>
+<div class="thread">"Print hello 3 times": the same task, two very different feels.</div>
 
 <div class="two-col">
 <div>
@@ -536,7 +536,7 @@ for (i=0; i<3; i++) {
 </div>
 </div>
 
-Same loop, same result — Python favors short, readable lines; C favors explicit, exact control.
+Same loop, same result: Python favors short, readable lines; C favors explicit, exact control.
 
 ---
 
@@ -580,7 +580,7 @@ WHERE Place = 'Seoul';
 </div>
 </div>
 
-The 4GL version never mentions a loop at all — the database handles the "how" on its own.
+The 4GL version never mentions a loop at all: the database handles the "how" on its own.
 
 ---
 
@@ -658,7 +658,7 @@ mv IMG001.jpg renamed_photos/
 mv IMG002.jpg renamed_photos/
 ```
 
-- Each line is a command a person could type by hand — a shell script just runs them all in order, automatically.
+- Each line is a command a person could type by hand: a shell script just runs them all in order, automatically.
 - Common on Unix and Linux systems, where the command line is a first-class way to work.
 
 ---
@@ -685,7 +685,7 @@ None of the three replaces another. A modern webpage almost always uses all thre
 - **CSS** centers that heading, and gives it a larger, bold font.
 - **JavaScript** makes the image swap to the next photo when Mia clicks a button.
 
-Remove the JavaScript, and the page still shows the same photo — it just cannot respond to a click.
+Remove the JavaScript, and the page still shows the same photo; it just cannot respond to a click.
 
 ---
 

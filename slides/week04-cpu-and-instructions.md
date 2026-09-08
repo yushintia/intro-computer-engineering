@@ -191,7 +191,7 @@ A CPU cannot think. It only follows instructions, exactly as written.
 
 <div class="thread">The CPU never works alone. Zoom out to the whole machine around it.</div>
 
-> A **computer system** is built from three basic parts working together: the **CPU** (processes instructions), **memory** (holds data and instructions temporarily), and **I/O** (input/output — how the machine talks to the outside world, like a keyboard or screen).
+> A **computer system** is built from three basic parts working together: the **CPU** (processes instructions), **memory** (holds data and instructions temporarily), and **I/O** (input/output, how the machine talks to the outside world, like a keyboard or screen).
 
 - Memory holds the program and data close by, ready for the CPU to fetch.
 - I/O devices, like a keyboard, mouse, or screen, are how you and the CPU exchange information at all.
@@ -560,7 +560,7 @@ Every one of these jobs starts with the fetch-decode-execute cycle.
 
 > **Clock speed** is how many cycles a CPU can complete in one second, measured in **hertz** (cycles per second). "Giga" means billion, so 1 GHz means 1 billion cycles per second.
 
-**Worked example:** a 3 GHz CPU completes 3,000,000,000 cycles every single second — three billion complete fetch-decode-execute rounds, if every instruction took exactly one cycle.
+**Worked example:** a 3 GHz CPU completes 3,000,000,000 cycles every single second: three billion complete fetch-decode-execute rounds, if every instruction took exactly one cycle.
 
 ---
 
@@ -596,7 +596,7 @@ Every one of these jobs starts with the fetch-decode-execute cycle.
 - **Laptop B:** 3.6 GHz.
 - Both run the exact same calculator app.
 
-**Result:** Laptop B completes about 1.5 times as many cycles per second as Laptop A (3.6 ÷ 2.4 = 1.5). Running the exact same program, Laptop B likely finishes first — "likely," not "always," since instruction throughput can still differ underneath the same GHz number.
+**Result:** Laptop B completes about 1.5 times as many cycles per second as Laptop A (3.6 ÷ 2.4 = 1.5). Running the exact same program, Laptop B likely finishes first: "likely," not "always," since instruction throughput can still differ underneath the same GHz number.
 
 ---
 
@@ -609,7 +609,7 @@ Every one of these jobs starts with the fetch-decode-execute cycle.
 - Without pipelining, the CPU finishes fetch, decode, and execute completely before starting the next instruction's fetch.
 - With pipelining, while instruction 1 executes, instruction 2 can already be decoding, and instruction 3 can already be fetching.
 
-**Worked example:** like a laundry line — while one load dries, a second load can already be washing, and a third can already be loading in, instead of finishing one load completely before touching the next.
+**Worked example:** like a laundry line: while one load dries, a second load can already be washing, and a third can already be loading in, instead of finishing one load completely before touching the next.
 
 ---
 
@@ -659,7 +659,7 @@ Without pipelining, these same three instructions would take 9 separate steps, o
 
 **Task: calculate 4 separate spreadsheet columns.**
 
-- **One core:** finishes column 1 completely, then column 2, then column 3, then column 4 — one at a time.
+- **One core:** finishes column 1 completely, then column 2, then column 3, then column 4, one at a time.
 - **Four cores:** each core takes one column, and all four finish at roughly the same time.
 
 This is exactly why your laptop's spec sheet advertises its core count, right alongside its GHz.

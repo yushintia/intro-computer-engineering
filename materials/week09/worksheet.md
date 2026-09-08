@@ -108,7 +108,7 @@ best. Each word is used exactly once.
    Word: ______________________________________________
 
 2. **The hardware inside a device that lets it send and receive data
-   on a network, wired or wireless — your laptop's wifi chip, for
+   on a network, wired or wireless: your laptop's wifi chip, for
    example.**
    Word: ______________________________________________
 

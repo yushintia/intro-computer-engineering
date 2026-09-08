@@ -85,7 +85,7 @@ without your notes. About 10 minutes.
     d) It cannot be used to ask questions of data
 
 15. Which of **HTML, CSS, or JavaScript** defines a webpage's
-    behavior — what happens when you click or type?
+    behavior: what happens when you click or type?
     a) HTML
     b) CSS
     c) JavaScript

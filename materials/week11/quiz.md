@@ -89,7 +89,7 @@ without your notes. About 10 minutes.
     c) Trojan
     d) Ransomware
 
-15. A message says: "Your account will be deleted in 1 hour — click
+15. A message says: "Your account will be deleted in 1 hour. Click
     here and enter your password now!" This is most likely an
     example of:
     a) A firewall

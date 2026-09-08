@@ -54,7 +54,7 @@ This is the full version of the timeline from class. The slide version
 was shortened. Read this at home if you want more detail.
 
 **Long before any machine had gears, people still needed to calculate
-fast.** The **abacus** — a frame of sliding beads — let different
+fast.** The **abacus**, a frame of sliding beads, let different
 cultures count and calculate by hand, with no gears and no
 electricity at all. Each row of beads stands for one place value, the
 same idea decimal digits use today.
@@ -66,12 +66,12 @@ of coins and figures correctly. Each digit had its own toothed wheel,
 and a small pin automatically carried a digit to the next wheel, an
 early physical version of carrying in addition. In 1673, Gottfried
 Leibniz built the **Stepped Reckoner**, the first machine that could
-multiply and divide, not only add and subtract — it worked by
+multiply and divide, not only add and subtract; it worked by
 repeated addition, the same idea a simple CPU still uses today.
 
 **Punch cards taught machines to follow instructions on their own.**
-In 1804, Joseph Jacquard used punch cards — stiff cards with holes in
-fixed positions — to control weaving looms automatically. In 1890,
+In 1804, Joseph Jacquard used punch cards, stiff cards with holes in
+fixed positions, to control weaving looms automatically. In 1890,
 Herman Hollerith adapted punch cards to tabulate the U.S. Census,
 cutting a count that once took years down to months.
 
@@ -82,10 +82,10 @@ navigation tables ships relied on. In 1837, he designed the far more
 ambitious Analytical Engine, a machine that could, in theory, run any
 set of instructions fed to it on punch cards. It was never fully
 built in his lifetime, but the design was correct, and it introduced a
-"store" to hold numbers and a "mill" to process them — the same split
+"store" to hold numbers and a "mill" to process them: the same split
 that still separates memory from the CPU today, in Weeks 4 and 5. Ada
 Lovelace wrote notes for this machine describing how it could follow
-a sequence of steps — many people consider her notes the first
+a sequence of steps; many people consider her notes the first
 computer program ever written, even though the machine that would run
 it did not yet exist.
 
@@ -114,7 +114,7 @@ electronic computers.
    AI and parallel processing. A chip solves separate parts of a
    problem at the same time, using more than one processing unit,
    instead of one instruction at a time. This generation is still
-   ongoing — many laptops and phones now ship with a chip dedicated to
+   ongoing; many laptops and phones now ship with a chip dedicated to
    AI tasks, running alongside the regular CPU.
 
 Five generations, one direction: smaller, faster, and able to do more
@@ -175,18 +175,18 @@ independent ways to sort *any* computer you meet, today or in the
 past.
 
 **By purpose: general vs special.** A **general-purpose computer** is
-built to run many different kinds of programs — your laptop, phone,
+built to run many different kinds of programs, your laptop, phone,
 or a lab desktop: today an essay, tomorrow a game. A **special-purpose
-computer** is built to do one specific job and nothing else — a
+computer** is built to do one specific job and nothing else; a
 washing machine's controller, a car's anti-lock brake controller, or a
 supermarket barcode scanner. Swap a washing machine's chip into a
 laptop, and it could not run a web browser; it was never built to.
 
 **By data representation: digital, analog, or hybrid.** A **digital
 computer** represents data as distinct, separate values, like binary
-0s and 1s — nearly every computer you meet today, including your
+0s and 1s; nearly every computer you meet today, including your
 laptop. An **analog computer** represents data as a continuously
-varying signal, like a smoothly changing voltage — a classic mercury
+varying signal, like a smoothly changing voltage; a classic mercury
 thermometer is analog, since the mercury rises smoothly, skipping no
 in-between height. A **hybrid computer** mixes both in the same
 machine, like a hospital heart monitor, which takes in a continuous
@@ -200,12 +200,12 @@ many users and huge transactions at once, like a bank's central
 system. A **minicomputer** is mid-sized, once common for a single
 department or lab, mostly replaced today by powerful servers. A
 **microcomputer** is the smallest class, built around one
-microprocessor chip — this is your laptop, phone, or desktop.
+microprocessor chip: this is your laptop, phone, or desktop.
 
 **These three schemes are independent.** One device can sit in a
 different spot on each scheme at once. A hospital heart monitor, for
 example, is special-purpose, hybrid, and microcomputer-sized, all at
-the same time — three separate questions, three separate answers, for
+the same time: three separate questions, three separate answers, for
 the very same machine.
 
 ---

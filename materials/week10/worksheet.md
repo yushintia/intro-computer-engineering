@@ -132,7 +132,7 @@ description, write **Compiler** or **Interpreter**.
    swapped.
    ______________________________________________
 
-**Discuss with your partner:** Which kind of error — syntax or logic —
+**Discuss with your partner:** Which kind of error, syntax or logic,
 would a compiler most likely catch automatically? Which one usually
 needs a person to notice it? Explain in one sentence.
 

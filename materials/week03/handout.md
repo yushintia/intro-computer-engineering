@@ -112,7 +112,7 @@ hex, split the bits into nibbles and convert each alone: `11001010`
 splits into `1100` (12 = C) and `1010` (10 = A), giving the same `CA`.
 
 **Adding binary numbers.** Binary addition follows one rule per
-column: 0+0=0, 1+0=1, 0+1=1, and 1+1=`10` (write 0, carry 1) — the
+column: 0+0=0, 1+0=1, 0+1=1, and 1+1=`10` (write 0, carry 1), the
 same way 9+1 carries into a new decimal column. Adding `1011` (11) and
 `0110` (6) column by column, with carries, gives `10001`, which is 17.
 
@@ -132,12 +132,12 @@ represent −5 in 8-bit two's complement, start from positive 5
 
 **Representing text: ASCII and Unicode.** **ASCII** assigns every
 English letter, digit, and common symbol a unique number, stored as
-one byte — capital 'A' is 65, lowercase 'a' is 97. ASCII only had room
+one byte: capital 'A' is 65, lowercase 'a' is 97. ASCII only had room
 for 128 characters, far too few for the world's alphabets, so
 **Unicode** assigns a unique number to characters from nearly every
 written language, plus symbols and emoji, while still keeping 'A' at
 its original ASCII number, 65. A chip never "knows" it is storing a
-letter — it only stores bits. Binary, decimal, hex, and ASCII are just
+letter; it only stores bits. Binary, decimal, hex, and ASCII are just
 different ways humans choose to read the exact same bits.
 
 **Writing logic like math: Boolean algebra.** **Boolean algebra**

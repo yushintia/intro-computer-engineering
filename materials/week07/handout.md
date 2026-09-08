@@ -88,21 +88,21 @@ OS was already keeping their memory and their CPU turns separate.
 Every operating system, no matter the brand, performs the same four
 core management jobs:
 
-1. **Process management** — how the OS creates, schedules, and
+1. **Process management**: how the OS creates, schedules, and
    eventually ends every running program, called a **process**.
    Example: opening a browser creates a new process; closing it ends
    that process and frees whatever resources it was using.
-2. **Memory management** — how the OS decides how much memory each
+2. **Memory management**: how the OS decides how much memory each
    running process gets, and keeps one process from touching
    another's memory. Example: a browser and a music player each get
    separate memory, so a bug in one cannot corrupt the other.
-3. **File management** — how the OS organizes stored data into named
+3. **File management**: how the OS organizes stored data into named
    files and folders, and tracks exactly where each one physically
    lives in storage. Example: saving an essay as `essay_draft.docx`
    inside a Documents folder lets the OS remember exactly which spot
    on the SSD holds those bytes, so the file can be found again by
    name, never by memory address.
-4. **Device management** — how the OS communicates with hardware,
+4. **Device management**: how the OS communicates with hardware,
    through device drivers, on behalf of every running process.
    Example: when a browser needs to display a video, device
    management hands the finished pixels to the screen's driver.
@@ -124,10 +124,10 @@ already manages itself well.
 Underneath its four management jobs, every operating system, no
 matter how old or new, exists to achieve three goals at once:
 
-- **Resource management** — share the CPU, memory, and devices fairly
+- **Resource management**: share the CPU, memory, and devices fairly
   among running programs.
-- **User interface** — let a person actually control the machine.
-- **Program execution** — load and run the software a user asks for.
+- **User interface**: let a person actually control the machine.
+- **Program execution**: load and run the software a user asks for.
 
 On one ordinary laptop, all three happen together: resource
 management juggles a browser, music, and video call so none of them
@@ -141,16 +141,16 @@ is the OS loading and starting a program (program execution).
 
 Not every OS is built for the same situation:
 
-- **Batch** — runs a queued stack of jobs with no user interaction,
+- **Batch**: runs a queued stack of jobs with no user interaction,
   one after another. Example: a bank processing millions of overnight
   transactions.
-- **Time-sharing** — splits CPU time among many users or tasks, so
+- **Time-sharing**: splits CPU time among many users or tasks, so
   each one feels instant. Most everyday laptops and phones behave
   this way.
-- **Real-time** — must respond within a strict, guaranteed time
+- **Real-time**: must respond within a strict, guaranteed time
   limit, or the whole system fails. Example: a car's anti-lock
   braking system, reacting in milliseconds.
-- **Distributed** — spreads one job's work across many separate
+- **Distributed**: spreads one job's work across many separate
   machines, working together as one system. Example: a streaming
   service's video, spread across many data-center machines. Week 9
   explores this in depth.
@@ -178,17 +178,17 @@ Not every OS is built for the same situation:
 Five families dominate today's devices, each built around one
 clearly differentiating idea:
 
-- **Windows** — built for broad hardware compatibility: it runs on an
+- **Windows**, built for broad hardware compatibility: it runs on an
   enormous variety of PC hardware, from many different manufacturers.
-- **macOS** — built by Apple exclusively for Apple's own hardware,
+- **macOS**: built by Apple exclusively for Apple's own hardware,
   letting the operating system and the machine be tuned tightly
   together.
-- **Linux / UNIX lineage** — traces back to UNIX, and is open-source
+- **Linux / UNIX lineage**: traces back to UNIX, and is open-source
   (recall Week 6's licensing concept). That openness is why it
   quietly powers most of the world's servers and cloud data centers.
-- **Mobile OS (Android and iOS)** — built around touch input and a
+- **Mobile OS (Android and iOS)**: built around touch input and a
   single home screen of apps, not a desktop of overlapping windows.
-- **Embedded OS** — built to run just one dedicated job forever,
+- **Embedded OS**: built to run just one dedicated job forever,
   inside devices like a car's dashboard or a washing machine, not to
   run arbitrary apps a user installs later.
 

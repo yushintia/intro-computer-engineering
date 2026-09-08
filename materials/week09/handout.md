@@ -127,7 +127,7 @@ quickly* it can do it.
 Area Network)** connects devices within one limited physical space,
 like a classroom's wifi, usually owned by one person or group. A
 **WAN (Wide Area Network)** connects devices across a wide geographic
-area — the internet itself is the biggest WAN, made of many smaller
+area: the internet itself is the biggest WAN, made of many smaller
 LANs linked together.
 
 **Mobile generations, 1G to 6G.** Your phone's network has passed
@@ -147,7 +147,7 @@ the one before it:
 not its IP address. **DNS (Domain Name System)** works like a
 phonebook: it turns that easy-to-remember name into the numeric IP
 address a computer actually needs. Only after that look-up comes back
-can your browser actually contact the right server — DNS happens
+can your browser actually contact the right server; DNS happens
 during the "Route" step of the webpage-loading pipeline in Section 2.
 
 **The web, then and now.** The network underneath has not changed,
@@ -155,7 +155,7 @@ but the web built on top of it has: **Web 1.0** was mostly read-only
 pages, published by a small number of people. **Web 2.0** became
 interactive and social, with ordinary users posting, commenting, and
 sharing. **Web 3.0** is a still-forming idea about a more open, less
-centrally-controlled web — described here only as an evolving
+centrally-controlled web, described here only as an evolving
 concept, not a finished technology.
 
 ---

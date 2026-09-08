@@ -200,9 +200,9 @@ careful design to get right.
 
 Every operating system, no matter how old or new, exists to achieve three goals at once:
 
-- **Manage resources** — share the CPU, memory, and devices fairly.
-- **Provide a user interface** — let a person actually control the machine.
-- **Execute programs** — load and run the software a user asks for.
+- **Manage resources**: share the CPU, memory, and devices fairly.
+- **Provide a user interface**: let a person actually control the machine.
+- **Execute programs**: load and run the software a user asks for.
 
 ---
 
@@ -396,8 +396,8 @@ Without the right driver, the OS cannot use that hardware at all.
 
 <div class="thread">Not every OS is built for the same situation.</div>
 
-- **Batch** — runs a queued stack of jobs with no user interaction, one after another.
-- **Time-sharing** — splits CPU time among many users or tasks, so each one feels instant. Most everyday laptops and phones behave this way.
+- **Batch**: runs a queued stack of jobs with no user interaction, one after another.
+- **Time-sharing**: splits CPU time among many users or tasks, so each one feels instant. Most everyday laptops and phones behave this way.
 
 ---
 
@@ -405,8 +405,8 @@ Without the right driver, the OS cannot use that hardware at all.
 
 <div class="thread">The other two types, built for very different pressures.</div>
 
-- **Real-time** — must respond within a strict, guaranteed time limit, or the whole system fails.
-- **Distributed** — spreads one job's work across many separate machines, working together as one system. Week 9 explores this in depth.
+- **Real-time**: must respond within a strict, guaranteed time limit, or the whole system fails.
+- **Distributed**: spreads one job's work across many separate machines, working together as one system. Week 9 explores this in depth.
 
 ---
 

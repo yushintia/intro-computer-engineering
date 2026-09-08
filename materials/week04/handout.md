@@ -101,14 +101,14 @@ every second.
 The CPU never works alone. A **computer system** is built from three
 basic parts working together: the **CPU** (processes instructions),
 **memory** (holds data and instructions temporarily), and **I/O**
-(input/output — how the machine talks to the outside world, like a
+(input/output: how the machine talks to the outside world, like a
 keyboard or screen). Memory holds the program and data close by, ready
 for the CPU to fetch. I/O devices are how you and the CPU exchange
 information at all.
 
 **The bus: how parts talk to each other.** CPU, memory, and I/O sit
 in different places on the same chip and board. A **bus** is a shared
-set of wires connecting them, letting them send data back and forth —
+set of wires connecting them, letting them send data back and forth;
 think of it like a shared hallway that every part uses to pass
 information along. Without a bus, the CPU, memory, and keyboard would
 have no physical way to reach each other at all.
@@ -172,7 +172,7 @@ code. You will write real code starting in Week 10.
 beat that times each step of the cycle. **Clock speed** is how many
 cycles a CPU can complete in one second, measured in hertz (cycles
 per second); "giga" means billion, so "3 GHz" on a spec sheet means 3
-billion cycles happen every second — about 0.33 nanoseconds per
+billion cycles happen every second: about 0.33 nanoseconds per
 cycle. Comparing two laptops running the exact same program: a 3.6
 GHz laptop completes about 1.5 times as many cycles per second as a
 2.4 GHz laptop (3.6 ÷ 2.4 = 1.5), so it likely finishes first.
@@ -190,7 +190,7 @@ on how many cycles each instruction needs.
 waits for one instruction to fully finish before starting the next.
 Pipelining means the CPU starts fetching the next instruction before
 the current instruction has finished executing, overlapping the three
-steps across several instructions at once — like a laundry line, where
+steps across several instructions at once, like a laundry line, where
 while one load dries, a second load can already be washing, and a
 third can already be loading in. Without pipelining, 3 instructions
 take 9 separate steps (fetch, decode, execute, one at a time, for each

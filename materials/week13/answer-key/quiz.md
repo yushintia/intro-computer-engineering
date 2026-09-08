@@ -10,5 +10,5 @@
 8. **Sample answer:** A model only recognizes patterns it saw during training. A new, unusual photo can differ enough from those patterns to cause a wrong guess.
 9. **b) A machine-learning model built from layers of simple units, each passing its result to the next layer.** That is a neural network.
 10. **False.** Automation just repeats fixed steps; a dishwasher's fixed cycle involves no learning, so it is not AI.
-11. **Sample answer:** Image recognition — a hospital's scan-reading tool that highlights areas matching past confirmed cases. (Accept any of the four domains with a matching example.)
+11. **Sample answer:** Image recognition: a hospital's scan-reading tool that highlights areas matching past confirmed cases. (Accept any of the four domains with a matching example.)
 12. **b) It produces brand-new content, like text or images, based on learned patterns.** That is generative AI.

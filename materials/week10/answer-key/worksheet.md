@@ -64,7 +64,7 @@ results, tends to catch it."
 ### Part D
 
 **D1.**
-1. `Song` is a **class** — it only describes the shape of a song
+1. `Song` is a **class**: it only describes the shape of a song
    (title, artist, duration), not any one specific song.
 2. `song1` and `song2` are both **objects**, built from the `Song`
    class.
@@ -78,9 +78,9 @@ results, tends to catch it."
    at all.
 
 **D3.**
-1. HTML — structure and content.
-2. CSS — appearance: colors, fonts, layout.
-3. JavaScript — behavior: what happens on a click.
+1. HTML: structure and content.
+2. CSS: appearance: colors, fonts, layout.
+3. JavaScript: behavior: what happens on a click.
 
 **D4.**
 1. Unix.
@@ -88,6 +88,6 @@ results, tends to catch it."
 3. C#.
 
 Discuss answer (sample): "Python is usually interpreted, and is
-object-oriented — it supports classes and objects, even though this
+object-oriented: it supports classes and objects, even though this
 week's simple pseudocode examples did not use Python syntax
 specifically."

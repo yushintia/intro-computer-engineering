@@ -235,10 +235,10 @@ fastest and smallest closest to the CPU, slowest and biggest farthest away.
 
 <div class="thread">Four different tools, each doing a different job.</div>
 
-- **Registers** — tiny storage built directly into the CPU chip; holds the exact value the CPU is using this instant.
-- **Cache** — a small, very fast memory next to the CPU; holds copies of data the CPU used recently.
-- **RAM (Memory)** — holds the whole running program and its data.
-- **Secondary storage** — keeps everything permanently, even powered off.
+- **Registers**: tiny storage built directly into the CPU chip; holds the exact value the CPU is using this instant.
+- **Cache**: a small, very fast memory next to the CPU; holds copies of data the CPU used recently.
+- **RAM (Memory)**: holds the whole running program and its data.
+- **Secondary storage**: keeps everything permanently, even powered off.
 
 ---
 
@@ -308,8 +308,8 @@ All four are active at the same moment, each holding a different kind of data.
 
 <div class="thread">Both live inside a laptop. They do opposite jobs.</div>
 
-- **RAM (Random Access Memory)** — fast, volatile working memory. It holds whatever program you are running right now, and can be rewritten constantly.
-- **ROM (Read-Only Memory)** — non-volatile memory. It holds fixed instructions written once, at the factory, and is rarely or never rewritten afterward.
+- **RAM (Random Access Memory)**: fast, volatile working memory. It holds whatever program you are running right now, and can be rewritten constantly.
+- **ROM (Read-Only Memory)**: non-volatile memory. It holds fixed instructions written once, at the factory, and is rarely or never rewritten afterward.
 
 RAM changes every second you use your laptop. ROM barely ever changes at all.
 
@@ -447,8 +447,8 @@ No single part is best at everything. Every device mixes all three.
 
 <div class="thread">Both are secondary storage. They store data in completely different ways.</div>
 
-- **HDD (Hard Disk Drive)** — magnetic storage. Data is written as magnetized spots on a spinning metal disk, called a platter.
-- **SSD (Solid-State Drive)** — flash storage. Data is written directly into memory chips, with no spinning parts at all.
+- **HDD (Hard Disk Drive)**: magnetic storage. Data is written as magnetized spots on a spinning metal disk, called a platter.
+- **SSD (Solid-State Drive)**: flash storage. Data is written directly into memory chips, with no spinning parts at all.
 
 ---
 
@@ -469,22 +469,22 @@ That single difference is why SSDs are faster, quieter, and tougher when dropped
 
 <div class="barchart">
 <div class="bar-row">
-  <div class="bar-label">HDD — Typical Speed</div>
+  <div class="bar-label">HDD: Typical Speed</div>
   <div class="bar-track"><div class="bar-fill risk-high" style="width: 25%"></div></div>
   <div class="bar-value">slower to read/write</div>
 </div>
 <div class="bar-row">
-  <div class="bar-label">SSD — Typical Speed</div>
+  <div class="bar-label">SSD: Typical Speed</div>
   <div class="bar-track"><div class="bar-fill risk-low" style="width: 90%"></div></div>
   <div class="bar-value">much faster to read/write</div>
 </div>
 <div class="bar-row">
-  <div class="bar-label">HDD — Cost per GB</div>
+  <div class="bar-label">HDD: Cost per GB</div>
   <div class="bar-track"><div class="bar-fill risk-low" style="width: 85%"></div></div>
   <div class="bar-value">cheaper for the same size</div>
 </div>
 <div class="bar-row">
-  <div class="bar-label">SSD — Cost per GB</div>
+  <div class="bar-label">SSD: Cost per GB</div>
   <div class="bar-track"><div class="bar-fill risk-high" style="width: 35%"></div></div>
   <div class="bar-value">pricier for the same size</div>
 </div>
@@ -519,8 +519,8 @@ archives, and the huge data centers behind cloud storage.
 
 <div class="thread">Every number in this course eventually reduces to these two units.</div>
 
-- **Bit** — a single `1` or `0`. The smallest possible unit of data (recall Week 3's Boolean logic).
-- **Byte** — a group of 8 bits. The basic unit computers use to measure most everyday data.
+- **Bit**: a single `1` or `0`. The smallest possible unit of data (recall Week 3's Boolean logic).
+- **Byte**: a group of 8 bits. The basic unit computers use to measure most everyday data.
 
 One typed letter of text takes up roughly one byte.
 

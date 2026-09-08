@@ -44,9 +44,9 @@ Year is 2 (second-year students)."
 3. Delete. A row is removed completely.
 
 **C4.**
-1. **Data redundancy** — the same fact, stored in more than one place.
+1. **Data redundancy**: the same fact, stored in more than one place.
 2. Sample: If Mia misses even one copy of "Busan," her records now
-   quietly disagree with each other — some files say "Busan," others
+   quietly disagree with each other: some files say "Busan," others
    say "Busan City," for the same actual place.
 
 **C5.**
@@ -55,7 +55,7 @@ Year is 2 (second-year students)."
 3. Network.
 
 Discuss answer (sample): "Every table built today already assumes the
-relational model — simple tables, linked by shared values."
+relational model: simple tables, linked by shared values."
 
 ### Part D
 
@@ -74,7 +74,7 @@ relational model — simple tables, linked by shared values."
 4. Ransomware.
 
 **D3.**
-1. **Yes.** It creates false urgency and asks for a password — a
+1. **Yes.** It creates false urgency and asks for a password, a
    classic phishing pattern.
 2. **No.** It comes from an app Mia installed herself and only shows
    her own information; no unexpected request for credentials.
@@ -85,6 +85,6 @@ relational model — simple tables, linked by shared values."
 3. Two-step login (2FA).
 
 **D5.** Sample: Collecting more personal data than a task actually
-needs is a privacy problem on its own — even a perfectly secure
+needs is a privacy problem on its own; even a perfectly secure
 system can still misuse or over-collect data within the rules, which
 is why responsible data use means only collecting what is needed.

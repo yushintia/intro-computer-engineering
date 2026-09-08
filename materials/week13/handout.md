@@ -216,5 +216,5 @@ Is this AI? Explain in one sentence.
 **Problem 8.** Name one of the four AI application domains covered
 this week, and give one example.
 
-> **Answer (sample):** Fraud & anomaly detection — a bank flagging a
+> **Answer (sample):** Fraud & anomaly detection: a bank flagging a
 > purchase that does not match your usual spending pattern.

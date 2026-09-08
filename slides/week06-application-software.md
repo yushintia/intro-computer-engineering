@@ -476,9 +476,9 @@ Week 10 returns to this in far more depth, once you have written code of your ow
 
 <div class="thread">Most software you use falls into one of these three.</div>
 
-- **Proprietary** — the company keeps the source code private; you usually pay to use it, and cannot legally modify it.
-- **Open-source** — the source code is published publicly; anyone may read, modify, and often redistribute it.
-- **Freeware** — free to use, but the source code stays private, and modification is not allowed.
+- **Proprietary**: the company keeps the source code private; you usually pay to use it, and cannot legally modify it.
+- **Open-source**: the source code is published publicly; anyone may read, modify, and often redistribute it.
+- **Freeware**: free to use, but the source code stays private, and modification is not allowed.
 
 ---
 

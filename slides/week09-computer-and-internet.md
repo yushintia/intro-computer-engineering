@@ -449,7 +449,7 @@ A student's apartment has a fiber line coming in from the internet provider.
 <div class="stage"><div class="h">Laptop's NIC</div><div class="s">joins that LAN, gets its own IP address</div></div>
 </div>
 
-From here, one more step — through the router, out past the modem — reaches the wider internet: a WAN.
+From here, one more step (through the router, out past the modem) reaches the wider internet: a WAN.
 
 ---
 
@@ -493,7 +493,7 @@ From here, one more step — through the router, out past the modem — reaches 
 
 # Comparing Access Speeds
 
-<div class="thread">Same idea — a working network — at very different speeds.</div>
+<div class="thread">Same idea, a working network, at very different speeds.</div>
 
 <div class="barchart">
 <div class="bar-row">

@@ -119,14 +119,14 @@ all at once. Real computers solve this by stacking several kinds of
 memory together, fastest and smallest closest to the CPU, slowest and
 biggest farthest away. This stack is called the **memory hierarchy**:
 
-1. **Registers** — tiny storage built directly into the CPU chip;
+1. **Registers**: tiny storage built directly into the CPU chip;
    holds the exact value the CPU is using this instant. Fastest, but
    only a few bytes.
-2. **Cache** — a small, very fast memory next to the CPU; holds
+2. **Cache**: a small, very fast memory next to the CPU; holds
    copies of data the CPU used recently. Very fast, a few MB.
-3. **RAM (Memory)** — holds the whole running program and its data.
+3. **RAM (Memory)**: holds the whole running program and its data.
    Fast, several GB.
-4. **Secondary storage** — keeps everything permanently, even
+4. **Secondary storage**: keeps everything permanently, even
    powered off. Slowest, but TB-scale and cheapest per byte.
 
 Each step down trades speed for size: bigger and cheaper, but slower
@@ -170,11 +170,11 @@ high hit rate is what actually makes a computer feel fast.
 Both RAM and ROM live inside a laptop, and both hold data, but they do
 opposite jobs:
 
-- **RAM (Random Access Memory)** — fast, volatile working memory. It
+- **RAM (Random Access Memory)**: fast, volatile working memory. It
   holds the operating system in use, every open app, and your
   document's in-progress data. It changes every second you use your
   laptop.
-- **ROM (Read-Only Memory)** — non-volatile memory. It holds the tiny
+- **ROM (Read-Only Memory)**: non-volatile memory. It holds the tiny
   startup program, called **firmware**, written once at the factory
   and rarely or never rewritten afterward. Without ROM's firmware, a
   laptop would not even know how to start loading anything.
@@ -188,9 +188,9 @@ rewritten constantly, every time you save a file.
 
 ## 7. Measuring Data: Bits, Bytes, and Units
 
-- **Bit** — a single `1` or `0`. The smallest possible unit of data
+- **Bit**: a single `1` or `0`. The smallest possible unit of data
   (recall Week 3's Boolean logic).
-- **Byte** — a group of 8 bits. The basic unit computers use to
+- **Byte**: a group of 8 bits. The basic unit computers use to
   measure most everyday data. One typed letter of text takes up
   roughly one byte.
 
@@ -214,7 +214,7 @@ systems, used in two different places.
 256 GB uses powers of 10: 256 × 10⁹ = 256,000,000,000 bytes. Your
 operating system reports storage using powers of 2 (1 "GB" = 2³⁰
 bytes), so that exact same drive shows as roughly **238 GB** in your
-file explorer. No data is missing — it is the same bytes, counted two
+file explorer. No data is missing; it is the same bytes, counted two
 different ways.
 
 ---
@@ -228,11 +228,11 @@ about how fast memory or storage can keep up with it.
 
 Two other numbers describe that separately:
 
-- **Access time** — how long a memory or storage device takes to
+- **Access time**: how long a memory or storage device takes to
   locate a requested piece of data, and begin delivering it. Ranges
   from a fraction of a nanosecond for registers, up to several
   milliseconds for a spinning hard disk drive.
-- **Throughput** — how much data a device can transfer per second,
+- **Throughput**: how much data a device can transfer per second,
   once the transfer has already started, usually measured in MB/s or
   GB/s.
 

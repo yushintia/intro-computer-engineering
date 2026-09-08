@@ -83,7 +83,7 @@ it.
 
 ## 3. SQL, Data Models, and the CIA Triad
 
-**A taste of SQL.** A query is not just an idea — it has its own
+**A taste of SQL.** A query is not just an idea; it has its own
 exact wording. **SQL** is a structured language used to ask a
 relational database a question, in a small set of exact, reusable
 words: **SELECT** names which fields you want to see, **FROM** names
@@ -97,7 +97,7 @@ FROM Photos
 WHERE Place = 'Seoul';
 ```
 
-A table is not frozen — it changes as Mia works. **Insert** adds a
+A table is not frozen; it changes as Mia works. **Insert** adds a
 brand new row, like one new photo. **Update** changes one value
 already in a row, like a caption. **Delete** removes a row
 completely, like a photo she no longer wants.
@@ -107,15 +107,15 @@ three separate text files, each repeating words like "Seoul" or
 "Busan" by hand. This repeated copying is called **data redundancy**:
 the same fact, stored in more than one place. If Mia later renames
 "Busan" to "Busan City," she must find and fix every single copy
-herself — miss even one, and her records quietly disagree with each
+herself: miss even one, and her records quietly disagree with each
 other. A database stores each fact once, and lets many rows point to
 it, solving the redundancy problem structurally.
 
 **Before relational: data models, briefly.** Tables were not the
 first way anyone organized stored data. The **hierarchical model**
 (1960s) arranged data like a family tree, each record with exactly one
-parent — fast, but rigid. The **network model** (late 1960s) let
-records link to several other records, not just one parent — more
+parent: fast, but rigid. The **network model** (late 1960s) let
+records link to several other records, not just one parent: more
 flexible, but complex to search. The **relational model** (1970,
 Edgar Codd) arranged data in simple tables instead, linked by shared
 values; it became, and remains, the dominant model. Every table in
@@ -134,12 +134,12 @@ goes down (availability).
 
 **Authentication, two-step login, and firewalls.** **Authentication**
 is the general process of proving that someone really is who they
-claim to be, before letting them in — a password is one common form;
+claim to be, before letting them in: a password is one common form;
 **two-step login (2FA)** adds a second form, something only Mia
 should have, like her phone, so even a stolen password is useless
 without that second code. A **firewall** is a system that watches
 traffic passing between two networks, and blocks anything that does
-not match its allowed rules — it protects the network path, while
+not match its allowed rules; it protects the network path, while
 encryption and passwords protect the data and the login further
 inside.
 
@@ -154,7 +154,7 @@ person instead: **phishing** is a fake message pretending to be a
 trusted sender, tricking someone into sharing a password or clicking
 a bad link; **social engineering** is the broader term for tricking a
 person into breaking their own security. Finally, protecting data is
-not only a technical question — **privacy** is a person's reasonable
+not only a technical question: **privacy** is a person's reasonable
 expectation that their personal data is not collected or shared
 without good reason. Even perfectly secure data can still be used
 unethically, if it is misused within the rules.
